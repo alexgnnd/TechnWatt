@@ -1,5 +1,5 @@
 ---
-titre: 'Audi A2 e-tron: a cult name returns'
+titre: "Audi A2 e-tron: the cult compact is back, with 646 km of range"
 categorie: New model
 chapo: Gone since 2005, the A2 is back, this time fully electric. And it is shaping up to be the most frugal Audi ever built.
 reperes:

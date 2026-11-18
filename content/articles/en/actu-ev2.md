@@ -1,5 +1,5 @@
 ---
-titre: 'Kia EV2: the small SUV made in Europe'
+titre: "Kia EV2: the small SUV that thinks big"
 categorie: New model
 chapo: Built in Slovakia, battery included, Kia's smallest electric SUV qualifies for the most generous incentives.
 reperes:

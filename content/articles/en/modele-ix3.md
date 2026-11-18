@@ -1,5 +1,5 @@
 ---
-titre: 'iX3: the SUV that no longer fears the holidays'
+titre: "BMW iX3 on board: Panoramic iDrive, 400 kW and real motorway range"
 categorie: BMW
 infos: Premium SUV · Neue Klasse
 chapo: '800 km of range, a coffee break to fill up and an all-new electronic brain: with the iX3, BMW opens a new era.'

@@ -1,5 +1,5 @@
 ---
-titre: Your keys? They are in your phone
+titre: "Digital Key: your smartphone is already replacing your car key"
 categorie: Tech gadget · Cars
 chapo: 'Unlock your car, warm it up before leaving, schedule charging: the smartphone becomes the remote control of the electric car.'
 plus: The comfort of pre-heating, savings on charging, one key fewer.

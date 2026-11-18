@@ -1,5 +1,5 @@
 ---
-titre: The Norwegians watch us go by
+titre: "41% electric in France: a record… that makes Norway smile"
 categorie: Society · Market
 chapo: In France, 41% of new cars sold in October were electric. A record we are proud of… until we look north.
 ---

@@ -1,5 +1,5 @@
 ---
-titre: 'ID. Polo: the electric Polo arrives, and so does the GTI'
+titre: "Volkswagen ID. Polo: the Polo goes electric, and so does the GTI"
 categorie: New model
 chapo: Volkswagen takes on affordable small EVs with its most popular name after the Golf.
 reperes:

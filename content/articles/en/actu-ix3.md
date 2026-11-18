@@ -1,5 +1,5 @@
 ---
-titre: 'BMW iX3: the Neue Klasse hits the road'
+titre: "BMW iX3 Neue Klasse: 805 km of range, a new benchmark is born"
 categorie: New model
 chapo: The first model of a new generation, BMW's electric SUV claims more than 800 km of range.
 reperes:

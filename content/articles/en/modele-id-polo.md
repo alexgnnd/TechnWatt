@@ -1,5 +1,5 @@
 ---
-titre: 'ID. Polo: the Polo goes electric'
+titre: "ID. Polo on board: small outside, big inside"
 categorie: Volkswagen
 infos: City car · Made in Spain
 chapo: Volkswagen's best-known name after the Golf goes electric. And it takes on the Renault 5, price included, with real technology on board.

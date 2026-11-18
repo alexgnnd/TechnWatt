@@ -1,5 +1,5 @@
 ---
-titre: "Pixel Watch 5: Android's answer on the wrist"
+titre: "Google Pixel Watch 5: the best watch for Android users?"
 categorie: Smartwatch
 chapo: Got an Android phone and eyeing the Apple Watch? Here is Google's alternative, also designed for sport and health.
 plus: A choice of sizes, a more classic round look, a reasonable price.

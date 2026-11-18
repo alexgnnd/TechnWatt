@@ -1,5 +1,5 @@
 ---
-titre: 'Ray-Ban Display: a screen on your nose'
+titre: "Meta Ray-Ban Display: the glasses with a screen arrive in France"
 categorie: Tech gadget
 chapo: 'Read your messages without taking out your phone, follow directions without looking down: since mid-October, it is possible in France, with a pair of glasses.'
 plus: A discreet display, futuristic gesture control, a camera-free version.

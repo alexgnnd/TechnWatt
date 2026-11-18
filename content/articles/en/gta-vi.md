@@ -1,5 +1,5 @@
 ---
-titre: 'GTA VI: next stop Vice City, foot to the floor'
+titre: "GTA VI: 200 vehicles in Vice City, every car lover's dream"
 categorie: Video game · The big event
 chapo: This Thursday, millions of players will take the wheel at the same moment. And for once, car lovers have as much reason to be excited as gamers.
 plus: An obvious love of cars, incredibly varied traffic, a huge map.

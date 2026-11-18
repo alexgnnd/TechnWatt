@@ -1,5 +1,5 @@
 ---
-titre: 'Mégane E-Tech: more range, lower price'
+titre: "Renault Mégane E-Tech electric: more range, and a lower price"
 categorie: Facelift
 chapo: "It does not happen often: Renault's electric compact gains range and charging speed… while getting cheaper."
 reperes:

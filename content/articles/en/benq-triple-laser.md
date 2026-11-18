@@ -1,5 +1,5 @@
 ---
-titre: BenQ sees life in three lasers
+titre: "BenQ goes Triple Laser: two projectors for home cinema"
 categorie: Projector
 chapo: Known for sensible projectors, BenQ shifts up a gear with two more ambitious models, designed for the living room and for film lovers.
 plus: Ultra-responsive for gaming, accurate colours, smart-home compatible.

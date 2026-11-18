@@ -1,5 +1,5 @@
 ---
-titre: 'XGIMI Horizon 30: the living room goes cinema… and console'
+titre: "XGIMI Horizon 30: a giant 4K 120 Hz screen for gamers"
 categorie: Projector
 chapo: "A screen several metres wide, smooth enough for the fastest games: that is the promise of XGIMI's new range."
 plus: Smooth picture for gaming, bright, set up in two minutes.

@@ -1,5 +1,5 @@
 ---
-titre: 'Apple Watch Series 12: your coach gets a promotion'
+titre: "Apple Watch Series 12: new sensors to look after your health"
 categorie: Smartwatch
 chapo: "New sensors on the back, a new Health app and finally more comfortable battery life: Apple's watch increasingly sees itself as a pocket doctor."
 plus: Finer health tracking, better endurance, lightning-fast charging.

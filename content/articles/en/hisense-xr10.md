@@ -1,5 +1,5 @@
 ---
-titre: 'Hisense XR10: a cinema at home'
+titre: "Hisense XR10: up to 300 inches of picture, a cinema at home"
 categorie: Projector
 chapo: Imagine a picture more than seven metres wide on your wall. That is what this projector offers, reserved for large spaces… and large budgets.
 plus: A huge picture, competition-grade brightness.

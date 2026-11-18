@@ -1,5 +1,5 @@
 ---
-titre: 'Pixel 11: Google goes all out on photography'
+titre: "Google Pixel 11: with the Tensor G6 chip, Google goes all-in on AI photography"
 categorie: Smartphone
 chapo: "Four models, a new in-house chip and plenty of artificial intelligence: Google's 2026 line-up bets everything on the camera."
 plus: Very promising night photos, generous storage, instant translation.

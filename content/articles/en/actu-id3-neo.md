@@ -1,5 +1,5 @@
 ---
-titre: 'ID.3 Neo: Volkswagen brings its compact up to scratch'
+titre: "Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was criticised for"
 categorie: Facelift
 chapo: 'A new name, new motors and, at last, real buttons: the ID.3 fixes the flaws it has been criticised for since launch.'
 reperes:

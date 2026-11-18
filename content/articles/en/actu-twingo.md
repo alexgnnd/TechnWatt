@@ -1,5 +1,5 @@
 ---
-titre: 'Twingo E-Tech: an EV for under €20,000'
+titre: "Renault Twingo E-Tech electric: the Twingo is back, electric and under €20,000"
 categorie: New model
 chapo: Renault's little car is back with a retro face and a price that hits the mark.
 reperes:

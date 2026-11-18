@@ -1,5 +1,5 @@
 ---
-titre: 'iPhone Duo: Apple finally folds'
+titre: "iPhone Duo: Apple finally dares to fold, and it's expensive"
 categorie: Smartphone
 chapo: Fans have waited years. The first iPhone that opens like a notebook reached stores on 23 October, and it does not go unnoticed.
 plus: A big screen that fits in your pocket, the stylus, superb finish.

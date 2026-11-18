@@ -1,5 +1,5 @@
 ---
-titre: 'EV2: the little Korean that speaks European'
+titre: "Kia EV2 on board: a small SUV that plays with the big ones"
 categorie: Kia
 infos: Small SUV · Made in Slovakia
 chapo: Kia's smallest electric SUV is built in Europe, which makes all the difference to your wallet. And it carries the technology of pricier models.

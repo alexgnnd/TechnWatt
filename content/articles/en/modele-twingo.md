@@ -1,5 +1,5 @@
 ---
-titre: 'Twingo E-Tech: the little car that slashes prices'
+titre: "Renault Twingo E-Tech electric on board: does the queen of the city have limits?"
 categorie: Renault
 infos: City car · Made in Slovenia
 chapo: Under €20,000 for a new EV, a face that brings back memories for a whole generation, and far more technology than you might think.
