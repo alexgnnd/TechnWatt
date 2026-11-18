@@ -54,6 +54,7 @@ collections:
       - { label: "Infos sous le titre (À bord)", name: infos, widget: string, required: false, hint: "Ex. : Citadine · Made in Slovénie", i18n: true }
       - { label: "Photo principale", name: image, widget: image, required: false, i18n: duplicate }
       - { label: "Crédit photo", name: credit, widget: string, required: false, hint: "Ex. : Renault (le © est ajouté automatiquement)", i18n: duplicate }
+      - { label: "Picto (si pas de photo)", name: picto, widget: select, required: false, i18n: duplicate, options: [{ label: "Montre", value: montre }, { label: "Vidéoprojecteur", value: videoprojecteur }, { label: "Smartphone", value: smartphone }, { label: "Smartphone-clé", value: cle }, { label: "Borne de recharge", value: borne }, { label: "Carte", value: carte }], hint: "Affiché à la place de la photo tant qu'il n'y en a pas." }
       - { label: "Chapô (introduction)", name: chapo, widget: text, required: false, i18n: true }
       - { label: "Texte de l'article", name: body, widget: markdown, buttons: [bold, italic, link, heading-two, bulleted-list], editor_components: [image], hint: "Utilisez « Titre 2 » pour les intertitres. Insérez les photos à l'endroit voulu.", i18n: true }
       - { label: "Les plus", name: plus, widget: text, required: false, i18n: true }
@@ -135,3 +136,18 @@ collections:
         fields:
           - { label: Profil, name: profil, widget: string }
           - { label: Conseil, name: conseil, widget: string }
+
+  - name: reglages
+    label: Réglages
+    files:
+      - name: reglages
+        label: "Réglages du site et publicité"
+        file: content/reglages.yml
+        fields:
+          - { label: "Adresse du site", name: site_url, widget: string, hint: "Ex. : https://www.technwatt.fr une fois le nom de domaine acheté" }
+          - { label: "Responsable de la publication", name: editeur, widget: string, required: false, hint: "Affiché dans les mentions légales" }
+          - { label: "E-mail de contact", name: contact, widget: string, required: false }
+          - { label: "Identifiant AdSense (ca-pub-…)", name: adsense_client, widget: string, required: false, hint: "Laisser vide tant que le compte AdSense n'est pas validé : aucune pub ne s'affiche." }
+          - { label: "Bloc pub · page d'accueil (data-ad-slot)", name: pub_accueil, widget: string, required: false }
+          - { label: "Bloc pub · fin d'article (data-ad-slot)", name: pub_article, widget: string, required: false }
+          - { label: "Bloc pub · bas de rubrique (data-ad-slot)", name: pub_rubrique, widget: string, required: false }
