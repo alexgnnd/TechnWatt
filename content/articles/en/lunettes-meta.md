@@ -1,7 +1,7 @@
 ---
-titre: "Meta Ray-Ban Display: the glasses with a screen arrive in France"
+titre: 'Meta Ray-Ban Display: the glasses with a screen arrive in France'
 categorie: Tech gadget
-chapo: 'Read your messages without taking out your phone, follow directions without looking down: since mid-October, it is possible in France, with a pair of glasses.'
+chapo: 'Reading your messages without taking out your phone, following directions without looking down: since 13 October, it is possible in France with Meta Ray-Ban Display.'
 plus: A discreet display, futuristic gesture control, a camera-free version.
 moins: Nearly €900, limited features in France, people around you not always pleased.
 reperes:
@@ -9,11 +9,24 @@ reperes:
 - Gen 3 €449
 - Audio €349
 ---
+On sale in the United States since late September 2025, Meta Ray-Ban Display arrived in France on 13 October 2026, at the same time as Italy and Germany. Price: €899, including the Meta Neural Band.
 
-A small colour screen appears through one of the lenses. To control it, there are no buttons: a wristband reads your finger movements, a pinch to confirm, a swipe to scroll. Amazing to describe; we will see how it works in practice. Not all the features shown in the United States are switched on here yet.
+## A screen in the lens
 
-For those uncomfortable with the camera, a new audio-only version without a lens arrives. Proof that the market is really taking off: these glasses now sell by the millions.
+Their special feature: a small colour display appears transparently in the right lens. You can read messages, follow directions or check a photo's framing without taking out your phone. The glasses also have a 12 MP camera, microphones and speakers. They weigh 69 g and last around six hours in mixed use, up to 30 hours with the charging case.
+
+## The Meta Neural Band
+
+There are no buttons on the frame to control the interface. The Meta Neural Band, a wristband, uses electromyography (EMG): it picks up the electrical signals of your muscles and turns them into commands. A pinch of the fingers to confirm, a swipe to scroll. It comes in three sizes.
+
+## What to know before buying
+
+Not all the features shown in the United States are available in France at launch. Before spending €899, it is also wise to check compatibility with your prescription, then try them in a store in Paris or at a partner optician.
 
 ## A whole range
 
-The classic third-generation Ray-Ban Meta keeps the camera, microphones and speakers, without a screen, for €449. The new Ray-Ban Audio, at €349, sticks to sound: music, calls and voice assistant, with no lens at all. Meta promises more than a hundred different frames by the end of the year, across Ray-Ban, Oakley and its own designs.
+Meta and EssilorLuxottica now offer several families of smart glasses. The third-generation Ray-Ban Meta keep the camera, microphones and speakers, without a display, for €449. The Ray-Ban Audio, at €349, focus on sound only. For sport, the Oakley Meta Vanguard cost €549.
+
+## Our verdict
+
+Meta Ray-Ban Display are the first truly mainstream glasses with a screen, and the Neural Band is impressive on paper. The price is high, though, and features are still limited in France: try them before you buy.

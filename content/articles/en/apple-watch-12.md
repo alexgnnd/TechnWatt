@@ -1,7 +1,7 @@
 ---
-titre: "Apple Watch Series 12: new sensors to look after your health"
+titre: 'Apple Watch Series 12: new sensors to look after your health'
 categorie: Smartwatch
-chapo: "New sensors on the back, a new Health app and finally more comfortable battery life: Apple's watch increasingly sees itself as a pocket doctor."
+chapo: 'A new sensor system, the S11 chip, faster charging and the return of ceramic: Apple''s watch increasingly sees itself as a health coach.'
 plus: Finer health tracking, better endurance, lightning-fast charging.
 moins: Still iPhone-only, the listening feature will spark debate.
 reperes:
@@ -11,11 +11,30 @@ reperes:
 une_titre: 'Apple Watch Series 12: your coach gets a promotion'
 une_texte: 'Daily readiness score, overnight vitals, swimming: what really changes on your wrist.'
 ---
+Unveiled in September and available since 18 September 2026, the Apple Watch Series 12 keeps its starting price of €449. It focuses on a new sensor system on the back, the S11 chip and watchOS 27, which requires an iPhone running iOS 27.
 
-Every morning, the watch gives you a kind of fitness score: are you ready to push yourself, or should you take it easy? And the score changes over the day. More surprising, a double press on the crown shows in writing what was just said around you over the last few seconds. Handy when you missed something, a little unsettling too.
+## Redesigned sensors
 
-Good news for those who forgot to charge it: it now lasts a full day, and a quarter of an hour on its dock gives back about twelve hours.
+The back of the watch houses a new high-frequency health tracking system, alongside the electrical sensor for ECG, the blood oxygen sensor and the temperature sensor. Tracking becomes continuous, 24/7: workouts, recovery and sleep. Every morning, the watch gives you a sort of readiness score, which changes throughout the day.
 
-## What else changes
+## Faster charging
 
-A new chip makes the watch faster and smarter. The completely redesigned Health app even calculates a kind of "health age" from your sleep, resting heart rate and fitness. The feature that summarises conversations picked up around you remains optional and can be limited to certain places. Two sizes, 42 and 46 mm, and three materials: aluminium, titanium and ceramic. For extreme athletes, the Ultra version starts at €899.
+Battery life is still rated at 24 hours in everyday use, and 38 hours in low power mode. But during an outdoor workout it now lasts 10 hours, 25% more than the Series 11. Above all, 15 minutes on the charger gives up to 12 hours of battery life, compared with 8 before.
+
+## S11 chip and Apple Intelligence
+
+The S11 chip comes with 64 GB of storage and brings Apple Intelligence features to the wrist. The always-on LTPO3 OLED display reaches 2,000 nits. The completely redesigned Health app brings together sleep, resting heart rate and fitness.
+
+## Three materials, two sizes
+
+The Series 12 comes in 42 and 46 mm, in aluminium, titanium and, making a comeback, ceramic.
+
+- **Aluminium:** from €449 (42 mm GPS)
+- **Titanium:** from €799
+- **Ceramic:** from €1,049
+
+Add €120 for the GPS + Cellular version. For extreme athletes, the Apple Watch Ultra 4 starts at €899 and lasts up to 50 hours.
+
+## Our verdict
+
+No design revolution, but a watch with more stamina during workouts, faster to charge and more complete on health. The starting price does not change, which makes it a logical upgrade for owners of older models.
