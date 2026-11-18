@@ -18,7 +18,7 @@ const T = {
 };
 let L = T.fr;
 const CFG = fs.existsSync(path.join(ROOT, 'content', 'reglages.yml')) ? (matter('---\n' + fs.readFileSync(path.join(ROOT, 'content', 'reglages.yml'), 'utf8') + '\n---\n').data || {}) : {};
-const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.netlify.app').replace(/\/+$/, '');
+const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.com').replace(/\/+$/, '');
 const ADS = String(CFG.adsense_client || '').trim();
 let BASE = '/';
 const pic = (a) => a.image || (a.picto ? `img/pictos/${a.picto}.jpg` : '');
@@ -55,7 +55,7 @@ function load(dir, lang) {
     let x = { slug, ...a };
     const e = en[slug];
     if (e) {
-      for (const [k, v] of Object.entries(e)) if (v !== null && v !== undefined && v !== '' && k !== 'body') x[k] = v;
+      for (const [k, v] of Object.entries(e)) if (v !== null && v !== undefined && v !== '' && !(Array.isArray(v) && !v.length) && k !== 'body') x[k] = v;
       if (e.body && e.body.trim()) x.body = withImages(e.body, a.body);
     }
     x.date = dateStr(x.date);
