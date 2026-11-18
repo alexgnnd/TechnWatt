@@ -1,12 +1,24 @@
 ---
-titre: 'Volkswagen ID. Polo: the Polo goes electric, and so does the GTI'
+titre: "Volkswagen ID. Polo: the Polo goes electric"
+rubrique: watt-actualites
+date: 2026-11-09
 categorie: New model
-chapo: Volkswagen's best-known city car goes electric on the new MEB+ platform. Two batteries, up to 454 km of range, a starting price of €24,995 and, for the nostalgic, a 226 hp ID. Polo GTI.
+image: img/polo-route-avant.jpg
+credit: Volkswagen
+picto: null
+chapo: Volkswagen's best-known city car goes electric on the new MEB+ platform.
+  Two batteries, up to 454 km of range, a starting price of €24,995 and, for the
+  nostalgic, a 226 hp ID. Polo GTI.
 reperes:
-- From €24,995
-- Up to 454 km
-- 441 L boot
-- GTI 226 hp
+  - From €24,995
+  - Up to 454 km
+  - 441 L boot
+  - GTI 226 hp
+lien_abord: modele-id-polo
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 Priced from €24,995 in Trend trim, the ID. Polo lines up exactly with the Renault 5 E-Tech electric. Volkswagen is not just plugging in its Polo: it debuts the MEB+ platform, an evolution of the ID.3 and ID.4 base designed for small front-wheel-drive models.
 

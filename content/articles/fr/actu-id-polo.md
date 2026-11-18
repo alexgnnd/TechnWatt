@@ -1,16 +1,18 @@
 ---
-titre: "Volkswagen ID. Polo : la Polo passe à l'électrique, et la GTI aussi"
+titre: "Volkswagen ID. Polo : la Polo passe à l'électrique"
 rubrique: watt-actualites
-date: '2026-11-09'
+date: 2026-11-09
 categorie: Nouveau modèle
 image: img/polo-route-avant.jpg
 credit: Volkswagen
-chapo: "La citadine la plus connue de Volkswagen passe à l'électrique sur la nouvelle plateforme MEB+. Deux batteries, jusqu'à 454 km d'autonomie, un prix d'appel à 24 995 € et, pour les nostalgiques, une ID. Polo GTI de 226 ch."
+chapo: La citadine la plus connue de Volkswagen passe à l'électrique sur la
+  nouvelle plateforme MEB+. Deux batteries, jusqu'à 454 km d'autonomie, un prix
+  d'appel à 24 995 € et, pour les nostalgiques, une ID. Polo GTI de 226 ch.
 reperes:
-- "Dès 24 995 €"
-- "Jusqu’à 454 km"
-- "Coffre 441 L"
-- "GTI 226 ch"
+  - Dès 24 995 €
+  - Jusqu’à 454 km
+  - Coffre 441 L
+  - GTI 226 ch
 lien_abord: modele-id-polo
 ---
 
