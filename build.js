@@ -13,10 +13,19 @@ const dateStr = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : Strin
 
 const I18N = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'i18n-en.json'), 'utf8'));
 const T = {
-  fr: { plus: 'Les plus', moins: 'Les moins', more: 'Plus de photos', read: "Lire l'article", readA: "Lire l'analyse ›", abord: 'À bord · notre analyse complète', abordD: ' : consommation, conduite, matériaux, places', from: 'À partir de ', photo: 'Photo · ', cmp: 'Comparatif', which: 'Laquelle pour vous ?', fig: 'Les chiffres', gal: 'Galerie ', zoom: 'Agrandir' },
-  en: { plus: 'Pros', moins: 'Cons', more: 'More photos', read: 'Read the article', readA: 'Read the analysis ›', abord: 'On board · our full analysis', abordD: ': consumption, driving, materials, space', from: 'From ', photo: 'Photo · ', cmp: 'Comparisons', which: 'Which one is right for you?', fig: 'Key figures', gal: 'Gallery ', zoom: 'Enlarge' },
+  fr: { plus: 'Les plus', moins: 'Les moins', more: 'Plus de photos', read: "Lire l'article", readA: "Lire l'analyse ›", abord: 'À bord · notre analyse complète', abordD: ' : consommation, conduite, matériaux, places', from: 'À partir de ', photo: 'Photo · ', cmp: 'Comparatif', which: 'Laquelle pour vous ?', fig: 'Les chiffres', gal: 'Galerie ', zoom: 'Agrandir', ad: 'Publicité' },
+  en: { plus: 'Pros', moins: 'Cons', more: 'More photos', read: 'Read the article', readA: 'Read the analysis ›', abord: 'On board · our full analysis', abordD: ': consumption, driving, materials, space', from: 'From ', photo: 'Photo · ', cmp: 'Comparisons', which: 'Which one is right for you?', fig: 'Key figures', gal: 'Gallery ', zoom: 'Enlarge', ad: 'Advertisement' },
 };
 let L = T.fr;
+const CFG = fs.existsSync(path.join(ROOT, 'content', 'reglages.yml')) ? (matter('---\n' + fs.readFileSync(path.join(ROOT, 'content', 'reglages.yml'), 'utf8') + '\n---\n').data || {}) : {};
+const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.netlify.app').replace(/\/+$/, '');
+const ADS = String(CFG.adsense_client || '').trim();
+let BASE = '/';
+const pic = (a) => a.image || (a.picto ? `img/pictos/${a.picto}.jpg` : '');
+function ad(slot, extra = '') {
+  if (!ADS || !slot) return '';
+  return `<div class="tw-ad-box ${extra}"><span class="tw-ad-lbl">${L.ad}</span><ins class="tw-ad" style="display:block" data-ad-client="${esc(ADS)}" data-ad-slot="${esc(slot)}" data-ad-format="auto" data-full-width-responsive="true"></ins></div>`;
+}
 
 function readDir(d) {
   if (!fs.existsSync(d)) return {};
@@ -73,6 +82,7 @@ function bodyHtml(md, cr) {
   return marked.parse(pre).replace(/<h[123]>/g, '<h4>').replace(/<\/h[123]>/g, '</h4>');
 }
 function mainFig(a, lazy = true) {
+  if (!a.image && a.picto) return `<figure class="photo has-img picto"><img alt="${esc(a.titre)}"${lazy ? ' loading="lazy"' : ''} src="${esc(pic(a))}"/></figure>`;
   if (!a.image) return `<figure class="photo"><span>${L.photo}${esc(a.titre)}</span></figure>`;
   return `<figure class="photo has-img"><img alt="${esc(a.titre)}"${lazy ? ' loading="lazy"' : ''} src="${esc(rel(a.image))}"/>${a.credit ? `<figcaption>© ${esc(a.credit)}</figcaption>` : ''}</figure>`;
 }
@@ -95,7 +105,7 @@ function toAbord(a, all) {
   if (!t) return '';
   const firstInl = (String(t.body).match(/!\[[^\]]*\]\(([^)\s]+)/) || [])[1] || t.image;
   const nom = t.titre.split(':')[0].trim();
-  return `<a class="to-abord" href="#${esc(t.slug)}"><span class="ta-img"><img alt="" loading="lazy" src="${esc(rel(firstInl))}"/></span><span class="ta-txt"><span class="ta-cat">${L.abord}</span><b>${esc(nom)}${L.abordD}</b><span class="ta-go">${L.readA}</span></span></a>`;
+  return `<a class="to-abord" href="${BASE}${esc(t.slug)}"><span class="ta-img"><img alt="" loading="lazy" src="${esc(rel(firstInl))}"/></span><span class="ta-txt"><span class="ta-cat">${L.abord}</span><b>${esc(nom)}${L.abordD}</b><span class="ta-go">${L.readA}</span></span></a>`;
 }
 function headLine(a) {
   if (a.infos) {
@@ -114,6 +124,7 @@ ${bodyHtml(a.body, a.credit)}
 ${gallery(a.galerie, a.credit, a.titre)}
 ${verdict(a)}
 ${keys(a.reperes)}
+${ad(CFG.pub_article)}
 ${toAbord(a, all)}`;
   if (a.chiffres && a.chiffres.length) {
     const dl = a.chiffres.map((c) => `<div><dt>${esc(c.label)}</dt><dd>${esc(c.valeur)}</dd></div>`).join('');
@@ -128,7 +139,7 @@ ${inner}
 </div></div>`;
   }
   return `<div class="news"><article class="${R.cls}" id="${esc(a.slug)}">
-${a.image ? mainFig(a) : ''}
+${pic(a) ? mainFig(a) : ''}
 ${inner}
 </article></div>`;
 }
@@ -155,6 +166,7 @@ ${m.prix ? keys([m.prix], L.from) : ''}
 ${rows ? `<div class="tbl-wrap"><table class="cmp-tbl"><thead><tr><th></th>${head}</tr></thead><tbody>${rows}</tbody></table></div>` : ''}
 <div class="cmp-list">${cards}</div>
 ${picks}
+${ad(CFG.pub_article)}
 </div>
 </section>`;
 }
@@ -162,6 +174,7 @@ ${picks}
 function rubWrap(label, html) {
   return `<section class="alt"><div class="wrap"><div class="sec-head"><span class="tag">${esc(label)}</span></div>
 ${html}
+${ad(CFG.pub_rubrique, 'tw-ad-rub')}
 </div></section>`;
 }
 
@@ -174,6 +187,7 @@ function translateTemplate(page) {
 }
 
 function buildLang(lang) {
+  BASE = lang === 'en' ? '/en/' : '/';
   L = T[lang]; RUBS = lang === 'en' ? RUBS_EN : RUBS_FR;
   const arts = load('articles', lang);
   const cmps = load('comparatifs', lang);
@@ -193,7 +207,7 @@ function buildLang(lang) {
     const img = a.une_image || a.image;
     return `<article aria-label="${i + 1} sur ${une.length}" aria-roledescription="diapositive" class="slide">
 <figure class="photo has-img"><img alt="${esc(a.titre)}" src="${esc(rel(img))}" style="object-position:50% 60%"/>${a.credit ? `<figcaption>© ${esc(a.credit)}</figcaption>` : ''}</figure>
-<div class="slide-txt"><span class="slide-cat">${esc((R.univers || '') + ' · ' + (R.label || ''))}</span><h2>${esc(a.une_titre || a.titre)}</h2><p>${esc(a.une_texte || a.chapo || '')}</p><a class="cta" href="#${esc(a.slug)}">${L.read}</a></div>
+<div class="slide-txt"><span class="slide-cat">${esc((R.univers || '') + ' · ' + (R.label || ''))}</span><h2>${esc(a.une_titre || a.titre)}</h2><p>${esc(a.une_texte || a.chapo || '')}</p><a class="cta" href="${BASE}${esc(a.slug)}">${L.read}</a></div>
 </article>`;
   }).join('\n');
   page = page.replace('<!--SLIDES-->', slides);
@@ -202,24 +216,115 @@ function buildLang(lang) {
   const latest = arts.slice(0, 6).map((a) => {
     const R = RUBS[a.rubrique] || {};
     const meta = (a.reperes || []).slice(0, 2).join(' · ') || (a.prix ? a.prix : '');
-    const img = a.image ? `<figure aria-hidden="true" class="photo mini-ph has-img"><img alt="" loading="lazy" src="${esc(rel(a.image))}"/></figure>` : '<figure aria-hidden="true" class="photo mini-ph"><span></span></figure>';
-    return `<a class="mini ${R.cls || 'c-auto'}" href="#${esc(a.slug)}">${img}<span class="m-txt"><span class="cat">${esc((R.univers || '') + ' · ' + (R.label || ''))}</span><b>${esc(a.titre)}</b><span class="m-meta">${esc(meta)}</span></span></a>`;
+    const img = pic(a) ? `<figure aria-hidden="true" class="photo mini-ph has-img"><img alt="" loading="lazy" src="${esc(rel(pic(a)))}"/></figure>` : '<figure aria-hidden="true" class="photo mini-ph"><span></span></figure>';
+    return `<a class="mini ${R.cls || 'c-auto'}" href="${BASE}${esc(a.slug)}">${img}<span class="m-txt"><span class="cat">${esc((R.univers || '') + ' · ' + (R.label || ''))}</span><b>${esc(a.titre)}</b><span class="m-meta">${esc(meta)}</span></span></a>`;
   }).join('\n');
   page = page.replace('<!--LATEST-->', latest);
+  page = page.replace('<section class="home-block" id="derniers">', ad(CFG.pub_accueil, 'wrap') + '\n<section class="home-block" id="derniers">');
+  page = page.replace('<div class="view" data-view="identite"', legalView(lang) + '\n<div class="view" data-view="identite"');
+  page = page.replace('<a href="#watt">Watt</a></nav>', `<a href="#watt">Watt</a><a href="#mentions">${lang === 'en' ? 'Legal & privacy' : 'Mentions légales'}</a><a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a></nav>`);
 
   return { page, arts, cmps, une };
 }
 
+function legalView(lang) {
+  const ed = esc(CFG.editeur || '');
+  const mail = CFG.contact ? `<a href="mailto:${esc(CFG.contact)}">${esc(CFG.contact)}</a>` : '';
+  const fr = `<h2>Mentions légales et confidentialité</h2>
+<h4>Éditeur</h4><p>TechnWatt est un site d'information édité à titre non professionnel${ed ? ' par ' + ed : ''}.${ed ? ' Directeur de la publication : ' + ed + '.' : ''}${mail ? ' Contact : ' + mail + '.' : ''}</p>
+<h4>Hébergement</h4><p>Netlify, Inc., San Francisco, Californie, États-Unis · netlify.com</p>
+<h4>Contenus</h4><p>Les textes sont la propriété de TechnWatt. Les photos restent la propriété des marques mentionnées en crédit ; elles sont issues de leurs espaces presse.</p>
+<h4>Données personnelles</h4><p>TechnWatt ne demande ni compte ni inscription et ne collecte aucune donnée nominative. Le site peut afficher des publicités fournies par Google AdSense. Google et ses partenaires peuvent alors utiliser des cookies pour diffuser et mesurer ces annonces, et, avec votre accord, les personnaliser. Votre choix vous est demandé à la première visite et peut être modifié à tout moment via le lien « Gérer les cookies » en bas de page. Pour en savoir plus : policies.google.com/technologies/ads.</p>
+<p>Vous disposez d'un droit d'accès, de rectification et d'effacement des données vous concernant${mail ? ', à exercer à l\'adresse ' + mail : ''}, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr).</p>`;
+  const en = `<h2>Legal notice and privacy</h2>
+<h4>Publisher</h4><p>TechnWatt is a news website published on a non-commercial basis${ed ? ' by ' + ed : ''}.${ed ? ' Publication director: ' + ed + '.' : ''}${mail ? ' Contact: ' + mail + '.' : ''}</p>
+<h4>Hosting</h4><p>Netlify, Inc., San Francisco, California, United States · netlify.com</p>
+<h4>Content</h4><p>The texts belong to TechnWatt. Photos remain the property of the brands named in the credits and come from their press areas.</p>
+<h4>Personal data</h4><p>TechnWatt requires no account or sign-up and collects no personal data. The site may show ads provided by Google AdSense. Google and its partners may then use cookies to serve and measure these ads and, with your consent, to personalise them. You are asked for your choice on your first visit and can change it at any time through the “Cookie settings” link at the bottom of the page. Learn more: policies.google.com/technologies/ads.</p>
+<p>You have the right to access, correct and erase data about you${mail ? ' by writing to ' + mail : ''}, and to lodge a complaint with the CNIL, the French data protection authority (cnil.fr).</p>`;
+  return `<div class="view" data-view="infos" hidden="" id="mentions"><section class="alt"><div class="wrap legal">${lang === 'en' ? en : fr}</div></section></div>`;
+}
+
+const TXT = {
+  fr: { home: 'TechnWatt · Voiture électrique et nouvelles technologies', desc: "Actualités de la voiture électrique et des nouvelles technologies : nouveaux modèles, analyses à bord, comparatifs, smartphones, objets connectés et vidéoprojecteurs.", loc: 'fr_FR' },
+  en: { home: 'TechnWatt · Electric cars and new technology', desc: 'News on electric cars and new technology: new models, on-board analyses, comparisons, smartphones, connected devices and projectors.', loc: 'en_GB' },
+};
+const clip = (t, n = 158) => { t = String(t || '').replace(/\s+/g, ' ').trim(); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t; };
+const abs = (p) => (/^https?:/.test(p) ? p : SITE + '/' + rel(p));
+const urlOf = (lang, slug) => SITE + (lang === 'en' ? '/en/' : '/') + (slug || '');
+
+function headTags(lang, o) {
+  const alt = (l) => urlOf(l, o.slug);
+  const img = abs(o.image || 'img/og-default.jpg');
+  const ld = JSON.stringify(o.ld).replace(/</g, '\\u003c');
+  return `<title>${esc(o.title)}</title>
+<meta name="description" content="${esc(o.desc)}"/>
+<link rel="canonical" href="${alt(lang)}"/>
+<link rel="alternate" hreflang="fr" href="${alt('fr')}"/>
+<link rel="alternate" hreflang="en" href="${alt('en')}"/>
+<link rel="alternate" hreflang="x-default" href="${alt('fr')}"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<meta property="og:site_name" content="TechnWatt"/>
+<meta property="og:locale" content="${TXT[lang].loc}"/>
+<meta property="og:type" content="${o.slug ? 'article' : 'website'}"/>
+<meta property="og:title" content="${esc(o.ogTitle || o.title)}"/>
+<meta property="og:description" content="${esc(o.desc)}"/>
+<meta property="og:url" content="${alt(lang)}"/>
+<meta property="og:image" content="${esc(img)}"/>
+${o.date ? `<meta property="article:published_time" content="${esc(o.date)}"/>\n` : ''}<meta name="twitter:card" content="summary_large_image"/>
+<link rel="apple-touch-icon" href="/img/logo-512.png"/>
+<script type="application/ld+json">${ld}</script>
+${ADS ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(ADS)}" crossorigin="anonymous"></script><script>window.TW_ADS=1</script>` : ''}`;
+}
+
+const PUB = { '@type': 'Organization', name: 'TechnWatt', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/img/logo-512.png' } };
+
+function finalize(page, lang, o) {
+  page = page.replace(/<title>[^<]*<\/title>/, headTags(lang, o));
+  page = page.replace(/<html lang="(fr|en)"[^>]*>/, `<html lang="${lang}"${o.slug ? ` data-open="${esc(o.slug)}"` : ''} data-base="${lang === 'en' ? '/en/' : '/'}">`);
+  page = page.replace(/class="lang-sw" href="[^"]*"/, `class="lang-sw" href="${lang === 'en' ? '/' : '/en/'}${esc(o.slug || '')}"`);
+  page = page.replace(/href="(en|index)\.html"/g, (m, w) => `href="${w === 'en' ? '/en/' : '/'}${esc(o.slug || '')}"`);
+  page = page.replace(/(src|data-full|href)="img\//g, '$1="/img/');
+  return page;
+}
+
+function articleLd(lang, a, url, img) {
+  return { '@context': 'https://schema.org', '@type': a.rubrique === 'watt-actualites' ? 'NewsArticle' : 'Article', headline: clip(a.titre, 110), description: clip(a.chapo), image: [abs(img || 'img/og-default.jpg')], datePublished: a.date, dateModified: a.date, inLanguage: lang, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'TechnWatt', url: SITE + '/' }, publisher: PUB };
+}
+
 function build() {
-  const fr = buildLang('fr');
-  const en = buildLang('en');
+  const out = { fr: buildLang('fr'), en: buildLang('en') };
   fs.rmSync(OUT, { recursive: true, force: true });
-  fs.mkdirSync(OUT, { recursive: true });
-  fs.writeFileSync(path.join(OUT, 'index.html'), fr.page);
-  fs.writeFileSync(path.join(OUT, 'en.html'), en.page);
+  fs.mkdirSync(path.join(OUT, 'en'), { recursive: true });
+  const urls = [];
+  for (const lang of ['fr', 'en']) {
+    const b = out[lang], X = TXT[lang];
+    const dir = lang === 'en' ? path.join(OUT, 'en') : OUT;
+    const home = { slug: '', title: X.home, desc: X.desc, ld: { '@context': 'https://schema.org', '@type': 'WebSite', name: 'TechnWatt', url: urlOf(lang, ''), inLanguage: lang, publisher: PUB } };
+    fs.writeFileSync(path.join(dir, 'index.html'), finalize(b.page, lang, home));
+    if (lang === 'fr') urls.push({ slug: '', date: (b.arts[0] || {}).date });
+    for (const a of b.arts) {
+      const img = pic(a);
+      const o = { slug: a.slug, title: `${a.titre} | TechnWatt`, ogTitle: a.titre, desc: clip(a.chapo || a.titre), image: img, date: a.date, ld: articleLd(lang, a, urlOf(lang, a.slug), img) };
+      fs.writeFileSync(path.join(dir, a.slug + '.html'), finalize(b.page, lang, o));
+      if (lang === 'fr') urls.push({ slug: a.slug, date: a.date });
+    }
+    for (const c of b.cmps) {
+      const img = ((c.modeles || [])[0] || {}).image;
+      const o = { slug: c.slug, title: `${c.titre} | TechnWatt`, ogTitle: c.titre, desc: clip(c.chapo || c.titre), image: img, date: c.date, ld: articleLd(lang, c, urlOf(lang, c.slug), img) };
+      fs.writeFileSync(path.join(dir, c.slug + '.html'), finalize(b.page, lang, o));
+      if (lang === 'fr') urls.push({ slug: c.slug, date: c.date });
+    }
+  }
+  // Ancienne adresse de la version anglaise
+  fs.writeFileSync(path.join(OUT, '_redirects'), '/en.html /en/ 301\n/index.html / 301\n');
+  fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\n\nSitemap: ${SITE}/sitemap.xml\n`);
+  const sm = urls.map((u) => ['fr', 'en'].map((l) => `<url><loc>${urlOf(l, u.slug)}</loc>${u.date ? `<lastmod>${u.date}</lastmod>` : ''}<xhtml:link rel="alternate" hreflang="fr" href="${urlOf('fr', u.slug)}"/><xhtml:link rel="alternate" hreflang="en" href="${urlOf('en', u.slug)}"/></url>`).join('\n')).join('\n');
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sm}\n</urlset>\n`);
+  if (ADS) fs.writeFileSync(path.join(OUT, 'ads.txt'), `google.com, ${ADS.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
   for (const dir of ['img', 'admin']) {
     if (fs.existsSync(path.join(ROOT, dir))) fs.cpSync(path.join(ROOT, dir), path.join(OUT, dir), { recursive: true });
   }
-  console.log(`TechnWatt : ${fr.arts.length} articles, ${fr.cmps.length} comparatif(s), ${fr.une.length} à la une, FR + EN.`);
+  console.log(`TechnWatt : ${out.fr.arts.length} articles, ${out.fr.cmps.length} comparatif(s), ${urls.length * 2} pages, pub ${ADS ? 'active' : 'en attente'}.`);
 }
 build();

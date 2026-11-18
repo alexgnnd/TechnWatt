@@ -27,3 +27,20 @@ Le guide (batteries, recharge, aides…), les chiffres du marché, le logo et la
 - La version anglaise est facultative : si un champ anglais est vide, c'est le texte français qui s'affiche.
 - Les photos, la date et la rubrique sont communes aux deux langues.
 - Les textes fixes (menus, guide, chiffres du marché) sont traduits dans `src/i18n-en.json`.
+
+## Pictos
+
+Tant qu'un article n'a pas de photo, choisissez un picto dans le champ « Picto (si pas de photo) ». Dès que vous ajoutez une photo principale, elle prend sa place.
+
+## Référencement
+
+Chaque article a sa propre adresse (ex. : /gta-vi, /en/gta-vi), avec son titre, sa description et son image de partage. Le plan du site (/sitemap.xml) se met à jour seul. Le chapô sert de description dans Google : soignez-le, 1 ou 2 phrases.
+
+## Publicité (Google AdSense)
+
+1. Créez votre compte sur adsense.google.com et ajoutez votre site.
+2. Dans l'admin, Réglages : collez votre identifiant « ca-pub-… ». Le site publie alors le code AdSense et le fichier ads.txt.
+3. Dans AdSense, activez le message de consentement (Confidentialité et messages › RGPD), obligatoire en Europe.
+4. Une fois le site validé, créez trois blocs « display » et collez leurs numéros (data-ad-slot) dans Réglages : accueil, fin d'article, bas de rubrique.
+
+Tant que l'identifiant est vide, aucune pub ne s'affiche.
