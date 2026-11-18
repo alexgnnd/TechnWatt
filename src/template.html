@@ -963,7 +963,8 @@ footer a{color:#424245}
     return a;
   }
   function buildIndex(rub){
-    if(rub._idx) return rub._idx;
+    if(rub._built) return rub._idx;
+    rub._built=true;
     let items=rubItems(rub);
     if(rub.dataset.agg){ items=[...rub.closest('.view').querySelectorAll('.rub:not([data-agg]) .news > article')].filter(x=>x.id); }
     const sec=document.createElement('section'); sec.className='rub-index';
