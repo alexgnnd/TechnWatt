@@ -1,5 +1,5 @@
 ---
-titre: Les 5 meilleures compactes électriques du moment
+titre: "Mégane, ID.3, EV3, A2, MG4 : quelle compacte électrique choisir ?"
 date: '2026-11-15'
 chapo: 'Autour de 4,20 à 4,30 m, c''est la taille idéale pour une voiture unique : assez compacte pour la ville, assez grande pour partir en vacances. Cinq modèles sortent du lot cette fin d''année. Voici comment ils se départagent.'
 note: 'Classement établi à partir des données officielles des constructeurs (prix, autonomie, recharge, volumes). *MG4 : prix après remise permanente de 6 000 € du constructeur.'
