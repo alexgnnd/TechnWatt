@@ -1,5 +1,5 @@
 ---
-titre: 'BMW iX3 : la Neue Klasse est sur la route'
+titre: "BMW iX3 Neue Klasse : 805 km d'autonomie, la nouvelle référence est née"
 rubrique: watt-actualites
 date: '2026-11-11'
 categorie: Nouveau modèle

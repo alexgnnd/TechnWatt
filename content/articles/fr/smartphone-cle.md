@@ -1,5 +1,5 @@
 ---
-titre: Vos clés ? Elles sont dans votre téléphone
+titre: "Clé numérique : votre smartphone remplace déjà la clé de votre voiture"
 picto: cle
 rubrique: tech-objets
 date: '2026-11-08'

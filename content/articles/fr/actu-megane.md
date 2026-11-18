@@ -1,5 +1,5 @@
 ---
-titre: 'Mégane E-Tech : plus d’autonomie, moins cher'
+titre: "Renault Mégane E-Tech electric : plus d'autonomie, et un prix qui baisse"
 rubrique: watt-actualites
 date: '2026-11-15'
 categorie: Restylage

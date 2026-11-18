@@ -1,5 +1,5 @@
 ---
-titre: 'Hisense XR10 : une salle de cinéma à la maison'
+titre: "Hisense XR10 : jusqu'à 300 pouces d'image, un cinéma à la maison"
 picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-13'

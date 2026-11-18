@@ -1,5 +1,5 @@
 ---
-titre: 'iX3 : le SUV qui ne craint plus les vacances'
+titre: "BMW iX3 à bord : Panoramic iDrive, 400 kW et une vraie autonomie d'autoroute"
 rubrique: watt-a-bord
 date: '2026-11-14'
 categorie: BMW

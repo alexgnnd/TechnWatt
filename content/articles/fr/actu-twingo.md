@@ -1,5 +1,5 @@
 ---
-titre: 'Twingo E-Tech : l’électrique sous les 20 000 €'
+titre: "Renault Twingo E-Tech electric : la Twingo revient, électrique et sous les 20 000 €"
 rubrique: watt-actualites
 date: '2026-11-07'
 categorie: Nouveau modèle

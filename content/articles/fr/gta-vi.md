@@ -1,5 +1,5 @@
 ---
-titre: 'GTA VI : direction Vice City, pied au plancher'
+titre: "GTA VI : 200 véhicules à Vice City, le rêve de tout passionné d'auto"
 rubrique: watt-actualites
 categorie: Jeu vidéo · L'événement
 date: '2026-11-17'

@@ -1,5 +1,5 @@
 ---
-titre: BenQ voit la vie en trois lasers
+titre: "BenQ passe au Triple Laser : deux vidéoprojecteurs pour le home cinéma"
 picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-07'

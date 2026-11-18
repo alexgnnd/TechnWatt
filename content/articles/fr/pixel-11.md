@@ -1,5 +1,5 @@
 ---
-titre: 'Pixel 11 : Google sort le grand jeu photo'
+titre: "Google Pixel 11 : avec la puce Tensor G6, Google mise tout sur l'IA photo"
 rubrique: tech-smartphones
 date: '2026-11-12'
 categorie: Smartphone

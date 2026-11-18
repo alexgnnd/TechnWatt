@@ -1,5 +1,5 @@
 ---
-titre: 'ID.3 Neo : Volkswagen remet sa compacte à niveau'
+titre: "Volkswagen ID.3 Neo : Volkswagen corrige enfin tout ce qu'on lui reprochait"
 rubrique: watt-actualites
 date: '2026-11-13'
 categorie: Restylage

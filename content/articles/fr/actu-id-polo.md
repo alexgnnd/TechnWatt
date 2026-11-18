@@ -1,5 +1,5 @@
 ---
-titre: 'ID. Polo : la Polo branchée arrive, la GTI aussi'
+titre: "Volkswagen ID. Polo : la Polo passe à l'électrique, et la GTI aussi"
 rubrique: watt-actualites
 date: '2026-11-09'
 categorie: Nouveau modèle

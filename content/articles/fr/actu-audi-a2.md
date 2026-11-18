@@ -1,5 +1,5 @@
 ---
-titre: 'Audi A2 e-tron : le retour d’un nom culte'
+titre: "Audi A2 e-tron : le retour de la compacte culte, avec 646 km d'autonomie"
 rubrique: watt-actualites
 date: '2026-11-17'
 categorie: Nouveau modèle

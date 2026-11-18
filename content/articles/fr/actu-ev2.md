@@ -1,5 +1,5 @@
 ---
-titre: 'Kia EV2 : le petit SUV fabriqué en Europe'
+titre: "Kia EV2 : le petit SUV qui voit grand"
 rubrique: watt-actualites
 date: '2026-11-08'
 categorie: Nouveau modèle

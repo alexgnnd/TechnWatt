@@ -1,5 +1,5 @@
 ---
-titre: 'Apple Watch Series 12 : votre coach a pris du galon'
+titre: "Apple Watch Series 12 : de nouveaux capteurs pour veiller sur votre santé"
 rubrique: tech-objets
 date: '2026-11-16'
 categorie: Montre connectée

@@ -1,5 +1,5 @@
 ---
-titre: 'XGIMI Horizon 30 : le salon passe en mode cinéma… et console'
+titre: "XGIMI Horizon 30 : un écran géant en 4K 120 Hz pour les gamers"
 picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-09'

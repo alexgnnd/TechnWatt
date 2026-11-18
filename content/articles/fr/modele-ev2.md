@@ -1,5 +1,5 @@
 ---
-titre: 'EV2 : le petit coréen qui parle européen'
+titre: "Kia EV2 à bord : un petit SUV qui joue dans la cour des grands"
 rubrique: watt-a-bord
 date: '2026-11-12'
 categorie: Kia

@@ -1,5 +1,5 @@
 ---
-titre: Les Norvégiens nous regardent passer
+titre: "41 % d'électriques en France : un record… qui fait sourire la Norvège"
 picto: carte
 rubrique: watt-actualites
 date: '2026-11-06'

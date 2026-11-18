@@ -1,5 +1,5 @@
 ---
-titre: 'Ray-Ban Display : l''écran s''invite sur le nez'
+titre: "Meta Ray-Ban Display : les lunettes à écran débarquent en France"
 rubrique: tech-objets
 date: '2026-11-14'
 categorie: Objet tech

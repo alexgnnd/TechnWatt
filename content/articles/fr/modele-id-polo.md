@@ -1,5 +1,5 @@
 ---
-titre: 'ID. Polo : la Polo passe au courant'
+titre: "ID. Polo à bord : petite dehors, grande dedans"
 rubrique: watt-a-bord
 date: '2026-11-16'
 categorie: Volkswagen

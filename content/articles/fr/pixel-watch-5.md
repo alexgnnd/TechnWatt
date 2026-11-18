@@ -1,5 +1,5 @@
 ---
-titre: 'Pixel Watch 5 : la réponse d''Android au poignet'
+titre: "Google Pixel Watch 5 : la meilleure montre pour les utilisateurs Android ?"
 picto: montre
 rubrique: tech-objets
 date: '2026-11-10'

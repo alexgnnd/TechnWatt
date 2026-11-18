@@ -1,5 +1,5 @@
 ---
-titre: 'iPhone Duo : Apple a enfin plié'
+titre: "iPhone Duo : Apple ose enfin le pliable, et il coûte cher"
 rubrique: tech-smartphones
 date: '2026-11-15'
 categorie: Smartphone
