@@ -1,35 +1,43 @@
 ---
-titre: "Audi A2 e-tron: the cult compact is back, with 646 km of range"
+titre: 'Audi A2 e-tron: the cult compact is back, with 646 km of range'
 categorie: New model
-chapo: Gone since 2005, the A2 is back, this time fully electric. And it is shaping up to be the most frugal Audi ever built.
+chapo: Twenty-six years after the original, the A2 returns as a fully electric car. With a drag coefficient of 0.24 and 12.8 kWh/100 km, it is the most efficient Audi ever built.
 reperes:
 - From €38,600
 - Up to 646 km
-- Deliveries in December
+- Cd 0.24
 une_titre: 'Audi A2 e-tron: a cult name returns'
 une_texte: Up to 646 km, record-low consumption and a starting price of €38,600.
 ---
+Unveiled in Paris in early September, the new Audi A2 e-tron starts at €38,600 in France. Twenty-six years after the aluminium original, Audi brings back the name and the same obsession: using as little energy as possible. At 12.8 kWh/100 km on the WLTP cycle, it is the most efficient production model in the brand's history.
 
-Unveiled in Paris in early September, then the star of Audi's stand at the Paris Motor Show, the new A2 starts at €38,600. It borrows the technical base of the Volkswagen ID.3 Neo, but takes aerodynamics further than anyone: with a drag coefficient of 0.24, it slips through the air better than any other compact in the range.
+## A drag coefficient of 0.24, a first for Audi compacts
 
-![](img/a2-planche.jpg)
+Everything has been designed to cut through the air. The front air intake is actively controlled and stays closed until the motor needs cooling. The underbody is largely enclosed, the wheel arches get deflectors and the wheels were designed in the wind tunnel. The result: a drag coefficient of 0.24, the best in Audi's compact range. As a nod to its predecessor, the rear window is split by a small spoiler.
 
-The result: up to 646 km of range with the big battery, and official consumption as low as 12.8 kWh/100 km. In a nod to its ancestor, the rear window is split by a small spoiler. Inside, there is a large curved display and magnetic mounts for clipping on accessories. First deliveries are due in December, from Ingolstadt.
+## Three batteries, four power outputs
 
-![](img/a2-habitacle.jpg)
+The A2 e-tron is rear-wheel drive, with a permanently excited synchronous motor. The range starts at 170 hp (125 kW) with a 52 kWh gross LFP battery, for 423 km of WLTP range. The 190 hp (140 kW) version gets a 61 kWh LFP battery and passes 500 km. The two top versions use an 84 kWh gross NMC battery: 231 hp (170 kW) and up to 646 km, or 326 hp (240 kW) for those in a hurry. The latter reaches 200 km/h, the others are limited to 160 km/h.
 
-## An Audi that hunts down every watt
+On a 400 V architecture, fast charging reaches up to 183 kW depending on the version.
 
-Everything is designed to cut through the air: an active shutter behind the bumper that only opens when the drivetrain needs cooling, a fully faired underbody, flush door handles and wheels shaped in the wind tunnel. The most efficient version gets by on about 12.8 kWh per 100 km on the official cycle. In real life, that promises motorway trips with fewer stops than most rivals.
+## Prices in France
 
-## Four versions, three batteries
+- **170 hp, 52 kWh:** €38,600
+- **190 hp, 61 kWh:** €42,900
+- **231 hp, 84 kWh:** €46,900
+- **326 hp, 84 kWh:** €52,000
 
-The range opens with 170 hp and a battery of about 52 kWh, good for more than 420 km. A 190 hp mid-range version passes 500 km. At the top sits an 84 kWh battery: 231 hp and up to 646 km, or 326 hp for those in a hurry, with 0 to 100 km/h in under 6 seconds. The big-battery versions accept up to 183 kW on a fast charger; the others top out around 100 kW.
+The 646 km are therefore not available on the entry-level model: you need the 231 hp version.
 
-## Inside: one big screen and magnetic tricks
+## On board: a large display and magnetic mounts
 
-A single curved panel brings together a driver display of almost 12 inches and a central screen of almost 13 inches, angled towards the driver. Audi's voice assistant uses artificial intelligence, and a route planner schedules the charging stops. A handy touch: magnetic mounts in the cabin and the boot hold dedicated accessories. The 396-litre boot grows to more than 1,300 litres with the rear seat folded, and the big versions add a small storage space under the bonnet.
+A curved panel combines the instrument cluster and the central screen, angled towards the driver. The route planner schedules charging stops. On the practical side, Audi fits Fidlock magnetic mounts in the cabin and boot to attach dedicated accessories. Two smartphones can charge wirelessly via Qi 2.2, at up to 25 W. The boot offers 396 litres and exceeds 1,300 litres with the rear seats folded.
 
-## Our take
+## Made in Ingolstadt
 
-Audi delivers a coherent compact: pricier than its Volkswagen cousin, but better finished and even more frugal. The entry price is tempting, but the versions that really appeal quickly pass €45,000. Deliveries start in December: we will see in spring whether the efficiency promise holds up on the road.
+Developed in Germany, the A2 e-tron is built at Audi's historic Ingolstadt plant. Orders opened on 10 September and the first cars reach dealers in December 2026.
+
+## Our verdict
+
+Audi delivers a coherent compact, more expensive than its Volkswagen ID.3 Neo cousin but better presented and even more efficient. The starting price is attractive, but the version with 646 km already costs over €46,000. See you in spring to check whether the efficiency promise holds up on the road.

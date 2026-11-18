@@ -1,25 +1,38 @@
 ---
-titre: "BMW iX3 Neue Klasse: 805 km of range, a new benchmark is born"
+titre: 'BMW iX3 Neue Klasse: 805 km of range, a new benchmark is born'
 categorie: New model
-chapo: The first model of a new generation, BMW's electric SUV claims more than 800 km of range.
+chapo: The first Neue Klasse model, the BMW iX3 promises up to 805 km of range and 400 kW charging. With it, BMW opens a new era.
 reperes:
-- €71,950
-- 805 km
+- From €71,950
+- 805 km WLTP
 - 400 kW charging
 ---
+The new BMW iX3 is the first production model of the Neue Klasse, the platform that will renew BMW's entire range. On the menu: the sixth generation of BMW eDrive, up to 805 km of WLTP range and charging that climbs to 400 kW. Entry price in France: €71,950.
 
-The new iX3 launches the Neue Klasse platform, which will underpin some forty BMW models by 2027. On the menu: a claimed 805 km of range, charging at up to 400 kW and a display that runs the full width of the windscreen.
+## An entirely new BMW
 
-It is built in Hungary, in a plant that runs without fossil fuels. Starting price: €71,950.
+The iX3 carries over almost nothing from the previous model. It debuts BMW's 800 V architecture, a cylindrical-cell battery and electronics organised around four high-performance computers, nicknamed "superbrains". One of them, Heart of Joy, controls the drivetrain, braking, energy recovery and steering, with the BMW Dynamic Performance Control software.
 
-## A new generation of BMW
+## The iX3 50 xDrive in figures
 
-The iX3 is the first Neue Klasse model, an all-new platform that will spread to some forty BMWs by 2027. An 800-volt architecture, four powerful computers sharing the work, a new generation of battery: it is a complete reset.
+The launch version, the iX3 50 xDrive, combines two motors for 345 kW (469 hp) and 645 Nm. It goes from 0 to 100 km/h in 4.9 seconds and reaches 210 km/h. Its battery offers 108.7 kWh usable, for a range of 679 to 805 km WLTP depending on equipment. Official consumption ranges from 15.1 to 17.9 kWh/100 km.
 
-## 805 km and ten minutes at the charger
+## 400 kW at the charger
 
-With a battery of almost 109 kWh and two motors totalling 469 hp, the iX3 50 xDrive claims up to 805 km. On a very powerful charger, ten minutes are enough to add more than 350 km. Real-world measurements hover around 17 to 20 kWh per 100 km in mixed driving, or 550 to 650 km of range.
+This is the other big step forward. On a 400 kW charger, the iX3 adds around 372 km of range in ten minutes and goes from 10 to 80% in 21 minutes. On alternating current, it accepts 11 kW as standard and 22 kW as an option. It also debuts bidirectional charging at BMW.
 
-## A brand-new cockpit
+## BMW Panoramic iDrive
 
-The traditional instrument cluster disappears in favour of a light strip running the full width of the windscreen. It is complemented by a 3D head-up display and a large central screen. On the practical side, the 520-litre boot is backed up by a 58-litre front storage compartment.
+The traditional instrument cluster disappears. BMW Panoramic iDrive, standard, displays the key information on a strip running along the base of the windscreen, from pillar to pillar. It is complemented by an optional 3D head-up display and a large central screen. BMW Operating System X opens the door to games via AirConsole and video streaming, with YouTube or Disney+, while charging.
+
+## Practical every day
+
+At 4.78 m long with a 2.90 m wheelbase, the iX3 offers a 520-litre boot, complemented by a 58-litre front storage space under the bonnet.
+
+## Built in Debrecen
+
+The iX3 is built at BMW's new plant in Debrecen, Hungary, the first designed entirely for the Neue Klasse and powered by 100% renewable electricity. Other versions are due to complete the range, including a sportier M60 xDrive.
+
+## Our verdict
+
+Record range, ultra-fast charging and an all-new interface: the iX3 sets the bar very high for premium electric SUVs. The entry price remains high, while we wait for more affordable versions.

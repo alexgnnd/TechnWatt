@@ -29,7 +29,7 @@ First, it is the price that turns heads. Listed at €19,490, the Twingo drops t
 
 ## Behind the wheel
 
-With 82 hp and barely more than a tonne, the Twingo is not chasing performance: 12.1 seconds to reach 100 km/h, but 0 to 50 km/h in under 4 seconds, which is what really counts at traffic lights. Its very quick steering (2.6 turns lock to lock) and 9.87 m turning circle make it a true urban Swiss army knife. Top speed is capped at 130 km/h: the motorway is possible, but it is not its playground. Early feedback mentions fairly firm damping and seats that feel a little small on long trips.
+With its 60 kW (80 hp) E-Tech motor and 27.5 kWh LFP battery, the Twingo is not chasing performance: 12.1 seconds to reach 100 km/h, but 0 to 50 km/h in 3.8 seconds, which is what really counts at traffic lights. Its very quick steering (2.6 turns lock to lock) and 9.87 m turning circle make it a true urban Swiss army knife. Top speed is capped at 130 km/h: the motorway is possible, but it is not its playground. Early feedback mentions fairly firm damping and seats that feel a little small on long trips.
 
 ## Consumption
 
@@ -37,11 +37,11 @@ Rated at 12.2 kWh/100 km, it is one of the most frugal cars on the market. In to
 
 ## Screens and software
 
-Every version gets two screens: 7 inches behind the wheel and 10 inches in the centre, with colourful animations unique to the Twingo. On the top trim, Renault's system has Google built in: Google Maps navigation that can find a free charger, a voice assistant and around a hundred apps, including video streaming to pass the time while charging. A small virtual avatar, Reno, uses conversational AI to answer questions about the car. On the entry version, you simply mirror your smartphone, which works very well.
+Every version gets two screens: 7 inches behind the wheel and 10.1 inches in the centre, with colourful animations unique to the Twingo. On the Techno trim, the OpenR Link system with Google built-in offers Google Maps navigation that can find a free charger, Google Assistant and around a hundred apps, including video streaming to pass the time while charging. The Reno avatar uses conversational AI to answer questions about the car. On the entry version, you simply mirror your smartphone, which works very well.
 
 ## Driver assistance
 
-We did not expect this much in such a small car: up to 24 driver aids depending on the version. Adaptive cruise control that can stop and restart in traffic jams, lane keeping, emergency braking that also watches junctions, a warning before you open your door on a cyclist, a 360° camera and parking assistance. A single button switches off the aids you find too chatty, and a camera monitors driver attention.
+We did not expect this much in such a small car: up to 24 driver aids depending on the version. Adaptive cruise control that can stop and restart in traffic jams, lane keeping, emergency braking that also watches junctions, a warning before you open your door on a cyclist, a 360° camera and parking assistance. The My Safety Switch button turns off the aids you find too chatty in one go, and a camera monitors driver attention.
 
 ## Materials and finish
 
@@ -53,4 +53,4 @@ It is only 3.79 m long but genuinely versatile: the rear bench slides and frees 
 
 ## Charging
 
-The trap to know about: fast charging is not standard. Without the pack costing about €500, you cannot plug into a motorway charger. With it, getting back to 80% takes just under half an hour, and the car can even power an electrical appliance. At home, one night is more than enough.
+As standard, the Twingo charges on alternating current at 6.6 kW: about 4 hours on a 7.4 kW wallbox, overnight on a reinforced socket. The trap to know about: fast charging is not standard. You need the optional Advanced Charge pack, which adds an 11 kW bidirectional AC charger and DC charging up to 50 kW. With it, 10 to 80% takes around thirty minutes, and the car supports V2L, to power an electrical appliance, and V2G.

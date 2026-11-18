@@ -23,7 +23,7 @@ prix: €24,995
 prix_note: starting price, before incentives
 ---
 
-The message is crystal clear: €24,995, exactly the price of the R5. Volkswagen did not want to leave affordable small EVs to the French. It has been built near Barcelona since the summer.
+The message is crystal clear: €24,995 in Trend trim, exactly the price of the Renault 5. Volkswagen did not want to leave affordable small EVs to the French. For the occasion, the brand debuts the MEB+ platform, designed for small front-wheel-drive models.
 
 ## Behind the wheel
 
@@ -35,11 +35,11 @@ Volkswagen claims 13.3 to 13.8 kWh/100 km with the 52 kWh battery. On varied roa
 
 ## Screens and software
 
-Volkswagen has learned from its first EVs, criticised for their temperamental touch controls. The steering wheel gets real buttons back, and so do the climate controls and hazard lights. In front of the driver, a 10-inch screen can mimic the dials of an old Golf. In the centre, a large 13-inch display, the size of a tablet. The smartphone connects wirelessly, and the phone can replace the key as an option.
+Volkswagen has learned from its first EVs, criticised for their temperamental touch controls. The steering wheel gets real buttons back, and so do the climate controls and hazard lights. In front of the driver, a digital instrument cluster can mimic the dials of an old Golf. In the centre, a 12.9-inch (32.7 cm) infotainment screen, the size of a tablet. The smartphone connects wirelessly, and the phone can replace the key as an option.
 
 ## Driver assistance
 
-From the base version, the essentials are there: lane keeping and a system that gently stops the car if the driver stops responding. Higher trims add adaptive cruise control, a rear camera and blind-spot warning. The big new option: a semi-autonomous assistant that handles speed and steering on the motorway, changes lanes on request and, a first for Volkswagen, recognises traffic lights and stop signs. For parallel parking, the car can park itself and even memorise a repeated manoeuvre, such as getting into your garage.
+From the base version, the essentials are there: Lane Assist to keep you in lane, Side Assist for the blind spot and Emergency Assist, which gently stops the car if the driver stops responding. Higher trims add adaptive cruise control, a rear camera and blind-spot warning. The big new option is Connected Travel Assist, which handles speed and steering on the motorway, changes lanes on request and recognises traffic lights and stop signs. For parking, Park Assist Pro parks the car on its own and can even memorise a repeated manoeuvre, such as getting into your garage.
 
 ## Materials and finish
 
@@ -51,4 +51,4 @@ The ID. Polo's tour de force. At barely more than 4 metres long, it fits adults 
 
 ## Charging
 
-Good news: fast charging comes as standard, about 25 minutes from 10 to 80%. Watch the options, though: the heat pump, very useful in winter, costs almost €1,000 extra.
+Good news: fast charging comes as standard: up to 90 kW with the 37 kWh LFP battery and 105 kW with the 52 kWh NMC, for around 23 to 24 minutes from 10 to 80%. On alternating current, all versions accept 11 kW. Check whether the heat pump, very useful in winter, is included in the trim you choose.

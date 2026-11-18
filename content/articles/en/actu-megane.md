@@ -1,33 +1,34 @@
 ---
-titre: "Renault Mégane E-Tech electric: more range, and a lower price"
+titre: 'Renault Mégane E-Tech electric: more range, and a lower price'
 categorie: Facelift
-chapo: "It does not happen often: Renault's electric compact gains range and charging speed… while getting cheaper."
+chapo: For its update, the Mégane E-Tech electric adopts a 67 kWh LFP battery, passes 500 km of range, charges faster… and gets cheaper.
 reperes:
-- €37,500
-- 501 km
+- From €37,500
+- 501 km WLTP
 - 165 kW charging
 ---
+Four years after its launch, the Renault Mégane E-Tech electric gets a mid-life update. The main change cannot be seen: a new battery that takes the range past 500 km. And, rarely, the price goes down at the same time.
 
-For its mid-life update, the Mégane swaps its 60 kWh battery for a 67 kWh LFP pack, a chemistry free of cobalt and nickel. Range passes the symbolic 500 km mark, and fast charging rises to 165 kW. The reworked front end looks more muscular.
+## A 67 kWh LFP battery
 
-![](img/megane-planche.jpg)
+The Mégane drops its 60 kWh NMC (nickel manganese cobalt) battery for a 67 kWh net LFP (lithium iron phosphate) battery. It uses a cell-to-pack architecture, with 232 cells built directly into the pack, without intermediate modules. WLTP range gains 33 km to reach 501 km. The only downside: the car is 20 mm taller.
 
-The good surprise is the price: €37,500 in Techno trim, €2,000 less than before. The screen with Google services remains standard, as does the heat pump. And the car can now give its energy back, to an appliance or to the power grid.
+## Charging finally up to speed
 
-![](img/megane-compteur.jpg)
+This was the Mégane's weak point. On direct current, maximum power rises from 130 to 165 kW: it now takes 24 minutes to go from 15 to 80%, 25% faster than before. At home, the 11 kW charger is standard. It is bidirectional and supports V2L, to power a device, and V2G, to send energy back to the grid.
 
-## A simpler, more durable battery
+## A 220 hp motor
 
-Renault drops its nickel-manganese-cobalt battery for lithium-iron-phosphate chemistry: cheaper, more robust over time and free of sensitive metals. Capacity rises to 67 kWh and official range to 501 km, up from 468. Because the pack is assembled in Europe, it also unlocks a small extra bonus under French incentives.
+The Mégane keeps its 160 kW (220 hp), 300 Nm motor. The front end is redesigned with a more muscular look, and the palette has seven colours, including a new Satin Blue. Alloy wheels are 19 or 20 inches.
 
-## Charging that finally keeps up
+## Two trims: Techno and Esprit Alpine
 
-This was the Mégane's weak point. Peak power on a fast charger rises from 130 to 165 kW, and it now takes just under half an hour to go from 15 to 80%. At home, the 11 kW charger is standard and a 22 kW unit is optional; both can give energy back, to power an appliance or even support the grid.
+Renault simplifies the range. The Techno trim starts at €37,500, €2,000 less than before. It keeps the OpenR Link system with Google built-in, the heat pump and One Pedal driving. The Esprit Alpine, at €40,500 (€1,000 less), adds 20-inch wheels, electric heated front seats, a Harman Kardon audio system and a 360° camera. Its seats get new upholstery.
 
-## Two trims, plenty of equipment
+## Still practical
 
-The Techno trim already includes adaptive cruise control, a rear camera, dual-zone climate control, wireless phone charging, a keyless card and a heated steering wheel. Esprit Alpine adds 20-inch wheels, heated power seats, a Harman Kardon sound system and a 360° camera. The heat pump and one-pedal driving are standard across the range.
+Interior space is unchanged. The boot offers 440 litres, plus 22 litres under the floor.
 
-## Our take
+## Our verdict
 
-More range, faster charging and a lower price: the Mégane fixes its flaws without losing its excellent infotainment system. It still lacks a big-battery version to match the 600 km of some rivals.
+More range, faster charging and a lower price: the Mégane fixes its flaws without losing its excellent OpenR Link system. The range gain is modest given the extra 7 kWh, though, and it still lacks a big-battery version to rival the 600 km of some competitors.

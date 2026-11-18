@@ -1,33 +1,42 @@
 ---
-titre: "Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was criticised for"
+titre: 'Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was criticised for'
 categorie: Facelift
-chapo: 'A new name, new motors and, at last, real buttons: the ID.3 fixes the flaws it has been criticised for since launch.'
+chapo: 'A new name, a new APP350 motor and real buttons at last: the ID.3 Neo fixes the flaws of the first generation and comes close to 630 km of range.'
 reperes:
 - From €34,990
-- Up to 629 km
+- Up to 630 km
 - Real buttons
 ---
+Renamed ID.3 Neo, Volkswagen's electric compact moves to the MEB+ platform and fixes most of the flaws it has been criticised for since launch. New motor, new batteries, a revised interior: the biggest version now comes close to 630 km of range. Starting price in France: €34,990.
 
-Renamed ID.3 Neo, Volkswagen's electric compact gets a more efficient motor and three battery sizes. The largest comes close to 630 km of range, a record for the model. The two smaller ones switch to LFP chemistry, known for being robust and cheaper.
+## A more efficient motor
 
-![](img/id3-planche.jpg)
+The big change is invisible: the APP350 rear motor replaces the APP310. More efficient, it accounts for much of the range gain. With just 50 kWh, the entry-level model almost matches the old 58 kWh version.
 
-Inside, the dashboard is covered in soft materials, the steering wheel gets physical buttons back, and every window has its own switch. The 12.9-inch central screen becomes standard, and the car can now power an e-bike or camping gear. Starting price: €34,990.
+## Three batteries, two chemistries
 
-![](img/id3-habitacle.jpg)
+- **125 kW (170 hp), 50 kWh LFP:** around 417 km WLTP
+- **140 kW (190 hp), 58 kWh LFP:** around 494 km
+- **170 kW (231 hp), 79 kWh NMC:** up to 630 km
 
-## Three batteries, three characters
+The two smaller batteries switch to LFP (lithium iron phosphate) chemistry, cheaper and known for being robust. The largest remains NMC.
 
-The entry model pairs 170 hp with a 50 kWh battery for about 417 km. The 190 hp, 58 kWh version passes 490 km, and the big 79 kWh battery, paired with 231 hp, comes close to 630 km. The new rear motor uses less energy than the old one, which explains much of the range gain.
+## Charging
 
-## Charging: check the version
+The 50 and 58 kWh batteries accept up to 105 kW on direct current, around 26 minutes from 10 to 80%. The 79 kWh battery reaches 183 kW, for around 29 minutes. A useful new feature: V2L can power a device at up to 3.6 kW, such as an e-bike or camping gear.
 
-The two smaller batteries top out at 105 kW on a fast charger: allow about 25 minutes from 10 to 80%. The big battery reaches 183 kW, but a session takes a little longer given how much there is to fill. A welcome new feature: battery health is shown in real time on the trip computer.
+## An interior that finally lives up to it
 
-## Prices, and the catch
+Volkswagen has listened to the criticism. The dashboard gets softer materials, the steering wheel gets physical buttons again and each window has its own switch. The 12.9-inch central screen becomes standard. One Pedal driving, which recovers energy until the car comes to a complete stop, makes its debut.
 
-The ID.3 Neo starts at €34,990. But for the long-range version you now need at least €45,900, almost €3,000 more than before. Volkswagen France applies a dealer discount that makes most versions eligible for the purchase incentive.
+## Driver assistance
 
-## Our take
+As standard, the ID.3 Neo gets Lane Assist, Front Assist and a turning brake function. As an option, Connected Travel Assist automatically recognises traffic lights, and the list also includes 360° Area View and Park Assist Pro with memory.
 
-This is finally the ID.3 we were waiting for: better finished, more practical day to day and very long-legged with the big battery. What remains is an average 385-litre boot and rear drum brakes that feel a little dated on a car at this price.
+## Trend, Life and Style
+
+The Trend trim is limited to the 50 kWh battery. The Life and Style trims give access to all three batteries. The boot remains average, at 385 litres.
+
+## Our verdict
+
+This is finally the ID.3 we were waiting for: better finished, more practical day to day and very long-legged with the big battery. The battery choice matters: the LFP versions are enough for mixed use, but the 79 kWh, faster at the charger, remains the best option for long trips.
