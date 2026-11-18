@@ -1,11 +1,11 @@
 ---
-titre: "Apple Watch Series 12 : de nouveaux capteurs pour veiller sur votre santé"
+titre: 'Apple Watch Series 12 : de nouveaux capteurs pour veiller sur votre santé'
 rubrique: tech-objets
 date: '2026-11-16'
 categorie: Montre connectée
 image: img/aw12-titane.jpg
 credit: Apple
-chapo: 'Nouveaux capteurs au dos, nouvelle application Santé et une autonomie enfin plus confortable : la montre d''Apple se prend de plus en plus pour un médecin de poche.'
+chapo: 'Nouveau système de capteurs, puce S11, recharge plus rapide et retour de la céramique : la montre d''Apple se prend de plus en plus pour un coach santé.'
 plus: Un suivi santé plus fin, une meilleure endurance, une recharge éclair.
 moins: Toujours réservée aux utilisateurs d'iPhone, la fonction d'écoute fera débat.
 reperes:
@@ -26,13 +26,40 @@ une_titre: 'Apple Watch Series 12 : votre coach a pris du galon'
 une_texte: 'Indice de forme du jour, constantes de la nuit, natation : ce qui change vraiment au poignet.'
 une_image: img/aw12-natation.jpg
 ---
-
-Chaque matin, la montre vous donne une sorte de note de forme : êtes-vous prêt à vous dépasser ou mieux vaut-il lever le pied ? Et ce score bouge au fil de la journée. Plus surprenant, une double pression sur la couronne affiche par écrit ce qui vient de se dire autour de vous, sur les dernières secondes. Pratique quand on a raté une info, un peu troublant aussi.
-
-Bonne nouvelle pour ceux qui oubliaient de la recharger : elle tient désormais une journée entière, et un quart d'heure sur son socle redonne une douzaine d'heures.
-
-## Ce qui change aussi
-
-Une nouvelle puce rend la montre plus rapide et plus intelligente. L'application Santé, entièrement repensée, calcule même une sorte d'« âge santé » à partir du sommeil, du cœur au repos et de la condition physique. La fonction qui résume les conversations captées autour de vous reste optionnelle et peut être limitée à certains lieux. Deux tailles, 42 et 46 mm, et trois matières : aluminium, titane et céramique. Pour les sportifs de l'extrême, la version Ultra démarre à 899 €.
+Présentée en septembre et disponible depuis le 18 septembre 2026, l'Apple Watch Series 12 garde son prix de départ de 449 €. Elle mise sur un nouveau système de capteurs au dos, la puce S11 et watchOS 27, qui nécessite un iPhone sous iOS 27.
 
 ![](img/aw12-capteur.jpg)
+
+## Des capteurs repensés
+
+Le dos de la montre accueille un nouveau système de suivi de santé haute fréquence, en plus du capteur électrique pour l'ECG, de l'oxymètre et du capteur de température. Le suivi devient continu, 24 h sur 24 : entraînements, récupération et sommeil. Chaque matin, la montre donne une sorte de note de forme, qui évolue au fil de la journée.
+
+![](img/aw12-forme.jpg)
+
+## Une recharge plus rapide
+
+L'autonomie reste annoncée à 24 heures en usage courant, et 38 heures en mode économie d'énergie. Mais lors d'un entraînement en extérieur, elle tient désormais 10 heures, soit 25 % de plus que la Series 11. Surtout, 15 minutes sur le chargeur redonnent jusqu'à 12 heures d'autonomie, contre 8 auparavant.
+
+![](img/aw12-natation.jpg)
+
+## Puce S11 et Apple Intelligence
+
+La puce S11 accompagne 64 Go de stockage et apporte les fonctions Apple Intelligence au poignet. L'écran OLED LTPO3 toujours allumé atteint 2 000 nits. L'application Santé, entièrement repensée, synthétise le sommeil, le cœur au repos et la condition physique.
+
+![](img/aw12-nuit.jpg)
+
+## Trois matières, deux tailles
+
+La Series 12 existe en 42 et 46 mm, en aluminium, en titane et, grand retour, en céramique.
+
+- **Aluminium :** dès 449 € (42 mm GPS)
+- **Titane :** dès 799 €
+- **Céramique :** dès 1 049 €
+
+Il faut compter 120 € de plus pour la version GPS + Cellular. Pour les sportifs de l'extrême, l'Apple Watch Ultra 4 démarre à 899 € et tient jusqu'à 50 heures.
+
+![](img/aw12-blanc.jpg)
+
+## Notre avis
+
+Pas de révolution de design, mais une montre plus endurante à l'effort, plus rapide à recharger et plus complète sur la santé. Le prix d'entrée ne bouge pas, ce qui en fait une évolution logique pour les propriétaires de modèles anciens.
