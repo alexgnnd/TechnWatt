@@ -1,21 +1,23 @@
 ---
-titre: 'iPhone Duo : Apple ose enfin le pliable, et il coûte cher'
+titre: "iPhone Duo : Apple ose enfin le pliable, et il coûte très cher !"
 rubrique: tech-smartphones
-date: '2026-11-15'
+date: 2026-11-15
 categorie: Smartphone
 image: img/iphone-duo-couleurs.jpg
 credit: Apple
-chapo: Des années que les fans l'attendaient. Le premier iPhone pliable, qui s'ouvre comme un carnet, est arrivé en boutique le 23 octobre. Puce A20 Pro, Touch ID, deux écrans… et un prix de 2 339 €.
+chapo: Des années que les fans l'attendaient. Le premier iPhone pliable, qui
+  s'ouvre comme un carnet, est arrivé en boutique le 23 octobre. Puce A20 Pro,
+  Touch ID, deux écrans… et un prix de 2 339 €.
 plus: Un grand écran qui tient dans la poche, le stylet, une finition superbe.
 moins: Plus de 2 300 €, pas de Face ID, pas de vrai téléobjectif.
 reperes:
-- 7,6″ ouvert
-- 5,4″ fermé
-- Dès 2 339 €
+  - 7,6″ ouvert
+  - 5,4″ fermé
+  - Dès 2 339 €
 galerie:
-- img/iphone-duo-montage.jpg
-- img/iphone-duo-messagerie.jpg
-- img/iphone-duo-visio.jpg
+  - img/iphone-duo-montage.jpg
+  - img/iphone-duo-messagerie.jpg
+  - img/iphone-duo-visio.jpg
 ---
 Apple a présenté l'iPhone Duo le 9 septembre 2026, et il est arrivé en boutique le 23 octobre, France comprise. Fermé, c'est un iPhone compact avec un écran de 5,4 pouces. Ouvert, on se retrouve avec une mini-tablette de 7,6 pouces. Les deux dalles OLED affichent jusqu'à 120 Hz.
 

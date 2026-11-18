@@ -1,13 +1,25 @@
 ---
-titre: 'iPhone Duo: Apple finally dares to fold, and it''s expensive'
+titre: "iPhone Duo: Apple finally dares to fold, and it's very expensive !"
+rubrique: tech-smartphones
+date: 2026-11-15
 categorie: Smartphone
-chapo: Fans had waited for it for years. The first foldable iPhone, which opens like a notebook, reached stores on 23 October. A20 Pro chip, Touch ID, two screens… and a €2,339 price tag.
+image: img/iphone-duo-couleurs.jpg
+credit: Apple
+picto: null
+chapo: Fans had waited for it for years. The first foldable iPhone, which opens
+  like a notebook, reached stores on 23 October. A20 Pro chip, Touch ID, two
+  screens… and a €2,339 price tag.
 plus: A big screen that fits in your pocket, the stylus, superb finish.
 moins: Over €2,300, no Face ID, no real telephoto lens.
 reperes:
-- 7.6″ open
-- 5.4″ closed
-- From €2,339
+  - 7.6″ open
+  - 5.4″ closed
+  - From €2,339
+lien_abord: null
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 Apple unveiled the iPhone Duo on 9 September 2026, and it reached stores on 23 October, France included. Closed, it is a compact iPhone with a 5.4-inch screen. Open, it becomes a 7.6-inch mini tablet. Both OLED displays run at up to 120 Hz.
 
