@@ -1,5 +1,6 @@
 ---
 titre: Vos clés ? Elles sont dans votre téléphone
+picto: cle
 rubrique: tech-objets
 date: '2026-11-08'
 categorie: Objet tech · Auto

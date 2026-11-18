@@ -1,5 +1,6 @@
 ---
 titre: Les Norvégiens nous regardent passer
+picto: carte
 rubrique: watt-actualites
 date: '2026-11-06'
 categorie: Société · Marché

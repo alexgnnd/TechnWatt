@@ -1,5 +1,6 @@
 ---
 titre: BenQ voit la vie en trois lasers
+picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-07'
 categorie: Vidéoprojecteur

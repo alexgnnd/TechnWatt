@@ -1,5 +1,6 @@
 ---
 titre: 'Hisense XR10 : une salle de cinéma à la maison'
+picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-13'
 categorie: Vidéoprojecteur

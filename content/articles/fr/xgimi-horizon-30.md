@@ -1,5 +1,6 @@
 ---
 titre: 'XGIMI Horizon 30 : le salon passe en mode cinéma… et console'
+picto: videoprojecteur
 rubrique: tech-videoprojecteurs
 date: '2026-11-09'
 categorie: Vidéoprojecteur
