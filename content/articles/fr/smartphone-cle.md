@@ -1,17 +1,18 @@
 ---
-titre: 'Clé numérique : votre smartphone remplace déjà la clé de votre voiture'
-picto: cle
+titre: "Clé numérique : votre smartphone remplace la clé de votre voiture"
 rubrique: tech-objets
-date: '2026-11-08'
+date: 2026-11-08
 categorie: Objet tech · Auto
 credit: Constructeur
-chapo: 'Ouvrir sa voiture, la démarrer, la prêter à un proche : la clé numérique transforme le smartphone en clé de voiture. Voici comment elle fonctionne.'
+picto: cle
+chapo: "Ouvrir sa voiture, la démarrer, la prêter à un proche : la clé numérique
+  transforme le smartphone en clé de voiture. Voici comment elle fonctionne."
 plus: Le confort du préchauffage, des économies sur la recharge, une clé de moins.
-moins: 'Batterie du téléphone à plat, voiture fermée : gardez la carte de secours.'
+moins: "Batterie du téléphone à plat, voiture fermée : gardez la carte de secours."
 reperes:
-- CCC Digital Key
-- UWB · NFC · Bluetooth
-- Apple Wallet · Google Wallet
+  - CCC Digital Key
+  - UWB · NFC · Bluetooth
+  - Apple Wallet · Google Wallet
 ---
 Le petit rituel du matin change de visage. On s'approche de la voiture, elle se déverrouille ; on s'assoit, elle démarre, sans jamais sortir de clé. De plus en plus de constructeurs proposent une clé numérique stockée dans le smartphone ou la montre connectée.
 

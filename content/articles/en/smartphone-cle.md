@@ -1,13 +1,24 @@
 ---
-titre: 'Digital Key: your smartphone is already replacing your car key'
+titre: "Digital Key: your smartphone is replacing your car key"
+rubrique: tech-objets
+date: 2026-11-08
 categorie: Tech gadget · Cars
-chapo: 'Unlock your car, start it, lend it to someone: a digital key turns your smartphone into your car key. Here is how it works.'
+image: null
+credit: Constructeur
+picto: cle
+chapo: "Unlock your car, start it, lend it to someone: a digital key turns your
+  smartphone into your car key. Here is how it works."
 plus: The comfort of pre-heating, savings on charging, one key fewer.
-moins: 'Phone battery dead, car locked: keep the backup card.'
+moins: "Phone battery dead, car locked: keep the backup card."
 reperes:
-- CCC Digital Key
-- UWB · NFC · Bluetooth
-- Apple Wallet · Google Wallet
+  - CCC Digital Key
+  - UWB · NFC · Bluetooth
+  - Apple Wallet · Google Wallet
+lien_abord: null
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 The morning routine is changing. You walk up to the car and it unlocks; you sit down and it starts, without ever taking out a key. More and more manufacturers offer a digital key stored in your smartphone or smartwatch.
 
