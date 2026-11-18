@@ -1,25 +1,26 @@
 ---
-titre: 'Audi A2 e-tron : le retour de la compacte culte, avec 646 km d''autonomie'
+titre: "Audi A2 e-tron : le retour de la compacte culte !"
 rubrique: watt-actualites
-date: '2026-11-17'
+date: 2026-11-17
 categorie: Nouveau modèle
 image: img/a2-avant-vert.jpg
 credit: Audi
-chapo: Vingt-six ans après l'originale, l'A2 revient en 100 % électrique. Avec un Cx de 0,24 et 12,8 kWh/100 km, c'est l'Audi la plus sobre jamais produite.
+chapo: Vingt-six ans après l'originale, l'A2 revient en 100 % électrique. Avec
+  un Cx de 0,24 et 12,8 kWh/100 km, c'est l'Audi la plus sobre jamais produite.
 reperes:
-- Dès 38 600 €
-- Jusqu'à 646 km
-- Cx 0,24
+  - Dès 38 600 €
+  - Jusqu'à 646 km
+  - Cx 0,24
 galerie:
-- img/a2-places-arriere.jpg
-- img/a2-coffre.jpg
-- img/a2-arriere-vert.jpg
-- img/a2-route-face.jpg
-- img/a2-route-avant.jpg
-- img/a2-route-arriere.jpg
+  - img/a2-places-arriere.jpg
+  - img/a2-coffre.jpg
+  - img/a2-arriere-vert.jpg
+  - img/a2-route-face.jpg
+  - img/a2-route-avant.jpg
+  - img/a2-route-arriere.jpg
 une: true
 une_ordre: 3
-une_titre: 'Audi A2 e-tron : le retour d’un nom culte'
+une_titre: "Audi A2 e-tron : le retour d’un nom culte"
 une_texte: Jusqu'à 646 km, une consommation record et un prix d'appel de 38 600 €.
 une_image: img/a2-route-face.jpg
 ---

@@ -1,13 +1,25 @@
 ---
-titre: 'Audi A2 e-tron: the cult compact is back, with 646 km of range'
+titre: "Audi A2 e-tron: the cult compact is back !"
+rubrique: watt-actualites
+date: 2026-11-17
 categorie: New model
-chapo: Twenty-six years after the original, the A2 returns as a fully electric car. With a drag coefficient of 0.24 and 12.8 kWh/100 km, it is the most efficient Audi ever built.
+image: img/a2-avant-vert.jpg
+credit: Audi
+picto: null
+chapo: Twenty-six years after the original, the A2 returns as a fully electric
+  car. With a drag coefficient of 0.24 and 12.8 kWh/100 km, it is the most
+  efficient Audi ever built.
 reperes:
-- From €38,600
-- Up to 646 km
-- Cd 0.24
-une_titre: 'Audi A2 e-tron: a cult name returns'
+  - From €38,600
+  - Up to 646 km
+  - Cd 0.24
+lien_abord: null
+une: true
+une_ordre: 3
+une_titre: "Audi A2 e-tron: a cult name returns"
 une_texte: Up to 646 km, record-low consumption and a starting price of €38,600.
+une_image: img/a2-route-face.jpg
+brouillon: null
 ---
 Unveiled in Paris in early September, the new Audi A2 e-tron starts at €38,600 in France. Twenty-six years after the aluminium original, Audi brings back the name and the same obsession: using as little energy as possible. At 12.8 kWh/100 km on the WLTP cycle, it is the most efficient production model in the brand's history.
 
