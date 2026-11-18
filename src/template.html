@@ -459,6 +459,15 @@ footer a{color:#424245}
   .logo-svg{height:24px}
 }
 
+@media (max-width:640px){
+  .top .wrap{flex-wrap:wrap;height:auto;row-gap:0;column-gap:10px;padding-top:10px}
+  .logo{flex:1;height:40px}
+  nav.menu{order:3;flex:0 0 100%;justify-content:flex-start;margin:0 0 6px -10px;padding:0}
+  nav.menu a{padding:7px 10px;font-size:.92rem}
+  .lang-sw{margin-left:0}
+  .subnav{top:var(--hdr-h,94px)}
+}
+
 .hub-tiles{padding:10px 0 90px}
 .view[data-view="watt"] .hub-tiles .tiles,.view[data-view="tech"] .hub-tiles .tiles{grid-template-columns:repeat(2,1fr)}
 .hub-tiles .tile{padding:34px 30px;min-height:190px}
