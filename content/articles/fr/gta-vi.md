@@ -1,34 +1,39 @@
 ---
-titre: 'GTA VI : 200 véhicules à Vice City, le rêve de tout passionné d''auto'
+titre: "GTA VI : le rêve de tout passionné d'auto !"
 rubrique: watt-actualites
+date: 2026-11-17
 categorie: Jeu vidéo · L'événement
-date: '2026-11-17'
 image: img/gta-supercar.jpg
 credit: Rockstar Games
-chapo: Ce jeudi, des millions de joueurs prennent le volant au même moment. Avec plus de 200 véhicules repérés à Vice City, les passionnés d'auto ont autant de raisons de trépigner que les gamers.
-plus: Un amour évident pour l'automobile, une circulation incroyablement variée, une carte immense.
-moins: Pas de vraies marques, un téléchargement monstre, pas de version PC pour l'instant.
-encadre_titre: En bref
-chiffres:
-- label: Sortie
-  valeur: jeudi 19 novembre
-- label: Sur
-  valeur: PS5 · Xbox Series
-- label: Place à prévoir
-  valeur: plus de 200 Go
-- label: Terrain de jeu
-  valeur: Leonida, Vice City
-- label: Véhicules repérés
-  valeur: 200 et plus
-encadre_note: Comme toute la série, un jeu destiné aux adultes.
+chapo: Ce jeudi, des millions de joueurs prennent le volant au même moment. Avec
+  plus de 200 véhicules repérés à Vice City, les passionnés d'auto ont autant de
+  raisons de trépigner que les gamers.
+plus: Un amour évident pour l'automobile, une circulation incroyablement variée,
+  une carte immense.
+moins: Pas de vraies marques, un téléchargement monstre, pas de version PC pour
+  l'instant.
 galerie:
-- img/gta-roadster.jpg
-- img/gta-affiche.jpg
-- img/gta-supercar.jpg
+  - img/gta-roadster.jpg
+  - img/gta-affiche.jpg
+  - img/gta-supercar.jpg
+chiffres:
+  - label: Sortie
+    valeur: jeudi 19 novembre
+  - label: Sur
+    valeur: PS5 · Xbox Series
+  - label: Place à prévoir
+    valeur: plus de 200 Go
+  - label: Terrain de jeu
+    valeur: Leonida, Vice City
+  - label: Véhicules repérés
+    valeur: 200 et plus
+encadre_titre: En bref
+encadre_note: Comme toute la série, un jeu destiné aux adultes.
 une: true
 une_ordre: 1
-une_titre: 'GTA VI : direction Vice City, pied au plancher'
-une_texte: 'Sortie jeudi 19 novembre. Plus de 200 voitures repérées, et une question : y aura-t-il des bornes à Vice City ?'
+une_titre: "GTA VI : direction Vice City, pied au plancher"
+une_texte: "Sortie jeudi 19 novembre. Plus de 200 voitures repérées, et une
+  question : y aura-t-il des bornes à Vice City ?"
 ---
 On a cru qu'il n'arriverait jamais. Annoncé pour 2025, repoussé au 26 mai 2026 puis au 19 novembre, le sixième épisode de Grand Theft Auto débarque enfin ce jeudi sur PlayStation 5 et Xbox Series X|S. Aucune date n'est encore fixée pour la version PC. Conseil d'ami : faites de la place sur votre console, le jeu réclame plus de 200 Go.
 

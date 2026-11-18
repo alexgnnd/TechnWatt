@@ -1,28 +1,41 @@
 ---
-titre: 'GTA VI: 200 vehicles in Vice City, every car lover''s dream'
+titre: "GTA VI: every car lover's dream !"
+rubrique: watt-actualites
+date: 2026-11-17
 categorie: Video game · The big event
-chapo: This Thursday, millions of players take the wheel at the same time. With more than 200 vehicles spotted in Vice City, car lovers have as many reasons to be excited as gamers.
+image: img/gta-supercar.jpg
+credit: Rockstar Games
+picto: null
+chapo: This Thursday, millions of players take the wheel at the same time. With
+  more than 200 vehicles spotted in Vice City, car lovers have as many reasons
+  to be excited as gamers.
 plus: An obvious love of cars, incredibly varied traffic, a huge map.
 moins: No real brands, a monster download, no PC version for now.
-encadre_titre: At a glance
-chiffres:
-- label: Release
-  valeur: Thursday 19 November
-- label: true
-  valeur: PS5 · Xbox Series
-- label: Space needed
-  valeur: over 200 GB
-- label: Playground
-  valeur: Leonida, Vice City
-- label: Vehicles spotted
-  valeur: 200 and more
-encadre_note: Like the rest of the series, a game for adults.
-une_titre: 'GTA VI: next stop Vice City, foot to the floor'
-une_texte: 'Out Thursday 19 November. More than 200 cars spotted, and one question: will there be chargers in Vice City?'
+lien_abord: null
 galerie:
-- img/gta-roadster.jpg
-- img/gta-affiche.jpg
-- img/gta-supercar.jpg
+  - img/gta-roadster.jpg
+  - img/gta-affiche.jpg
+  - img/gta-supercar.jpg
+chiffres:
+  - label: Release
+    valeur: Thursday 19 November
+  - label: true
+    valeur: PS5 · Xbox Series
+  - label: Space needed
+    valeur: over 200 GB
+  - label: Playground
+    valeur: Leonida, Vice City
+  - label: Vehicles spotted
+    valeur: 200 and more
+encadre_titre: At a glance
+encadre_note: Like the rest of the series, a game for adults.
+une: true
+une_ordre: 1
+une_titre: "GTA VI: next stop Vice City, foot to the floor"
+une_texte: "Out Thursday 19 November. More than 200 cars spotted, and one
+  question: will there be chargers in Vice City?"
+une_image: null
+brouillon: null
 ---
 We thought it would never arrive. Announced for 2025, pushed back to 26 May 2026 and then to 19 November, the sixth Grand Theft Auto finally lands this Thursday on PlayStation 5 and Xbox Series X|S. No date has been set yet for the PC version. A friendly tip: make room on your console, the game needs more than 200 GB.
 
