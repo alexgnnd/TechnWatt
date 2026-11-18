@@ -1,15 +1,18 @@
 ---
-titre: "Renault Twingo E-Tech electric : la Twingo revient, électrique et sous les 20 000 €"
+titre: "Renault Twingo E-Tech : la Twingo revient, électrique et sous les 20 000 €"
 rubrique: watt-actualites
-date: '2026-11-07'
+date: 2026-11-07
 categorie: Nouveau modèle
 image: img/twingo-route-avant.jpg
 credit: Renault
-chapo: "Trente-trois ans après la première, la Twingo revient en 100 % électrique. Avec sa bouille rétro, ses 263 km d'autonomie et son prix de départ sous les 20 000 €, elle vise ceux qui n'avaient pas encore franchi le pas."
+chapo: Trente-trois ans après la première, la Twingo revient en 100 %
+  électrique. Avec sa bouille rétro, ses 263 km d'autonomie et son prix de
+  départ sous les 20 000 €, elle vise ceux qui n'avaient pas encore franchi le
+  pas.
 reperes:
-- 19 490 €
-- 263 km
-- Made in Slovénie
+  - 19 490 €
+  - 263 km
+  - Made in Slovénie
 lien_abord: modele-twingo
 ---
 

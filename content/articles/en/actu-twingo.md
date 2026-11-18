@@ -1,11 +1,23 @@
 ---
-titre: "Renault Twingo E-Tech electric: the Twingo is back, electric and under €20,000"
+titre: "Renault Twingo E-Tech: the Twingo is back, electric and under €20,000"
+rubrique: watt-actualites
+date: 2026-11-07
 categorie: New model
-chapo: "Thirty-three years after the original, the Twingo returns as a fully electric car. With its retro face, 263 km of range and a starting price under €20,000, it targets people who have not yet made the switch."
+image: img/twingo-route-avant.jpg
+credit: Renault
+picto: null
+chapo: Thirty-three years after the original, the Twingo returns as a fully
+  electric car. With its retro face, 263 km of range and a starting price under
+  €20,000, it targets people who have not yet made the switch.
 reperes:
-- €19,490
-- 263 km
-- Made in Slovenia
+  - €19,490
+  - 263 km
+  - Made in Slovenia
+lien_abord: modele-twingo
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 
 Starting at €19,490 before incentives, the Renault Twingo E-Tech electric instantly ranks among the cheapest new electric cars on the market. Once the bonus is deducted, eligible households pay around €15,000. Renault developed it in under two years, a record for the brand, and builds it in Slovenia.
