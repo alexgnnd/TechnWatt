@@ -61,7 +61,7 @@ collections:
       - { label: "Les moins", name: moins, widget: text, required: false, i18n: true }
       - { label: "Repères (petites étiquettes)", name: reperes, widget: list, required: false, hint: "Ex. : 24 995 €, 450 km, Made in Espagne", i18n: true }
       - { label: "Renvoi vers une fiche À bord", name: lien_abord, widget: relation, collection: articles, search_fields: [titre], value_field: "{{slug}}", display_fields: [titre], required: false, filters: [{ field: rubrique, values: [watt-a-bord] }], i18n: duplicate }
-      - { label: "Galerie « Plus de photos »", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image }, i18n: duplicate }
+      - { label: "Galerie « Plus de photos »", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image }, i18n: false }
       - label: "Encadré de chiffres (fiches À bord)"
         name: chiffres
         i18n: true
@@ -95,7 +95,7 @@ collections:
       - { label: "Date de publication", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, i18n: duplicate }
       - { label: "Introduction", name: chapo, widget: text, required: false, i18n: true }
       - { label: "Note (méthode, précisions)", name: note, widget: text, required: false, i18n: true }
-      - { label: "Noms des colonnes du tableau (un par modèle, dans l'ordre)", name: colonnes, widget: list, required: false, i18n: duplicate }
+      - { label: "Noms des colonnes du tableau (un par modèle, dans l'ordre)", name: colonnes, widget: list, required: false, i18n: false }
       - label: "Tableau"
         name: tableau
         i18n: true
