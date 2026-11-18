@@ -1,5 +1,5 @@
 ---
-titre: The 5 best electric compact cars right now
+titre: "Mégane, ID.3, EV3, A2, MG4: which electric compact should you choose?"
 date: '2026-11-15'
 chapo: 'At around 4.20 to 4.30 m, this is the ideal size for a single family car: compact enough for town, big enough for holidays. Five models stand out this year-end. Here is how they compare.'
 note: 'Ranking based on official manufacturer data (price, range, charging, volumes). *MG4: price after the manufacturer''s permanent €6,000 discount.'
