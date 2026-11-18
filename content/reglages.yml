@@ -1,0 +1,8 @@
+# Réglages du site (modifiables dans l'admin, rubrique « Réglages »)
+site_url: "https://technwatt.netlify.app"
+editeur: ""
+contact: ""
+adsense_client: ""
+pub_accueil: ""
+pub_article: ""
+pub_rubrique: ""
