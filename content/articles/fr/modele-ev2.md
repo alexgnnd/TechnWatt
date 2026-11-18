@@ -29,7 +29,7 @@ galerie:
 - img/ev2-arriere.jpg
 ---
 
-Construit en Slovaquie, batterie comprise, l'EV2 peut décrocher les aides les plus généreuses. Son prix peut alors passer sous les 20 000 € selon vos revenus, contre 26 670 € au catalogue. Kia en attend 10 000 ventes par an en France.
+Assemblé à Žilina, en Slovaquie, sur la plateforme E-GMP de Kia, l'EV2 démarre à 26 670 € en finition Light. Il reprend une bonne partie de la technologie des modèles plus chers de la marque, dans un gabarit de 4,06 m taillé pour la ville.
 
 ## Au volant
 
@@ -45,13 +45,13 @@ Homologué autour de 15,1 à 15,2 kWh/100 km selon la batterie, l'EV2 fait souve
 
 ## Écrans et système
 
-Trois écrans alignés sous une même vitre : deux dalles de 12,3 pouces et, entre les deux, un petit écran pour la climatisation. Deux systèmes existent. La version simple reprend l'essentiel à moindre coût. La version complète ajoute la navigation avec trafic en temps réel, un assistant vocal dopé à l'intelligence artificielle qu'on appelle d'un « Hey Kia », et une clé numérique rangée dans le portefeuille de son téléphone, iPhone comme Android. La voiture se met à jour à distance, gratuitement pendant sept ans.
+Trois écrans alignés sous une même vitre : deux dalles de 12,3 pouces et, entre les deux, un petit écran pour la climatisation. Deux systèmes existent. La version simple reprend l'essentiel à moindre coût. La version complète ajoute la navigation avec trafic en temps réel, un assistant vocal dopé à l'intelligence artificielle qu'on appelle d'un « Hey Kia », et la Kia Digital Key, rangée dans le portefeuille de son téléphone, iPhone comme Android. La voiture se met à jour à distance, gratuitement pendant sept ans.
 
 ![](img/ev2-poste.jpg)
 
 ## Aides à la conduite
 
-Kia a vidé son étagère : assistant autoroutier qui gère vitesse et trajectoire, régulateur adaptatif de dernière génération, freinage d'urgence évolué, caméra qui affiche l'angle mort dans le compteur au moment de mettre le clignotant, vue à 360°. Pratique dans un garage étroit : on peut sortir ou rentrer la voiture depuis l'extérieur, avec la clé. L'EV2 inaugure aussi chez Kia une caméra intérieure qui veille sur l'habitacle.
+Kia a vidé son étagère : Highway Driving Assist, qui gère vitesse et trajectoire sur autoroute, régulateur adaptatif de dernière génération, freinage d'urgence évolué, Blind-Spot View Monitor, qui affiche l'angle mort dans le compteur au moment de mettre le clignotant, et vue à 360°. Pratique dans un garage étroit : avec le Remote Smart Parking Assist, on peut sortir ou rentrer la voiture depuis l'extérieur, avec la clé. L'EV2 inaugure aussi chez Kia une caméra intérieure qui veille sur l'habitacle.
 
 ## Matériaux et finition
 
@@ -67,6 +67,8 @@ En cinq places, le coffre de 362 litres reste dans la moyenne. La version quatre
 
 ## Recharge
 
-Son vrai plus : il sait rendre l'énergie. Brancher une cafetière au camping, recharger un vélo électrique, voire soulager le réseau aux heures de pointe : l'EV2 sait faire.
+Grâce à son architecture 400 V, l'EV2 passe de 10 à 80 % en environ 30 minutes sur borne rapide, quelle que soit la batterie. En courant alternatif, il accepte 11 kW de série et 22 kW en option, et gère le Plug & Charge : on branche, la recharge démarre, sans carte ni application.
+
+Son vrai plus : il sait rendre l'énergie. Avec la fonction V2L, jusqu'à 3,7 kW, on branche une cafetière au camping ou on recharge un vélo électrique. Il est aussi compatible V2G, pour soulager le réseau aux heures de pointe.
 
 ![](img/ev2-dessus.jpg)

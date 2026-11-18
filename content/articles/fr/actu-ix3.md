@@ -1,30 +1,47 @@
 ---
-titre: "BMW iX3 Neue Klasse : 805 km d'autonomie, la nouvelle référence est née"
+titre: 'BMW iX3 Neue Klasse : 805 km d''autonomie, la nouvelle référence est née'
 rubrique: watt-actualites
 date: '2026-11-11'
 categorie: Nouveau modèle
 image: img/ix3-avant.jpg
 credit: BMW Group
-chapo: Premier modèle d'une nouvelle génération, le SUV électrique de BMW annonce plus de 800 km d'autonomie.
+chapo: Premier modèle de la Neue Klasse, le BMW iX3 annonce jusqu'à 805 km d'autonomie et une recharge à 400 kW. Avec lui, BMW ouvre une nouvelle ère.
 reperes:
-- 71 950 €
-- 805 km
+- Dès 71 950 €
+- 805 km WLTP
 - Recharge 400 kW
 lien_abord: modele-ix3
 ---
+Le nouveau BMW iX3 est le premier modèle de série de la Neue Klasse, la plateforme qui va renouveler toute la gamme BMW. Au programme : la sixième génération de motorisation BMW eDrive, jusqu'à 805 km d'autonomie WLTP et une recharge qui grimpe à 400 kW. Prix d'entrée en France : 71 950 €.
 
-Le nouvel iX3 inaugure la plateforme Neue Klasse, appelée à équiper une quarantaine de modèles BMW d'ici 2027. Au programme : 805 km d'autonomie annoncés, une recharge jusqu'à 400 kW et un affichage qui court sur toute la largeur du pare-brise.
+## Une BMW entièrement nouvelle
 
-Il est assemblé en Hongrie, dans une usine qui se passe d'énergie fossile. Prix d'entrée : 71 950 €.
+L'iX3 ne reprend presque rien de l'ancien modèle. Il inaugure l'architecture 800 V de BMW, une batterie à cellules cylindriques et une électronique organisée autour de quatre calculateurs haute performance, surnommés « superbrains ». L'un d'eux, le Heart of Joy, pilote la motorisation, le freinage, la récupération d'énergie et la direction, avec le logiciel BMW Dynamic Performance Control.
 
-## Une nouvelle génération de BMW
+## L'iX3 50 xDrive en chiffres
 
-L'iX3 est le premier modèle de la Neue Klasse, une plateforme entièrement nouvelle qui va irriguer une quarantaine de BMW d'ici 2027. Architecture 800 volts, quatre gros calculateurs qui se partagent le travail, nouvelle génération de batterie : c'est une remise à plat complète.
+La version de lancement, l'iX3 50 xDrive, associe deux moteurs pour 345 kW (469 ch) et 645 Nm. Elle passe de 0 à 100 km/h en 4,9 secondes et atteint 210 km/h. Sa batterie offre 108,7 kWh utiles, pour une autonomie de 679 à 805 km WLTP selon l'équipement. La consommation homologuée va de 15,1 à 17,9 kWh/100 km.
 
-## 805 km et dix minutes à la borne
+![](img/ix3-planche.jpg)
 
-Avec sa batterie de près de 109 kWh et ses deux moteurs totalisant 469 ch, l'iX3 50 xDrive annonce jusqu'à 805 km. Sur une borne très puissante, dix minutes suffisent pour récupérer plus de 350 km. Les mesures réelles tournent autour de 17 à 20 kWh aux 100 km en usage mixte, soit 550 à 650 km d'autonomie.
+## 400 kW à la borne
 
-## Un poste de conduite inédit
+C'est l'autre grande avancée. Sur une borne de 400 kW, l'iX3 récupère environ 372 km d'autonomie en dix minutes et passe de 10 à 80 % en 21 minutes. En courant alternatif, il accepte 11 kW de série et 22 kW en option. Il inaugure aussi la recharge bidirectionnelle chez BMW.
 
-Le compteur traditionnel disparaît au profit d'un bandeau lumineux qui court sur toute la largeur du pare-brise. Il est complété par un affichage tête haute en 3D et un grand écran central. Côté pratique, le coffre de 520 litres est doublé d'un rangement avant de 58 litres.
+## BMW Panoramic iDrive
+
+Le compteur traditionnel disparaît. Le BMW Panoramic iDrive, de série, affiche les informations essentielles sur un bandeau qui court au pied du pare-brise, d'un montant à l'autre. Il est complété par un affichage tête haute en 3D en option et par un grand écran central. Le système d'exploitation BMW Operating System X ouvre la porte aux jeux via AirConsole et au streaming vidéo, avec YouTube ou Disney+, pendant la recharge.
+
+![](img/ix3-sieges.jpg)
+
+## Pratique au quotidien
+
+Avec 4,78 m de long et 2,90 m d'empattement, l'iX3 offre un coffre de 520 litres, complété par un rangement avant de 58 litres sous le capot.
+
+## Fabriqué à Debrecen
+
+L'iX3 est assemblé dans la nouvelle usine BMW de Debrecen, en Hongrie, la première conçue entièrement pour la Neue Klasse et alimentée à 100 % en électricité renouvelable. D'autres versions doivent compléter la gamme, dont une M60 xDrive plus sportive.
+
+## Notre avis
+
+Autonomie record, recharge ultra-rapide et interface inédite : l'iX3 place la barre très haut pour les SUV électriques premium. Reste un prix d'entrée élevé, en attendant des versions plus accessibles.

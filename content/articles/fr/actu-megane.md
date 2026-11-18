@@ -1,14 +1,14 @@
 ---
-titre: "Renault Mégane E-Tech electric : plus d'autonomie, et un prix qui baisse"
+titre: 'Renault Mégane E-Tech electric : plus d''autonomie, et un prix qui baisse'
 rubrique: watt-actualites
 date: '2026-11-15'
 categorie: Restylage
 image: img/megane-avant.jpg
 credit: Renault
-chapo: 'Ce n''est pas si fréquent : la compacte électrique de Renault gagne en autonomie et en vitesse de recharge… tout en baissant son prix.'
+chapo: Pour sa mise à jour, la Mégane E-Tech electric adopte une batterie LFP de 67 kWh, dépasse les 500 km d'autonomie, recharge plus vite… et baisse son prix.
 reperes:
-- 37 500 €
-- 501 km
+- Dès 37 500 €
+- 501 km WLTP
 - Recharge 165 kW
 galerie:
 - img/megane-sieges.jpg
@@ -18,27 +18,38 @@ galerie:
 - img/megane-route-arriere.jpg
 - img/megane-route-avant.jpg
 ---
+Quatre ans après son lancement, la Renault Mégane E-Tech electric s'offre une mise à jour de mi-carrière. La nouveauté principale ne se voit pas : une nouvelle batterie qui fait passer l'autonomie au-dessus des 500 km. Et, chose rare, le prix baisse au passage.
 
-Pour sa mise à jour de mi-carrière, la Mégane troque sa batterie de 60 kWh contre un pack LFP de 67 kWh, une chimie sans cobalt ni nickel. L'autonomie franchit la barre symbolique des 500 km, et la recharge rapide monte à 165 kW. La face avant, retouchée, prend un air plus musclé.
+![](img/megane-profil.jpg)
 
-![](img/megane-planche.jpg)
+## Une batterie LFP de 67 kWh
 
-Côté prix, la bonne surprise : 37 500 € en finition Techno, soit 2 000 € de moins qu'avant. L'écran à services Google reste de série, tout comme la pompe à chaleur. Et la voiture sait désormais rendre son énergie, à un appareil comme au réseau électrique.
+La Mégane abandonne sa batterie NMC (nickel-manganèse-cobalt) de 60 kWh pour une batterie LFP (lithium-fer-phosphate) de 67 kWh nets. Elle utilise une architecture cell-to-pack, avec 232 cellules intégrées directement dans le pack, sans modules intermédiaires. L'autonomie WLTP gagne 33 km et atteint 501 km. Seule contrepartie : la voiture prend 20 mm de hauteur.
 
-![](img/megane-compteur.jpg)
-
-## Une batterie plus simple, plus endurante
-
-Renault abandonne sa batterie nickel-manganèse-cobalt pour une chimie lithium-fer-phosphate, moins chère, plus robuste dans le temps et sans métaux sensibles. Sa capacité grimpe à 67 kWh et l'autonomie officielle passe à 501 km, contre 468 auparavant. Assemblé en Europe, le pack ouvre aussi droit à un petit bonus supplémentaire dans le cadre des aides françaises.
+![](img/megane-route-avant.jpg)
 
 ## Une recharge enfin dans le coup
 
-C'était le point faible de la Mégane. La puissance maximale sur borne rapide passe de 130 à 165 kW, et il faut désormais une petite demi-heure pour remonter de 15 à 80 %. À la maison, le chargeur de 11 kW est de série, un 22 kW est proposé en option, et les deux savent rendre l'énergie : alimenter un appareil, voire soulager le réseau électrique.
+C'était le point faible de la Mégane. En courant continu, la puissance maximale passe de 130 à 165 kW : il faut désormais 24 minutes pour passer de 15 à 80 %, soit 25 % de moins qu'avant. À la maison, le chargeur de 11 kW est de série. Il est bidirectionnel et gère les fonctions V2L, pour alimenter un appareil, et V2G, pour renvoyer de l'énergie vers le réseau.
 
-## Deux finitions, beaucoup d'équipements
+![](img/megane-compteur.jpg)
 
-La finition Techno comprend déjà le régulateur adaptatif, la caméra de recul, la clim bizone, la recharge du smartphone par induction, la carte mains libres et le volant chauffant. Esprit Alpine ajoute des jantes de 20 pouces, des sièges électriques chauffants, une sono Harman Kardon et une caméra à 360°. La pompe à chaleur et la conduite à une pédale sont de série partout.
+## Un moteur de 220 ch
+
+La Mégane conserve son moteur de 160 kW (220 ch) et 300 Nm. La face avant est redessinée, avec un air plus musclé, et la palette compte sept teintes, dont un nouveau Bleu Satiné. Les jantes en alliage mesurent 19 ou 20 pouces.
+
+![](img/megane-planche.jpg)
+
+## Deux finitions : Techno et Esprit Alpine
+
+Renault simplifie la gamme. La finition Techno démarre à 37 500 €, soit 2 000 € de moins qu'avant. Elle garde le système OpenR Link avec Google intégré, la pompe à chaleur et la conduite One Pedal. L'Esprit Alpine, à 40 500 € (1 000 € de moins), ajoute des jantes de 20 pouces, des sièges avant électriques et chauffants, un système audio Harman Kardon et une caméra à 360°. Ses sièges reçoivent de nouveaux revêtements.
+
+![](img/megane-sieges.jpg)
+
+## Toujours pratique
+
+L'habitabilité ne change pas. Le coffre annonce 440 litres, auxquels s'ajoutent 22 litres sous le plancher.
 
 ## Notre avis
 
-Plus d'autonomie, une recharge plus rapide et un prix en baisse : la Mégane corrige ses défauts sans perdre son excellent système multimédia. Il lui manque toujours une version à grosse batterie pour rivaliser avec les 600 km de certaines concurrentes.
+Plus d'autonomie, une recharge plus rapide et un prix en baisse : la Mégane corrige ses défauts sans perdre son excellent système OpenR Link. Le gain d'autonomie reste toutefois modeste au regard des 7 kWh supplémentaires, et il lui manque une version à grosse batterie pour rivaliser avec les 600 km de certaines concurrentes.
