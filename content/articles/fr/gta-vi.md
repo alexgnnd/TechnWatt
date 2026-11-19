@@ -31,8 +31,9 @@ encadre_titre: En bref
 encadre_note: Comme toute la série, un jeu destiné aux adultes.
 une: true
 une_ordre: 2
-une_titre: 'GTA VI : 200 véhicules à Vice City, et pas une borne de recharge'
-une_texte: 'Le jeu est sorti. Plus de 200 véhicules repérés, et une question qui reste en suspens.'
+une_titre: "GTA VI : 200 véhicules à Vice City, et pas une borne de recharge !"
+une_texte: Le jeu est sorti. Plus de 200 véhicules repérés, et une question qui
+  reste en suspens.
 ---
 On a cru qu'il n'arriverait jamais. Annoncé pour 2025, repoussé au 26 mai 2026 puis au 19 novembre, le sixième épisode de Grand Theft Auto débarque enfin ce jeudi sur PlayStation 5 et Xbox Series X|S. Aucune date n'est encore fixée pour la version PC. Conseil d'ami : faites de la place sur votre console, le jeu réclame plus de 200 Go.
 

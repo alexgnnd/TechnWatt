@@ -31,8 +31,9 @@ encadre_titre: At a glance
 encadre_note: Like the rest of the series, a game for adults.
 une: true
 une_ordre: 1
-une_titre: 'GTA VI: 200 vehicles in Vice City, and not one charger'
-une_texte: 'The game is out. More than 200 vehicles spotted, and one question still hanging.'
+une_titre: "GTA VI: 200 vehicles in Vice City, and not one charger !"
+une_texte: The game is out. More than 200 vehicles spotted, and one question
+  still hanging.
 une_image: null
 brouillon: null
 ---
