@@ -1,11 +1,22 @@
 ---
-titre: 'Renault Mégane E-Tech electric: more range, and a lower price'
+titre: "Renault Mégane E-Tech electric: more range, and a lower price"
+rubrique: watt-actualites
+date: 2026-11-15
 categorie: Facelift
-chapo: For its update, the Mégane E-Tech electric adopts a 67 kWh LFP battery, passes 500 km of range, charges faster… and gets cheaper.
+image: img/megane-avant.jpg
+credit: Renault
+picto: null
+chapo: For its update, the Mégane E-Tech electric adopts a 67 kWh LFP battery,
+  passes 500 km of range, charges faster… and gets cheaper.
 reperes:
-- From €37,500
-- 501 km WLTP
-- 165 kW charging
+  - From €37,500
+  - 501 km WLTP
+  - 165 kW charging
+lien_abord: null
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 Four years after its launch, the Renault Mégane E-Tech electric gets a mid-life update. The main change cannot be seen: a new battery that takes the range past 500 km. And, rarely, the price goes down at the same time.
 

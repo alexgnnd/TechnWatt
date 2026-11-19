@@ -1,22 +1,24 @@
 ---
-titre: 'Renault Mégane E-Tech electric : plus d''autonomie, et un prix qui baisse'
+titre: "Renault Mégane E-Tech : plus d'autonomie, et un prix qui baisse"
 rubrique: watt-actualites
-date: '2026-11-15'
+date: 2026-11-15
 categorie: Restylage
 image: img/megane-avant.jpg
 credit: Renault
-chapo: Pour sa mise à jour, la Mégane E-Tech electric adopte une batterie LFP de 67 kWh, dépasse les 500 km d'autonomie, recharge plus vite… et baisse son prix.
+chapo: Pour sa mise à jour, la Mégane E-Tech electric adopte une batterie LFP de
+  67 kWh, dépasse les 500 km d'autonomie, recharge plus vite… et baisse son
+  prix.
 reperes:
-- Dès 37 500 €
-- 501 km WLTP
-- Recharge 165 kW
+  - Dès 37 500 €
+  - 501 km WLTP
+  - Recharge 165 kW
 galerie:
-- img/megane-sieges.jpg
-- img/megane-phare.jpg
-- img/megane-profil.jpg
-- img/megane-arriere.jpg
-- img/megane-route-arriere.jpg
-- img/megane-route-avant.jpg
+  - img/megane-sieges.jpg
+  - img/megane-phare.jpg
+  - img/megane-profil.jpg
+  - img/megane-arriere.jpg
+  - img/megane-route-arriere.jpg
+  - img/megane-route-avant.jpg
 ---
 Quatre ans après son lancement, la Renault Mégane E-Tech electric s'offre une mise à jour de mi-carrière. La nouveauté principale ne se voit pas : une nouvelle batterie qui fait passer l'autonomie au-dessus des 500 km. Et, chose rare, le prix baisse au passage.
 
