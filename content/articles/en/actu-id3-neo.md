@@ -1,11 +1,23 @@
 ---
-titre: 'Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was criticised for'
+titre: "Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was
+  criticised for"
+rubrique: watt-actualites
+date: 2026-11-13
 categorie: Facelift
-chapo: 'A new name, a new APP350 motor and real buttons at last: the ID.3 Neo fixes the flaws of the first generation and comes close to 630 km of range.'
+image: img/id3-avant.jpg
+credit: Volkswagen
+picto: null
+chapo: "A new name, a new APP350 motor and real buttons at last: the ID.3 Neo
+  fixes the flaws of the first generation and comes close to 630 km of range."
 reperes:
-- From €34,990
-- Up to 630 km
-- Real buttons
+  - From €34,990
+  - Up to 630 km
+  - Real buttons
+lien_abord: null
+une: null
+une_ordre: null
+une_image: null
+brouillon: null
 ---
 Renamed ID.3 Neo, Volkswagen's electric compact moves to the MEB+ platform and fixes most of the flaws it has been criticised for since launch. New motor, new batteries, a revised interior: the biggest version now comes close to 630 km of range. Starting price in France: €34,990.
 

@@ -1,23 +1,25 @@
 ---
-titre: 'Volkswagen ID.3 Neo : Volkswagen corrige enfin tout ce qu''on lui reprochait'
+titre: "ID.3 Neo : Volkswagen corrige enfin tout ce qu'on lui reprochait"
 rubrique: watt-actualites
-date: '2026-11-13'
+date: 2026-11-13
 categorie: Restylage
 image: img/id3-avant.jpg
 credit: Volkswagen
-chapo: 'Nouveau nom, nouveau moteur APP350 et enfin de vrais boutons : l''ID.3 Neo corrige les défauts de la première génération et frôle les 630 km d''autonomie.'
+chapo: "Nouveau nom, nouveau moteur APP350 et enfin de vrais boutons : l'ID.3
+  Neo corrige les défauts de la première génération et frôle les 630 km
+  d'autonomie."
 reperes:
-- Dès 34 990 €
-- Jusqu'à 630 km
-- Vrais boutons
+  - Dès 34 990 €
+  - Jusqu'à 630 km
+  - Vrais boutons
 galerie:
-- img/id3-sieges.jpg
-- img/id3-boutons.jpg
-- img/id3-profil.jpg
-- img/id3-trois-quarts-arriere.jpg
-- img/id3-arriere.jpg
-- img/id3-batiment.jpg
-- img/id3-route.jpg
+  - img/id3-sieges.jpg
+  - img/id3-boutons.jpg
+  - img/id3-profil.jpg
+  - img/id3-trois-quarts-arriere.jpg
+  - img/id3-arriere.jpg
+  - img/id3-batiment.jpg
+  - img/id3-route.jpg
 ---
 Rebaptisée ID.3 Neo, la compacte électrique de Volkswagen passe sur la plateforme MEB+ et corrige la plupart des défauts qu'on lui reprochait depuis son lancement. Nouveau moteur, nouvelles batteries, intérieur revu : la plus grande version frôle désormais les 630 km d'autonomie. Prix d'appel en France : 34 990 €.
 
