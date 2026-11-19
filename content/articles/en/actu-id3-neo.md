@@ -1,5 +1,5 @@
 ---
-titre: "Volkswagen ID.3 Neo: Volkswagen finally fixes everything it was
+titre: "ID.3 Neo: Volkswagen finally fixes everything it was
   criticised for"
 rubrique: watt-actualites
 date: 2026-11-13

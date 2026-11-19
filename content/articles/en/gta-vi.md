@@ -1,5 +1,5 @@
 ---
-titre: "GTA VI: every car lover's dream !"
+titre: "GTA VI: every car lover's dream!"
 rubrique: watt-actualites
 date: 2026-11-17
 categorie: Video game · The big event
@@ -31,9 +31,8 @@ encadre_titre: At a glance
 encadre_note: Like the rest of the series, a game for adults.
 une: true
 une_ordre: 1
-une_titre: "GTA VI: next stop Vice City, foot to the floor"
-une_texte: "Out Thursday 19 November. More than 200 cars spotted, and one
-  question: will there be chargers in Vice City?"
+une_titre: 'GTA VI: 200 vehicles in Vice City, and not one charger'
+une_texte: 'The game is out. More than 200 vehicles spotted, and one question still hanging.'
 une_image: null
 brouillon: null
 ---

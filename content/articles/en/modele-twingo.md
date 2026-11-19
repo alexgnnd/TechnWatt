@@ -1,5 +1,5 @@
 ---
-titre: "Renault Twingo E-Tech electric on board: does the queen of the city have
+titre: "Renault Twingo E-Tech: does the queen of the city have
   limits?"
 rubrique: watt-a-bord
 date: 2026-11-10

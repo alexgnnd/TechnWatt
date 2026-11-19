@@ -1,5 +1,5 @@
 ---
-titre: "iPhone Duo: Apple finally dares to fold, and it's very expensive !"
+titre: "iPhone Duo: Apple finally dares to fold, and it's very expensive!"
 rubrique: tech-smartphones
 date: 2026-11-15
 categorie: Smartphone

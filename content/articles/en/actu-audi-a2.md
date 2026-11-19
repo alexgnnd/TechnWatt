@@ -1,5 +1,5 @@
 ---
-titre: "Audi A2 e-tron: the cult compact is back !"
+titre: "Audi A2 e-tron: the cult compact is back!"
 rubrique: watt-actualites
 date: 2026-11-17
 categorie: New model
