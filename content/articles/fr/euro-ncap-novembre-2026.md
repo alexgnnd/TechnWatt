@@ -4,7 +4,8 @@ brouillon: true
 rubrique: watt-actualites
 date: '2026-11-20'
 categorie: Sécurité
-picto: berline
+image: img/peaq-avant.jpg
+credit: Škoda
 chapo: 'Euro NCAP a publié dix résultats le 18 novembre. Neuf SUV décrochent cinq étoiles, un seul trébuche — et un record vient d''être établi.'
 reperes:
 - 10 modèles testés
