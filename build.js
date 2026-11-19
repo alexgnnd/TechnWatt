@@ -20,7 +20,7 @@ let L = T.fr;
 const CFG = fs.existsSync(path.join(ROOT, 'content', 'reglages.yml')) ? (matter('---\n' + fs.readFileSync(path.join(ROOT, 'content', 'reglages.yml'), 'utf8') + '\n---\n').data || {}) : {};
 const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.com').replace(/\/+$/, '');
 const ADS = String(CFG.adsense_client || '').trim();
-let BASE = '/';
+let BASE = '/', LANG = 'fr';
 const pic = (a) => a.image || (a.picto ? `img/pictos/${a.picto}.jpg` : '');
 function ad(slot, extra = '') {
   if (!ADS || !slot) return '';
@@ -77,9 +77,29 @@ let RUBS = RUBS_FR;
 function figInl(src, cr) {
   return `<figure class="inl"><button aria-label="${L.zoom}" class="zoom" data-cap="" data-cr="${esc(cr)}" data-full="${esc(rel(src))}" type="button"><img alt="" loading="lazy" src="${esc(rel(src))}"/></button>${cr ? `<figcaption>© ${esc(cr)}</figcaption>` : ''}</figure>`;
 }
+const AFF_TAG = String(CFG.amazon_tag || '').trim();
+const AFF_HOSTS = /(^|\.)(amazon\.[a-z.]+|fnac\.com|darty\.com|boulanger\.com|cdiscount\.com|ledenicheur\.fr)$/i;
+function affLinks(html) {
+  let found = false;
+  html = html.replace(/<a href="([^"]+)"/g, (m, href) => {
+    let u; try { u = new URL(href); } catch (e) { return m; }
+    if (!AFF_HOSTS.test(u.hostname)) return m;
+    found = true;
+    if (AFF_TAG && /amazon\./i.test(u.hostname) && !u.searchParams.get('tag')) u.searchParams.set('tag', AFF_TAG);
+    return `<a class="aff" href="${esc(u.toString())}" rel="sponsored nofollow noopener" target="_blank"`;
+  });
+  return { html, found };
+}
+function affNote(lang) {
+  return `<p class="aff-note">${lang === 'en'
+    ? 'Some links in this article are affiliate links. If you buy through them, TechnWatt earns a commission, at no extra cost to you. This never influences our editorial choices.'
+    : 'Certains liens de cet article sont des liens affiliés. Si vous achetez via ces liens, TechnWatt touche une commission, sans surcoût pour vous. Cela n’influence jamais nos choix éditoriaux.'}</p>`;
+}
 function bodyHtml(md, cr) {
   const pre = String(md || '').replace(/^!\[[^\]]*\]\(([^)\s]+)[^)]*\)\s*$/gm, (_, src) => '\n' + figInl(src, cr) + '\n');
-  return marked.parse(pre).replace(/<h[123]>/g, '<h4>').replace(/<\/h[123]>/g, '</h4>');
+  let out = marked.parse(pre).replace(/<h[123]>/g, '<h4>').replace(/<\/h[123]>/g, '</h4>');
+  const a = affLinks(out);
+  return a.found ? affNote(LANG) + a.html : a.html;
 }
 function mainFig(a, lazy = true) {
   if (!a.image && a.picto) return `<figure class="photo has-img picto"><img alt="${esc(a.titre)}"${lazy ? ' loading="lazy"' : ''} src="${esc(pic(a))}"/></figure>`;
@@ -188,7 +208,7 @@ function translateTemplate(page) {
 
 function buildLang(lang) {
   BASE = lang === 'en' ? '/en/' : '/';
-  L = T[lang]; RUBS = lang === 'en' ? RUBS_EN : RUBS_FR;
+  L = T[lang]; LANG = lang; RUBS = lang === 'en' ? RUBS_EN : RUBS_FR;
   const arts = load('articles', lang);
   const cmps = load('comparatifs', lang);
   let page = fs.readFileSync(path.join(ROOT, 'src', 'template.html'), 'utf8');
