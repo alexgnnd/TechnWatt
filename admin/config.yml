@@ -37,6 +37,7 @@ collections:
       - { label: "Tech · Objets connectés", field: rubrique, pattern: tech-objets }
       - { label: "Tech · Vidéoprojecteurs", field: rubrique, pattern: tech-videoprojecteurs }
       - { label: "À la une", field: une, pattern: true }
+      - { label: "Brouillons", field: brouillon, pattern: true }
     fields:
       - { label: Titre, name: titre, widget: string, i18n: true, required: false, hint: "Obligatoire en français. En anglais, laissez vide pour garder la version française." }
       - label: Rubrique
