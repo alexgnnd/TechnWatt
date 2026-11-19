@@ -26,7 +26,7 @@ chiffres:
 prix: 71 950 €
 prix_note: prix de départ, version 50 xDrive
 une: true
-une_ordre: 2
+une_ordre: 3
 une_titre: 'BMW iX3 : 800 km et dix minutes à la borne'
 une_texte: Le premier modèle de la Neue Klasse promet 805 km d'autonomie et une recharge à 400 kW.
 une_image: img/ix3-avant.jpg
