@@ -1,28 +1,42 @@
 ---
-titre: "Renault Twingo E-Tech electric on board: does the queen of the city have limits?"
+titre: "Renault Twingo E-Tech electric on board: does the queen of the city have
+  limits?"
+rubrique: watt-a-bord
+date: 2026-11-10
 categorie: Renault
 infos: City car · Made in Slovenia
-chapo: Under €20,000 for a new EV, a face that brings back memories for a whole generation, and far more technology than you might think.
-plus: A knockout price, Google built in, a list of driver aids worthy of a bigger car, real versatility.
-moins: Fast charging is optional, range is tight outside town, Google only on the top trim.
-encadre_titre: Key figures
+image: img/twingo-dessus.jpg
+credit: Renault
+picto: null
+chapo: Under €20,000 for a new EV, a face that brings back memories for a whole
+  generation, and far more technology than you might think.
+plus: A knockout price, Google built in, a list of driver aids worthy of a
+  bigger car, real versatility.
+moins: Fast charging is optional, range is tight outside town, Google only on
+  the top trim.
+lien_abord: null
 chiffres:
-- label: 0 to 100 km/h
-  valeur: 12.1 s
-- label: Official consumption
-  valeur: 12.2 kWh/100 km
-- label: On the motorway
-  valeur: ≈ 20 to 23 kWh
-- label: Turning circle
-  valeur: 9.87 m
-- label: Length
-  valeur: 3.79 m
-- label: Boot
-  valeur: up to 360 L
+  - label: 0 to 100 km/h
+    valeur: 12.1 s
+  - label: Official consumption
+    valeur: 12.2 kWh/100 km
+  - label: On the motorway
+    valeur: ≈ 20 to 23 kWh
+  - label: Turning circle
+    valeur: 9.87 m
+  - label: Length
+    valeur: 3.79 m
+  - label: Boot
+    valeur: up to 360 L
+encadre_titre: Key figures
 prix: €19,490
 prix_note: starting price, before incentives
-une_titre: 'Twingo E-Tech: the little car that slashes prices'
+une: true
+une_ordre: 4
+une_titre: "Twingo E-Tech: the little car that slashes prices"
 une_texte: Under €20,000, 263 km of range and a sliding rear bench.
+une_image: img/twingo-route-avant.jpg
+brouillon: null
 ---
 
 First, it is the price that turns heads. Listed at €19,490, the Twingo drops to around €15,000 once the bonus is deducted for eligible households. At that price, there is little serious competition. Renault developed it in under two years, a company record.

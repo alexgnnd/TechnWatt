@@ -1,41 +1,45 @@
 ---
-titre: "Renault Twingo E-Tech electric à bord : la reine de la ville a-t-elle des limites ?"
+titre: "Renault Twingo E-Tech : la reine de la ville a-t-elle des limites ?"
 rubrique: watt-a-bord
-date: '2026-11-10'
+date: 2026-11-10
 categorie: Renault
 infos: Citadine · Made in Slovénie
 image: img/twingo-dessus.jpg
 credit: Renault
-chapo: Moins de 20 000 euros pour une électrique neuve, une bouille qui rappelle des souvenirs à toute une génération, et beaucoup plus de technologie qu'on ne l'imagine.
-plus: Un prix canon, Google intégré, une liste d'aides digne d'une voiture plus grande, une vraie modularité.
-moins: Recharge rapide en option, autonomie juste hors de la ville, OpenR Link réservé à la finition Techno.
-encadre_titre: Les chiffres
+chapo: Moins de 20 000 euros pour une électrique neuve, une bouille qui rappelle
+  des souvenirs à toute une génération, et beaucoup plus de technologie qu'on ne
+  l'imagine.
+plus: Un prix canon, Google intégré, une liste d'aides digne d'une voiture plus
+  grande, une vraie modularité.
+moins: Recharge rapide en option, autonomie juste hors de la ville, OpenR Link
+  réservé à la finition Techno.
+galerie:
+  - img/twingo-planche-cote.jpg
+  - img/twingo-planche-detail.jpg
+  - img/twingo-compteur.jpg
+  - img/twingo-recharge.jpg
+  - img/twingo-profil.jpg
+  - img/twingo-arriere.jpg
+  - img/twingo-ville.jpg
 chiffres:
-- label: 0 à 100 km/h
-  valeur: 12,1 s
-- label: Conso. homologuée
-  valeur: 12,2 kWh/100 km
-- label: Sur autoroute
-  valeur: ≈ 20 à 23 kWh
-- label: Braquage
-  valeur: 9,87 m
-- label: Longueur
-  valeur: 3,79 m
-- label: Coffre
-  valeur: jusqu'à 360 L
+  - label: 0 à 100 km/h
+    valeur: 12,1 s
+  - label: Conso. homologuée
+    valeur: 12,2 kWh/100 km
+  - label: Sur autoroute
+    valeur: ≈ 20 à 23 kWh
+  - label: Braquage
+    valeur: 9,87 m
+  - label: Longueur
+    valeur: 3,79 m
+  - label: Coffre
+    valeur: jusqu'à 360 L
+encadre_titre: Les chiffres
 prix: 19 490 €
 prix_note: prix de départ, avant aides
-galerie:
-- img/twingo-planche-cote.jpg
-- img/twingo-planche-detail.jpg
-- img/twingo-compteur.jpg
-- img/twingo-recharge.jpg
-- img/twingo-profil.jpg
-- img/twingo-arriere.jpg
-- img/twingo-ville.jpg
 une: true
 une_ordre: 4
-une_titre: 'Twingo E-Tech : la petite qui casse les prix'
+une_titre: "Twingo E-Tech : la petite qui casse les prix"
 une_texte: Moins de 20 000 €, 263 km d'autonomie et une banquette arrière coulissante.
 une_image: img/twingo-route-avant.jpg
 ---
