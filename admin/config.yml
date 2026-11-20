@@ -149,6 +149,7 @@ collections:
           - { label: "Responsable de la publication", name: editeur, widget: string, required: false, hint: "Affiché dans les mentions légales" }
           - { label: "E-mail de contact", name: contact, widget: string, required: false }
           - { label: "Tag affilié Amazon", name: "amazon_tag", widget: "string", required: false, hint: "Ex. technwatt-21 — laisser vide tant que le compte Amazon Partenaires n'est pas validé" }
+          - { label: "Identifiant Google Analytics (G-…)", name: ga_id, widget: string, required: false, hint: "Ex. G-AB12CD34EF — laisser vide pour désactiver la mesure d'audience" }
           - { label: "Identifiant AdSense (ca-pub-…)", name: adsense_client, widget: string, required: false, hint: "Laisser vide tant que le compte AdSense n'est pas validé : aucune pub ne s'affiche." }
           - { label: "Bloc pub · page d'accueil (data-ad-slot)", name: pub_accueil, widget: string, required: false }
           - { label: "Bloc pub · fin d'article (data-ad-slot)", name: pub_article, widget: string, required: false }
