@@ -1,71 +1,94 @@
 sections:
   - id: comprendre
-    tag: 'Comprendre'
-    titre: 'Mais au fait, comment ça roule ?'
-    chapo: 'Pas de moteur à explosion, pas de boîte de vitesses, beaucoup moins de pièces en mouvement. L''énergie suit une chaîne simple, de la prise jusqu''aux roues.'
-    image: 'img/guide-moteur.jpg'
-    credit: 'Tom Fisk'
+    tag: Comprendre
+    titre: Mais au fait, comment ça roule ?
+    chapo: Pas de moteur à explosion, pas de boîte de vitesses, beaucoup moins de
+      pièces en mouvement. L'énergie suit une chaîne simple, de la prise
+      jusqu'aux roues.
+    image: img/guide-moteur.jpg
+    credit: Tom Fisk
   - id: batteries
-    tag: 'Batteries'
-    titre: 'Dans le ventre de la batterie'
-    chapo: 'La batterie représente une large part du prix du véhicule. Le choix de la chimie détermine l''autonomie, la durée de vie, le coût et la vitesse de recharge.'
-    image: 'img/guide-batterie.jpg'
-    credit: 'Ayyeee Ayyeee'
+    tag: Batteries
+    titre: Dans le ventre de la batterie
+    chapo: La batterie représente une large part du prix du véhicule. Le choix de la
+      chimie détermine l'autonomie, la durée de vie, le coût et la vitesse de
+      recharge.
+    image: img/guide-batterie.jpg
+    credit: Ayyeee Ayyeee
   - id: recharge
-    tag: 'Recharge'
-    titre: 'Le plein, version électrique'
-    chapo: 'La grande majorité des recharges se fait à domicile ou au travail. Les bornes rapides servent surtout sur les longs trajets.'
-    image: 'img/guide-prise.jpg'
-    credit: 'smart-me AG'
+    tag: Recharge
+    titre: Le plein, version électrique
+    chapo: La grande majorité des recharges se fait à domicile ou au travail. Les
+      bornes rapides servent surtout sur les longs trajets.
+    image: img/guide-prise.jpg
+    credit: smart-me AG
   - id: technos
-    tag: 'Technologies'
-    titre: 'Les petites révolutions techniques'
-    chapo: 'La voiture électrique est aussi un ordinateur sur roues. Voici les technologies à connaître, déjà présentes ou en train d''arriver.'
-    image: 'img/guide-onduleur.jpg'
-    credit: 'I''m Zion'
+    tag: Technologies
+    titre: Les petites révolutions techniques
+    chapo: La voiture électrique est aussi un ordinateur sur roues. Voici les
+      technologies à connaître, déjà présentes ou en train d'arriver.
+    image: img/guide-onduleur.jpg
+    credit: I'm Zion
   - id: aides
-    tag: 'Aides 2026'
-    titre: 'Qui paie quoi ? Les coups de pouce de 2026'
-    chapo: 'Depuis le 1er juillet 2025, le bonus écologique a laissé place au « coup de pouce véhicules particuliers électriques », financé par les fournisseurs d''énergie via les certificats d''économies d''énergie (CEE).'
-    image: 'img/guide-aides.jpg'
-    credit: 'El Jundi'
+    tag: Aides 2026
+    titre: Qui paie quoi ? Les coups de pouce de 2026
+    chapo: Depuis le 1er juillet 2025, le bonus écologique a laissé place au « coup
+      de pouce véhicules particuliers électriques », financé par les
+      fournisseurs d'énergie via les certificats d'économies d'énergie (CEE).
+    image: img/guide-aides.jpg
+    credit: El Jundi
   - id: idees-recues
-    tag: 'Idées reçues'
-    titre: 'On démêle le vrai du faux'
-    chapo: ''
-    image: 'img/guide-idees.jpg'
-    credit: 'Rakesh Swain'
+    tag: Idées reçues
+    titre: On démêle le vrai du faux
+    chapo: ""
+    image: img/guide-idees.jpg
+    credit: Rakesh Swain
   - id: glossaire
-    tag: 'Glossaire'
-    titre: 'Le petit dico du conducteur électrique'
-    chapo: ''
-    image: 'img/guide-glossaire.jpg'
-    credit: 'Engin Akyurt'
+    tag: Glossaire
+    titre: Le petit dico du conducteur électrique
+    chapo: ""
+    image: img/guide-glossaire.jpg
+    credit: Engin Akyurt
 idees:
-  - question: '« L''autonomie ne suffit pas au quotidien »'
-    reponse: 'Un Français parcourt en moyenne moins de 40 km par jour. Une électrique récente affiche 300 à 600 km d''autonomie : la plupart des conducteurs ne rechargent qu''une ou deux fois par semaine.'
-  - question: '« La batterie est morte au bout de 5 ans »'
-    reponse: 'Faux. Les constructeurs garantissent généralement la batterie 8 ans ou 160 000 km avec au moins 70 % de capacité. Dans les faits, la perte reste souvent modérée bien au-delà.'
-  - question: '« On ne trouve pas de bornes »'
-    reponse: 'La France a dépassé les 200 000 points de recharge publics en juillet 2026, dont plus de 5 000 à 350 kW ou plus. La disponibilité reste perfectible (89 % des points opérationnels en juillet 2026).'
-  - question: '« Les batteries ne se recyclent pas »'
-    reponse: 'Elles se recyclent : lithium, nickel et cobalt peuvent être récupérés à plus de 90 % par les procédés industriels actuels. Avant cela, beaucoup connaissent une seconde vie en stockage stationnaire.'
-  - question: '« Une électrique pollue autant qu''une thermique »'
-    reponse: 'Sa fabrication émet plus de CO₂, surtout à cause de la batterie. Mais en France, avec une électricité très décarbonée, cette dette est remboursée en quelques années d''usage, puis l''avantage se creuse.'
+  - question: « L'autonomie ne suffit pas au quotidien »
+    reponse: "Un Français parcourt en moyenne moins de 40 km par jour. Une
+      électrique récente affiche 300 à 600 km d'autonomie : la plupart des
+      conducteurs ne rechargent qu'une ou deux fois par semaine."
+  - question: « La batterie est morte au bout de 5 ans »
+    reponse: Faux. Les constructeurs garantissent généralement la batterie 8 ans ou
+      160 000 km avec au moins 70 % de capacité. Dans les faits, la perte reste
+      souvent modérée bien au-delà.
+  - question: « On ne trouve pas de bornes »
+    reponse: La France a dépassé les 200 000 points de recharge publics en juillet
+      2026, dont plus de 5 000 à 350 kW ou plus. La disponibilité reste
+      perfectible (89 % des points opérationnels en juillet 2026).
+  - question: « Les batteries ne se recyclent pas »
+    reponse: "Elles se recyclent : lithium, nickel et cobalt peuvent être récupérés
+      à plus de 90 % par les procédés industriels actuels. Avant cela, beaucoup
+      connaissent une seconde vie en stockage stationnaire."
+  - question: « Une électrique pollue autant qu'une thermique »
+    reponse: Sa fabrication émet plus de CO₂, surtout à cause de la batterie. Mais
+      en France, avec une électricité très décarbonée, cette dette est
+      remboursée en quelques années d'usage, puis l'avantage se creuse.
 glossaire:
-  - terme: 'kWh'
-    definition: 'Kilowattheure : quantité d''énergie stockée. C''est le « volume du réservoir ».'
-  - terme: 'kW'
-    definition: 'Kilowatt : puissance. Sur une borne, c''est le « débit de la pompe ».'
-  - terme: 'WLTP'
-    definition: 'Cycle d''homologation européen qui donne l''autonomie officielle. En réel, comptez 10 à 20 % de moins sur autoroute.'
-  - terme: 'SoC'
-    definition: 'State of Charge : niveau de charge de la batterie en pourcentage.'
-  - terme: 'SoH'
-    definition: 'State of Health : état de santé de la batterie par rapport à sa capacité neuve. Clé pour acheter d''occasion.'
-  - terme: 'Combo CCS'
-    definition: 'Prise standard européenne pour la recharge rapide en courant continu.'
-  - terme: 'Type 2'
-    definition: 'Prise standard européenne pour la recharge en courant alternatif (maison, bornes publiques AC).'
-  - terme: 'One-pedal'
-    definition: 'Conduite à une pédale : relâcher l''accélérateur freine fortement grâce à la récupération d''énergie.'
+  - terme: kWh
+    definition: "Kilowattheure : quantité d'énergie stockée. C'est le « volume du
+      réservoir »."
+  - terme: kW
+    definition: "Kilowatt : puissance. Sur une borne, c'est le « débit de la pompe »."
+  - terme: WLTP
+    definition: Cycle d'homologation européen qui donne l'autonomie officielle. En
+      réalité, comptez 10 à 20 % de moins.
+  - terme: SoC
+    definition: "State of Charge : niveau de charge de la batterie en pourcentage."
+  - terme: SoH
+    definition: "State of Health : état de santé de la batterie par rapport à sa
+      capacité neuve. Clé pour acheter d'occasion."
+  - terme: Combo CCS
+    definition: Prise standard européenne pour la recharge rapide en courant continu.
+  - terme: Type 2
+    definition: Prise standard européenne pour la recharge en courant alternatif
+      (maison, bornes publiques AC).
+  - terme: One-pedal
+    definition: "Conduite à une pédale : relâcher l'accélérateur freine fortement
+      grâce à la récupération d'énergie."
