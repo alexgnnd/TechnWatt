@@ -1,6 +1,5 @@
 ---
 titre: 'ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 écran !'
-brouillon: true
 rubrique: watt-actualites
 date: '2026-11-20'
 categorie: Concept
