@@ -565,7 +565,8 @@ footer a{color:#424245}
 .cards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
 .card-a{display:flex;flex-direction:column;background:#fff;border-radius:22px;overflow:hidden;color:var(--ink);box-shadow:var(--shadow);transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
 .card-a:hover{transform:translateY(-5px);box-shadow:var(--shadow-up);text-decoration:none}
-.ca-img{display:block;aspect-ratio:16/10;background:#eef0f2;overflow:hidden}
+.ca-img{display:block;position:relative;aspect-ratio:16/10;background:#eef0f2;overflow:hidden}
+.ca-cr{position:absolute;right:8px;bottom:6px;font-size:.62rem;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)}
 .ca-img img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}
 .card-a:hover .ca-img img{transform:scale(1.04)}
 .ca-num{display:grid;place-items:center;font-size:3rem;font-weight:700;color:#0a7d3b;background:linear-gradient(135deg,#e6f6ec,#f5f5f7)}
@@ -639,7 +640,7 @@ a.aff{font-weight:600}
 <a data-nav="accueil" href="#accueil">À la une</a>
 <a data-nav="tech" href="#tech">Tech</a>
 <a data-nav="watt" href="#watt">Watt</a>
-<a data-nav="guide" href="#guide">Le guide</a>
+<a data-nav="guide" href="#guide">Le guide de la voiture électrique</a>
 </nav>
 <button aria-label="Rechercher sur le site" class="search-btn" id="searchBtn" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4.2-4.2"></path></svg><span>Rechercher</span></button><a class="ig-top" href="https://www.instagram.com/technwatt/" target="_blank" rel="noopener" aria-label="TechnWatt sur Instagram" title="Suivez TechnWatt sur Instagram"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg></a><a class="lang-sw" href="en.html" hreflang="en" lang="en" title="English version">EN</a>
 </div>
@@ -732,7 +733,7 @@ a.aff{font-weight:600}
 <nav aria-label="Sommaire du guide" class="toc"><a href="#comprendre">Comment ça marche</a><a href="#batteries">Batteries</a><a href="#recharge">Recharge</a><a href="#technos">Technologies</a><a href="#aides">Aides</a><a href="#idees-recues">Idées reçues</a><a href="#glossaire">Glossaire</a></nav>
 </div>
 </section>
-<section class="" id="comprendre">
+<section class="" id="comprendre" data-img="img/guide-moteur.jpg" data-credit="Luke Miller">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Comprendre</span>
@@ -748,7 +749,7 @@ a.aff{font-weight:600}
 </div>
 </div>
 </section>
-<section class="alt" id="batteries">
+<section class="alt" id="batteries" data-img="img/guide-batterie.jpg" data-credit="Ayyeee Ayyeee">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Batteries</span>
@@ -768,7 +769,7 @@ a.aff{font-weight:600}
 </div>
 </div>
 </section>
-<section class="" id="recharge">
+<section class="" id="recharge" data-img="img/guide-prise.jpg" data-credit="Kindel Media">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Recharge</span>
@@ -821,7 +822,7 @@ a.aff{font-weight:600}
 </div>
 </div>
 </section>
-<section class="alt" id="technos">
+<section class="alt" id="technos" data-img="img/guide-onduleur.jpg" data-credit="Sergei Starostin">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Technologies</span>
@@ -838,7 +839,7 @@ a.aff{font-weight:600}
 </div>
 </div>
 </section>
-<section class="" id="aides">
+<section class="" id="aides" data-img="img/guide-aides.jpg" data-credit="Jakub Zerdzicki">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Aides 2026</span>
@@ -853,7 +854,7 @@ a.aff{font-weight:600}
 <p class="warn">Les montants varient selon les marques, qui s'appuient chacune sur un partenaire financeur. Vérifiez toujours l'offre exacte auprès du vendeur avant de signer.</p>
 </div>
 </section>
-<section class="alt" id="idees-recues">
+<section class="alt" id="idees-recues" data-img="img/guide-idees.jpg" data-credit="Max Ravier">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Idées reçues</span>
@@ -868,7 +869,7 @@ a.aff{font-weight:600}
 </div>
 </div>
 </section>
-<section class="" id="glossaire">
+<section class="" id="glossaire" data-img="img/guide-glossaire.jpg" data-credit="Snapwire">
 <div class="wrap">
 <div class="sec-head">
 <span class="tag">Glossaire</span>
@@ -989,7 +990,9 @@ a.aff{font-weight:600}
     const h=it.querySelector(':scope > .wrap > .sec-head h2')||it.querySelector('h3')||it.querySelector('h2'); const im=it.querySelector('figure.has-img img:not(.bg)')||it.querySelector('.inl img');
     const cat=it.querySelector('.cat, .tag, .meta .brand'); const ld=it.querySelector('.lede, .chapo, .sec-head p, p');
     const a=document.createElement('a'); a.className='card-a'; a.href=BASE+it.id;
-    a.innerHTML=(im?'<span class="ca-img"><img loading="lazy" alt="" src="'+im.getAttribute('src')+'"></span>':'<span class="ca-img ca-num">'+String(num).padStart(2,'0')+'</span>')
+    const di=it.dataset.img, dc=it.dataset.credit||'';
+    const src=im?im.getAttribute('src'):(di||'');
+    a.innerHTML=(src?'<span class="ca-img"><img loading="lazy" alt="" src="'+src+'">'+(di&&dc?'<small class="ca-cr">'+dc+'</small>':'')+'</span>':'<span class="ca-img ca-num">'+String(num).padStart(2,'0')+'</span>')
       +'<span class="ca-txt">'+(cat?'<span class="ca-cat">'+cat.textContent.trim()+'</span>':'')+'<b>'+(h?h.textContent.trim():'')+'</b>'
       +(ld?'<span class="ca-ld">'+ld.textContent.trim()+'</span>':'')+'<em>Lire</em></span>';
     return a;
