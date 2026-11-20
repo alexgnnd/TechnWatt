@@ -11,7 +11,7 @@ reperes:
 - 7,4 kW suffisent
 - Installateur IRVE obligatoire
 ---
-Recharger chez soi est le scénario qui rend l'électrique économique. Encore faut-il que l'installation se passe bien. Dans les devis que nous voyons circuler, l'écart entre deux maisons voisines peut aller du simple au triple — et presque jamais à cause de la borne elle-même.
+Recharger chez soi est le scénario qui rend l'électrique économique. Encore faut-il que l'installation se passe bien. Dans les devis que nous voyons circuler, l'écart entre deux maisons voisines peut aller du simple au triple : et presque jamais à cause de la borne elle-même.
 
 ## Quelle puissance choisir ?
 
@@ -40,7 +40,7 @@ Une borne achetée en promotion et posée par un électricien non qualifié vous
 
 ## La méthode qui évite les mauvaises surprises
 
-Faites chiffrer la pose **avant** d'acheter la borne. Deux devis au minimum, avec visite technique sur place — un devis établi par téléphone ne vaut rien. Demandez que le devis détaille séparément le matériel, la main-d'œuvre et les éventuels travaux électriques.
+Faites chiffrer la pose **avant** d'acheter la borne. Deux devis au minimum, avec visite technique sur place : un devis établi par téléphone ne vaut rien. Demandez que le devis détaille séparément le matériel, la main-d'œuvre et les éventuels travaux électriques.
 
 Une fois la pose chiffrée et le modèle de borne arrêté, vous pouvez chercher le matériel au meilleur prix : [bornes de recharge Type 2](https://www.amazon.fr/s?k=borne+de+recharge+type+2+7%2C4+kW) et [câbles de recharge](https://www.amazon.fr/s?k=cable+de+recharge+type+2+voiture+electrique) baissent fortement pendant les périodes de promotion. Dans cet ordre, la remise est un bonus. Dans l'autre, c'est une source d'ennuis.
 

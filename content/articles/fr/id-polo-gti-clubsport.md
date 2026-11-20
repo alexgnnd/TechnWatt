@@ -38,7 +38,7 @@ Le châssis adaptatif **DCC** a été recalibré pour la piste, et le système d
 
 C'est à l'intérieur que le parti pris frappe le plus. **Il n'y a pas de système d'infodivertissement.** Pas d'écran central, rien : Volkswagen a tout concentré sur l'ergonomie et la conduite.
 
-Deux places, et deux seulement : des baquets **Recaro** avec harnais rouges à cinq points. La banquette arrière et le coffre ont disparu, remplacés par un **arceau peint en Rouge Tornado** juste derrière les sièges. Planche de bord et garnitures sont habillées de microfibre ArtVelours sombre à surpiqûres rouges — réalisées en partie par les apprentis de Volkswagen, détail qui en dit long sur l'esprit maison.
+Deux places, et deux seulement : des baquets **Recaro** avec harnais rouges à cinq points. La banquette arrière et le coffre ont disparu, remplacés par un **arceau peint en Rouge Tornado** juste derrière les sièges. Planche de bord et garnitures sont habillées de microfibre ArtVelours sombre à surpiqûres rouges : réalisées en partie par les apprentis de Volkswagen, détail qui en dit long sur l'esprit maison.
 
 ![](img/clubsport-arriere.jpg)
 
@@ -52,4 +52,4 @@ Première apparition publique au **Salon de l'automobile d'Essen**, du 27 novemb
 
 ## Notre avis
 
-Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible — en enlevant plutôt qu'en ajoutant. Pas d'écran, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?
+Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible : en enlevant plutôt qu'en ajoutant. Pas d'écran, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?

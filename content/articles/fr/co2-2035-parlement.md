@@ -37,4 +37,4 @@ Autrement dit : trois étapes séparent encore ce texte du droit applicable.
 
 ## Notre avis
 
-Le débat est souvent présenté comme un référendum pour ou contre l'électrique. Les chiffres racontent autre chose : le marché bascule déjà par lui-même, et c'est le calendrier réglementaire qui s'ajuste à la vitesse de l'industrie plutôt que l'inverse. Le point à surveiller n'est pas le pourcentage de 2035, c'est le mécanisme des crédits acier — parce qu'un objectif qu'on peut atteindre autrement qu'en vendant des voitures propres n'est plus vraiment un objectif automobile.
+Le débat est souvent présenté comme un référendum pour ou contre l'électrique. Les chiffres racontent autre chose : le marché bascule déjà par lui-même, et c'est le calendrier réglementaire qui s'ajuste à la vitesse de l'industrie plutôt que l'inverse. Le point à surveiller n'est pas le pourcentage de 2035, c'est le mécanisme des crédits acier : parce qu'un objectif qu'on peut atteindre autrement qu'en vendant des voitures propres n'est plus vraiment un objectif automobile.

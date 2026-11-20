@@ -16,7 +16,7 @@ Le XPeng L03 démarre à 34 990 € en France, mais ce n'est pas cette version-l
 
 ## Une propulsion, 71,2 kWh de LFP
 
-Le L03 Long Range reçoit une batterie LFP de 71,2 kWh et un moteur arrière de 180 kW, soit 245 ch. L'autonomie homologuée atteint 520 km WLTP avec les jantes de 18 pouces — la finition Long Range Ultra, en 20 pouces, redescend à 480 km. La vitesse de pointe est limitée à 180 km/h sur toutes les versions à propulsion.
+Le L03 Long Range reçoit une batterie LFP de 71,2 kWh et un moteur arrière de 180 kW, soit 245 ch. L'autonomie homologuée atteint 520 km WLTP avec les jantes de 18 pouces : la finition Long Range Ultra, en 20 pouces, redescend à 480 km. La vitesse de pointe est limitée à 180 km/h sur toutes les versions à propulsion.
 
 Le choix de la propulsion n'est pas qu'une question de puissance : sans moteur avant, le L03 gagne une centaine de kilos et un frunk plus généreux. C'est la version la plus équilibrée de la gamme.
 
@@ -24,7 +24,7 @@ Le choix de la propulsion n'est pas qu'une question de puissance : sans moteur a
 
 La recharge rapide grimpe jusqu'à 236 kW, de quoi passer de 10 à 80 % en une vingtaine de minutes. À moins de 40 000 €, c'est un niveau que l'on trouve rarement ailleurs : beaucoup de rivales du segment plafonnent entre 100 et 150 kW.
 
-Sur un long trajet, cette différence se mesure en pauses raccourcies plutôt qu'en kilomètres gagnés — et c'est souvent ce qui fait la bonne voiture d'autoroute.
+Sur un long trajet, cette différence se mesure en pauses raccourcies plutôt qu'en kilomètres gagnés : et c'est souvent ce qui fait la bonne voiture d'autoroute.
 
 ## Format et habitabilité
 
@@ -32,13 +32,13 @@ Le L03 mesure 4,70 m de long, dans le format d'un SUV coupé familial. Le coffre
 
 ## La gamme en France
 
-- **RWD Standard Range :** 34 990 € — 58,3 kWh, 445 km
-- **RWD Long Range :** 37 990 € — 71,2 kWh, 520 km
-- **RWD Long Range Ultra :** 42 990 € — 71,2 kWh, 480 km
-- **AWD Performance Ultra :** 46 990 € — 71,2 kWh, 440 km
+- **RWD Standard Range :** 34 990 €, 58,3 kWh, 445 km
+- **RWD Long Range :** 37 990 €, 71,2 kWh, 520 km
+- **RWD Long Range Ultra :** 42 990 €, 71,2 kWh, 480 km
+- **AWD Performance Ultra :** 46 990 €, 71,2 kWh, 440 km
 
 L'écart de 3 000 € entre Standard Range et Long Range achète 75 km d'autonomie supplémentaires et une batterie plus grosse. C'est, de loin, le meilleur rapport de la grille.
 
 ## Notre avis
 
-XPeng signe ici l'une des offres les plus cohérentes du moment sous 40 000 € : une propulsion, une vraie autonomie et une recharge rapide qui tient la route. Le coffre reste le point faible, et il faudra juger la valeur de revente d'une marque encore jeune en Europe. Mais sur la fiche technique, à ce prix, le L03 Long Range met beaucoup de monde en difficulté.
+XPeng signe ici l'une des offres les plus cohérentes du moment sous 40 000 €, une propulsion, une vraie autonomie et une recharge rapide qui tient la route. Le coffre reste le point faible, et il faudra juger la valeur de revente d'une marque encore jeune en Europe. Mais sur la fiche technique, à ce prix, le L03 Long Range met beaucoup de monde en difficulté.

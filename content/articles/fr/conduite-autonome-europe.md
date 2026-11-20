@@ -5,7 +5,7 @@ rubrique: watt-actualites
 date: '2026-11-20'
 categorie: Technologie
 picto: carte
-chapo: 'Depuis le 18 novembre, on peut commander une voiture sans conducteur via Uber à Munich. Gratuitement, avec un opérateur à bord — et c''est précisément ce détail qui compte.'
+chapo: 'Depuis le 18 novembre, on peut commander une voiture sans conducteur via Uber à Munich. Gratuitement, avec un opérateur à bord : et c''est précisément ce détail qui compte.'
 reperes:
 - Munich, depuis le 18 novembre
 - Permis de niveau 4
@@ -15,7 +15,7 @@ C'est une première en Allemagne : depuis le 18 novembre, des passagers peuvent 
 
 ## Ce qui a réellement changé
 
-Pas la technologie — elle roule depuis des années en Chine et aux États-Unis. Ce qui a changé, c'est l'autorisation. L'Office fédéral allemand des transports motorisés, le KBA, a délivré à Momenta Europe GmbH des permis d'essai de **niveau 4**. Dans la liste des autorisations du KBA datée du 5 novembre, l'entreprise en détient trois, et aucun ne porte de restriction géographique : le permis couvre les routes urbaines de toute l'Allemagne, sans dossier à redéposer ville par ville.
+Pas la technologie : elle roule depuis des années en Chine et aux États-Unis. Ce qui a changé, c'est l'autorisation. L'Office fédéral allemand des transports motorisés, le KBA, a délivré à Momenta Europe GmbH des permis d'essai de **niveau 4**. Dans la liste des autorisations du KBA datée du 5 novembre, l'entreprise en détient trois, et aucun ne porte de restriction géographique : le permis couvre les routes urbaines de toute l'Allemagne, sans dossier à redéposer ville par ville.
 
 C'est le vrai basculement. Jusqu'ici, chaque expérimentation européenne était un dossier isolé, attaché à un périmètre précis.
 
@@ -23,7 +23,7 @@ C'est le vrai basculement. Jusqu'ici, chaque expérimentation européenne était
 
 Dans les États membres de l'Union, seule la conduite autonome **jusqu'au niveau 3** est pour l'heure autorisée en circulation normale : le conducteur peut parfois lâcher le volant et les pédales, mais il doit rester constamment vigilant et reprendre la main sur demande du système. C'est ce que propose par exemple le Drive Pilot de Mercedes-Benz sur certaines autoroutes allemandes.
 
-Le **niveau 4** est d'une autre nature : le véhicule assume entièrement la conduite dans son domaine d'usage, sans attendre d'intervention humaine. À Munich, il est encadré par un permis d'essai, un opérateur à bord et la gratuité des trajets — une expérimentation, pas un service commercial.
+Le **niveau 4** est d'une autre nature : le véhicule assume entièrement la conduite dans son domaine d'usage, sans attendre d'intervention humaine. À Munich, il est encadré par un permis d'essai, un opérateur à bord et la gratuité des trajets : une expérimentation, pas un service commercial.
 
 ## Les voitures utilisées
 

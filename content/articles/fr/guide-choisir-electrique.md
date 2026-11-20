@@ -17,11 +17,11 @@ La plupart des guides d'achat commencent par une liste de modèles. C'est l'erre
 
 C'est la question qui élimine le plus d'options, et c'est la seule à poser en premier.
 
-**Vous avez une place privée** — garage, box, allée. Tout devient simple : vous rechargez la nuit, l'autonomie compte beaucoup moins que vous ne le pensez, et une batterie de 50 kWh suffit largement.
+**Vous avez une place privée** : garage, box, allée. Tout devient simple : vous rechargez la nuit, l'autonomie compte beaucoup moins que vous ne le pensez, et une batterie de 50 kWh suffit largement.
 
-**Vous êtes en copropriété** — vérifiez avant tout le reste si une installation est possible. Le droit à la prise existe, mais la mise en œuvre prend des mois.
+**Vous êtes en copropriété** : vérifiez avant tout le reste si une installation est possible. Le droit à la prise existe, mais la mise en œuvre prend des mois.
 
-**Vous n'avez que la rue** — l'électrique reste possible, mais le calcul change du tout au tout : il faut une charge rapide performante et des bornes proches de chez vous ou de votre travail. Vérifiez la carte des bornes de votre quartier avant de regarder la moindre voiture.
+**Vous n'avez que la rue** : l'électrique reste possible, mais le calcul change du tout au tout : il faut une charge rapide performante et des bornes proches de chez vous ou de votre travail. Vérifiez la carte des bornes de votre quartier avant de regarder la moindre voiture.
 
 ## 2. Combien de longs trajets par an ?
 
@@ -51,4 +51,4 @@ Les dispositifs d'aide changent souvent, et ils s'appliquent généralement à l
 
 ## En résumé
 
-Si vous avez répondu aux six questions, votre cahier des charges est écrit : un budget, une autonomie minimale réelle, une puissance de charge plancher, un mode de financement. Il ne reste plus qu'à chercher les modèles qui cochent ces cases — et c'est seulement là qu'un comparatif devient utile.
+Si vous avez répondu aux six questions, votre cahier des charges est écrit : un budget, une autonomie minimale réelle, une puissance de charge plancher, un mode de financement. Il ne reste plus qu'à chercher les modèles qui cochent ces cases : et c'est seulement là qu'un comparatif devient utile.

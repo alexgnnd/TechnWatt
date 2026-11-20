@@ -11,7 +11,7 @@ reperes:
 - Trois lieux de recharge
 - Écart de 1 à 8
 ---
-« La recharge, ça ne coûte rien. » « La recharge, c'est aussi cher que l'essence. » Les deux phrases circulent, et les deux sont exactes — simplement, elles ne parlent pas du même endroit. Voici comment faire le calcul vous-même, une fois pour toutes.
+« La recharge, ça ne coûte rien. » « La recharge, c'est aussi cher que l'essence. » Les deux phrases circulent, et les deux sont exactes : simplement, elles ne parlent pas du même endroit. Voici comment faire le calcul vous-même, une fois pour toutes.
 
 ## La formule, et elle tient en une ligne
 
@@ -25,7 +25,7 @@ Pour le coût au kilomètre, divisez par l'autonomie réelle. Une voiture consom
 
 **À la maison, en heures creuses.** C'est le tarif le plus bas, et de loin. Avec un contrat heures pleines/heures creuses et une recharge programmée la nuit, on est dans le bas de la fourchette. C'est le scénario de référence : la grande majorité des recharges s'y font.
 
-**Sur une borne publique lente ou moyenne.** Voirie, parkings, supermarchés. Les tarifs sont intermédiaires, parfois gratuits chez certaines enseignes, souvent facturés aussi au temps passé — attention aux frais de stationnement qui s'ajoutent après un délai.
+**Sur une borne publique lente ou moyenne.** Voirie, parkings, supermarchés. Les tarifs sont intermédiaires, parfois gratuits chez certaines enseignes, souvent facturés aussi au temps passé : attention aux frais de stationnement qui s'ajoutent après un délai.
 
 **Sur une borne rapide d'autoroute.** C'est le tarif le plus élevé, deux à trois fois celui du domicile. C'est aussi celui que tout le monde cite dans les discussions, alors qu'il concerne une minorité des recharges. Sur ces bornes, un abonnement mensuel chez un opérateur devient rentable dès quelques charges par mois.
 
@@ -37,7 +37,7 @@ C'est une raison de plus de regarder la puissance de charge acceptée par le vé
 
 ## Ce qu'il faut comparer avec le thermique
 
-Pour une comparaison honnête, prenez votre propre consommation d'essence et votre propre kilométrage annuel, pas des moyennes. Et comparez ce qui est comparable : le coût au 100 km, pas le prix du plein — une batterie et un réservoir n'ont pas la même contenance.
+Pour une comparaison honnête, prenez votre propre consommation d'essence et votre propre kilométrage annuel, pas des moyennes. Et comparez ce qui est comparable : le coût au 100 km, pas le prix du plein, une batterie et un réservoir n'ont pas la même contenance.
 
 Ajoutez aussi, des deux côtés, l'entretien. C'est le poste où l'électrique creuse l'écart le plus régulièrement : pas de vidange, pas de courroie, pas d'embrayage, des plaquettes qui durent plus longtemps grâce au freinage régénératif.
 

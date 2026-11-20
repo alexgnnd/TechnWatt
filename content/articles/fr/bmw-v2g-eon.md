@@ -16,7 +16,7 @@ On parle de recharge bidirectionnelle depuis des années, souvent au futur. Chez
 
 ## Le principe, en une phrase
 
-En Vehicle-to-Home, la batterie alimente la maison. En **Vehicle-to-Grid**, elle va plus loin : elle réinjecte aussi dans le réseau public. La voiture, garée la plupart du temps, devient un réservoir d'énergie mobilisable quand la demande grimpe — et c'est ce service que l'énergéticien achète.
+En Vehicle-to-Home, la batterie alimente la maison. En **Vehicle-to-Grid**, elle va plus loin : elle réinjecte aussi dans le réseau public. La voiture, garée la plupart du temps, devient un réservoir d'énergie mobilisable quand la demande grimpe : et c'est ce service que l'énergéticien achète.
 
 ## Ce que ça rapporte
 
@@ -30,7 +30,7 @@ Autrement dit, on est payé pour être branché, puis payé à nouveau si le ré
 
 ## Ce qu'il faut pour en profiter
 
-Trois éléments, et les trois sont obligatoires : un véhicule compatible — iX3, i3, iX4 ou iX5, tous en sixième génération de la technologie BMW eDrive —, la **BMW Wallbox Professional** bidirectionnelle, et le tarif **E.ON ÖkoStrom Home & Drive V2G**.
+Trois éléments, et les trois sont obligatoires : un véhicule compatible (iX3, i3, iX4 ou iX5, tous en sixième génération de la technologie BMW eDrive), la **BMW Wallbox Professional** bidirectionnelle, et le tarif **E.ON ÖkoStrom Home & Drive V2G**.
 
 Le pilotage est automatique : le système décide seul des moments de charge et de réinjection. L'utilisateur se contente d'indiquer, dans l'application My BMW, le niveau de batterie souhaité et l'heure de départ. La voiture est toujours prête quand il faut partir.
 
@@ -40,4 +40,4 @@ L'offre est **allemande**. Elle ne concerne pas encore la France, et la raison e
 
 ## Notre avis
 
-C'est l'une des rares annonces de recharge qui change vraiment l'équation économique d'une voiture branchée. Jusqu'ici, une batterie coûtait cher et ne rapportait rien entre deux trajets. Là, elle devient un actif qui travaille pendant qu'on dort. La condition reste l'équipement : la wallbox bidirectionnelle et le contrat spécifique représentent un investissement qu'il faut amortir. Mais à 720 euros par an, le calcul se fait vite — et c'est exactement le genre d'offre qu'on aimerait voir traverser le Rhin.
+C'est l'une des rares annonces de recharge qui change vraiment l'équation économique d'une voiture branchée. Jusqu'ici, une batterie coûtait cher et ne rapportait rien entre deux trajets. Là, elle devient un actif qui travaille pendant qu'on dort. La condition reste l'équipement : la wallbox bidirectionnelle et le contrat spécifique représentent un investissement qu'il faut amortir. Mais à 720 euros par an, le calcul se fait vite : et c'est exactement le genre d'offre qu'on aimerait voir traverser le Rhin.

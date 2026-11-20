@@ -6,7 +6,7 @@ date: '2026-11-20'
 categorie: Sécurité
 image: img/peaq-avant.jpg
 credit: Škoda
-chapo: 'Euro NCAP a publié dix résultats le 18 novembre. Neuf SUV décrochent cinq étoiles, un seul trébuche — et un record vient d''être établi.'
+chapo: 'Euro NCAP a publié dix résultats le 18 novembre. Neuf SUV décrochent cinq étoiles, un seul trébuche : et un record vient d''être établi.'
 reperes:
 - 10 modèles testés
 - 9 sur 10 à cinq étoiles
@@ -51,4 +51,4 @@ Pour une voiture dont c'est la troisième génération et qui a longtemps servi 
 
 ## Notre avis
 
-Deux enseignements. Le premier : la protection en cas de choc n'est plus le sujet, neuf modèles sur dix franchissent la barre sans difficulté. Le second est plus intéressant — ce qui sépare désormais les voitures, c'est l'équipement de série en aides à la conduite et en détection. Une option non cochée coûte aujourd'hui plus de points qu'une structure moins rigide.
+Deux enseignements. Le premier : la protection en cas de choc n'est plus le sujet, neuf modèles sur dix franchissent la barre sans difficulté. Le second est plus intéressant : ce qui sépare désormais les voitures, c'est l'équipement de série en aides à la conduite et en détection. Une option non cochée coûte aujourd'hui plus de points qu'une structure moins rigide.

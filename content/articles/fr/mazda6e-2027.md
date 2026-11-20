@@ -28,7 +28,7 @@ Le freinage régénératif a été renforcé et la suspension recalibrée, deux 
 
 ## Smart Cruise Assist jusqu'à 160 km/h
 
-Côté aides à la conduite, le Smart Cruise Assist fonctionne désormais jusqu'à 160 km/h. La navigation intègre un filtrage des bornes de recharge, pour n'afficher que celles qui correspondent réellement à la voiture et à la puissance recherchée — une fonction qui paraît secondaire jusqu'au premier détour inutile.
+Côté aides à la conduite, le Smart Cruise Assist fonctionne désormais jusqu'à 160 km/h. La navigation intègre un filtrage des bornes de recharge, pour n'afficher que celles qui correspondent réellement à la voiture et à la puissance recherchée : une fonction qui paraît secondaire jusqu'au premier détour inutile.
 
 ## Les prix en France
 
