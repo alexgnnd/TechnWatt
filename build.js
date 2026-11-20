@@ -18,6 +18,12 @@ const T = {
 };
 let L = T.fr;
 const CFG = fs.existsSync(path.join(ROOT, 'content', 'reglages.yml')) ? (matter('---\n' + fs.readFileSync(path.join(ROOT, 'content', 'reglages.yml'), 'utf8') + '\n---\n').data || {}) : {};
+const GUIDE = (() => {
+  const p = path.join(ROOT, 'content', 'guide.yml');
+  if (!fs.existsSync(p)) return null;
+  try { return matter('---\n' + fs.readFileSync(p, 'utf8') + '\n---\n').data || null; } catch (e) { return null; }
+})();
+
 const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.com').replace(/\/+$/, '');
 const ADS = String(CFG.adsense_client || '').trim();
 const GA = String(CFG.ga_id || '').trim();
@@ -213,6 +219,7 @@ function buildLang(lang) {
   const arts = load('articles', lang);
   const cmps = load('comparatifs', lang);
   let page = fs.readFileSync(path.join(ROOT, 'src', 'template.html'), 'utf8');
+  page = applyGuide(page, lang);
   if (lang === 'en') page = translateTemplate(page);
 
   for (const [key, R] of Object.entries(RUBS)) {
@@ -243,27 +250,106 @@ function buildLang(lang) {
   page = page.replace('<!--LATEST-->', latest);
   page = page.replace('<section class="home-block" id="derniers">', ad(CFG.pub_accueil, 'wrap') + '\n<section class="home-block" id="derniers">');
   page = page.replace('<div class="view" data-view="identite"', legalView(lang) + '\n<div class="view" data-view="identite"');
-  page = page.replace('<a href="#watt">Watt</a></nav>', `<a href="#watt">Watt</a><a href="#mentions">${lang === 'en' ? 'Legal & privacy' : 'Mentions légales'}</a><a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a></nav>`);
+  const fl = lang === 'en'
+    ? '<a href="#mentions">Legal notice</a><a href="#cgu">Terms of use</a><a href="#confidentialite">Privacy</a><a href="#contact">Contact</a>'
+    : '<a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Nous écrire</a>';
+  page = page.replace('<a href="#watt">Watt</a><a class="ig"', `<a href="#watt">Watt</a>${fl}<a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a><a class="ig"`);
 
   return { page, arts, cmps, une };
 }
 
+
+function applyGuide(page, lang) {
+  if (!GUIDE || lang !== 'fr') return page;
+  for (const sec of GUIDE.sections || []) {
+    const re = new RegExp('(<section class="[^"]*" id="' + sec.id + '")([^>]*)(>)([\\s\\S]*?)(</section>)');
+    page = page.replace(re, (m, open, attrs, gt, body, close) => {
+      attrs = ' data-img="' + esc(sec.image || '') + '" data-credit="' + esc(sec.credit || '') + '"';
+      body = body.replace(/<span class="tag">[\s\S]*?<\/span>/, '<span class="tag">' + esc(sec.tag || '') + '</span>');
+      body = body.replace(/<h2>[\s\S]*?<\/h2>/, '<h2>' + esc(sec.titre || '') + '</h2>');
+      if (sec.chapo) body = body.replace(/(<h2>[\s\S]*?<\/h2>\s*)<p>[\s\S]*?<\/p>/, '$1<p>' + esc(sec.chapo) + '</p>');
+      return open + attrs + gt + body + close;
+    });
+  }
+  if (Array.isArray(GUIDE.idees) && GUIDE.idees.length) {
+    const html = GUIDE.idees.map((d, i) => '<details' + (i ? '' : ' open=""') + '><summary>' + esc(d.question || '') + '</summary><p>' + esc(d.reponse || '') + '</p></details>').join('\n');
+    page = page.replace(/<details[\s\S]*<\/details>/, html);
+  }
+  if (Array.isArray(GUIDE.glossaire) && GUIDE.glossaire.length) {
+    const g = GUIDE.glossaire, half = Math.ceil(g.length / 2);
+    const col = (a) => '<dl>\n' + a.map((d) => '<div><dt>' + esc(d.terme || '') + '</dt><dd>' + esc(d.definition || '') + '</dd></div>').join('\n') + '\n</dl>';
+    page = page.replace(/<dl>[\s\S]*<\/dl>/, col(g.slice(0, half)) + '\n' + col(g.slice(half)));
+  }
+  return page;
+}
+
 function legalView(lang) {
-  const ed = esc(CFG.editeur || '');
-  const mail = CFG.contact ? `<a href="mailto:${esc(CFG.contact)}">${esc(CFG.contact)}</a>` : '';
-  const fr = `<h2>Mentions légales et confidentialité</h2>
-<h4>Éditeur</h4><p>TechnWatt est un site d'information édité à titre non professionnel${ed ? ' par ' + ed : ''}.${ed ? ' Directeur de la publication : ' + ed + '.' : ''}${mail ? ' Contact : ' + mail + '.' : ''}</p>
-<h4>Hébergement</h4><p>Netlify, Inc., San Francisco, Californie, États-Unis · netlify.com</p>
-<h4>Contenus</h4><p>Les textes sont la propriété de TechnWatt. Les photos restent la propriété des marques mentionnées en crédit ; elles sont issues de leurs espaces presse.</p>
-<h4>Données personnelles</h4><p>TechnWatt ne demande ni compte ni inscription et ne collecte aucune donnée nominative. Le site peut afficher des publicités fournies par Google AdSense. Google et ses partenaires peuvent alors utiliser des cookies pour diffuser et mesurer ces annonces, et, avec votre accord, les personnaliser. Votre choix vous est demandé à la première visite et peut être modifié à tout moment via le lien « Gérer les cookies » en bas de page. Pour en savoir plus : policies.google.com/technologies/ads.</p>
-<p>Vous disposez d'un droit d'accès, de rectification et d'effacement des données vous concernant${mail ? ', à exercer à l\'adresse ' + mail : ''}, ainsi que du droit d'introduire une réclamation auprès de la CNIL (cnil.fr).</p>`;
-  const en = `<h2>Legal notice and privacy</h2>
-<h4>Publisher</h4><p>TechnWatt is a news website published on a non-commercial basis${ed ? ' by ' + ed : ''}.${ed ? ' Publication director: ' + ed + '.' : ''}${mail ? ' Contact: ' + mail + '.' : ''}</p>
-<h4>Hosting</h4><p>Netlify, Inc., San Francisco, California, United States · netlify.com</p>
-<h4>Content</h4><p>The texts belong to TechnWatt. Photos remain the property of the brands named in the credits and come from their press areas.</p>
-<h4>Personal data</h4><p>TechnWatt requires no account or sign-up and collects no personal data. The site may show ads provided by Google AdSense. Google and its partners may then use cookies to serve and measure these ads and, with your consent, to personalise them. You are asked for your choice on your first visit and can change it at any time through the “Cookie settings” link at the bottom of the page. Learn more: policies.google.com/technologies/ads.</p>
-<p>You have the right to access, correct and erase data about you${mail ? ' by writing to ' + mail : ''}, and to lodge a complaint with the CNIL, the French data protection authority (cnil.fr).</p>`;
-  return `<div class="view" data-view="infos" hidden="" id="mentions"><section class="alt"><div class="wrap legal">${lang === 'en' ? en : fr}</div></section></div>`;
+  const L = lang === 'en';
+  const view = (id, html) => `<div class="view" data-view="infos" hidden="" id="${id}"><section class="alt"><div class="wrap legal">${html}</div></section></div>`;
+
+  const mentions = L ? `<h2>Legal notice</h2>
+<h4>Publisher</h4><p>TechnWatt is an independent news website about electric cars and new technology, published on a non-commercial basis by a private individual. In line with French law, the publisher's identity is held by the host and can be disclosed to the judicial authorities on request. Any request may be sent through the <a href="#contact">contact form</a>.</p>
+<h4>Hosting</h4><p>Netlify, Inc., 512 2nd Street, Suite 200, San Francisco, CA 94107, United States · netlify.com</p>
+<h4>Content</h4><p>The texts and page layouts belong to TechnWatt and may not be reproduced without permission. Photos remain the property of the brands or photographers named in the credits.</p>
+<h4>Liability</h4><p>Figures, prices and availability are given for information only and reflect the sources available when the article was written. They may change at any time.</p>` : `<h2>Mentions légales</h2>
+<h4>Éditeur</h4><p>TechnWatt est un site d'information indépendant consacré à la voiture électrique et aux nouvelles technologies, édité à titre non professionnel par une personne physique. Conformément à la loi pour la confiance dans l'économie numérique, l'identité de l'éditeur est conservée par l'hébergeur et peut être communiquée à l'autorité judiciaire sur demande. Toute demande peut être adressée via le <a href="#contact">formulaire de contact</a>.</p>
+<h4>Hébergement</h4><p>Netlify, Inc., 512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis · netlify.com</p>
+<h4>Contenus</h4><p>Les textes et la mise en page sont la propriété de TechnWatt et ne peuvent être reproduits sans autorisation. Les photos restent la propriété des marques ou des photographes mentionnés en crédit.</p>
+<h4>Responsabilité</h4><p>Les chiffres, prix et disponibilités sont donnés à titre indicatif, d'après les sources disponibles au moment de la rédaction. Ils peuvent évoluer à tout moment.</p>`;
+
+  const cgu = L ? `<h2>Terms of use</h2>
+<h4>Purpose</h4><p>These terms govern the use of the TechnWatt website. Browsing the site implies full acceptance of them.</p>
+<h4>Access</h4><p>The site is free to use and requires no account. It is available around the clock, except during maintenance or in the event of a technical failure. Access may be suspended without notice and without any right to compensation.</p>
+<h4>Editorial content</h4><p>Articles are written from manufacturers' press releases and official sources. They are informational and never constitute a purchase recommendation or professional advice.</p>
+<h4>Affiliate links</h4><p>Some articles contain affiliate links. A purchase made through such a link may earn the site a commission, at no extra cost to the reader. Any article concerned states this clearly.</p>
+<h4>Intellectual property</h4><p>Reproducing all or part of the site without written permission is prohibited. Brand names and logos belong to their respective owners.</p>
+<h4>Changes</h4><p>These terms may be amended at any time. The version online is the one that applies.</p>
+<h4>Applicable law</h4><p>These terms are governed by French law.</p>` : `<h2>Conditions générales d'utilisation</h2>
+<h4>Objet</h4><p>Les présentes conditions régissent l'utilisation du site TechnWatt. Le fait de naviguer sur le site vaut acceptation pleine et entière de ces conditions.</p>
+<h4>Accès</h4><p>Le site est d'accès libre et gratuit et ne nécessite aucun compte. Il est accessible en permanence, sauf pendant les opérations de maintenance ou en cas de panne technique. L'accès peut être suspendu sans préavis et sans ouvrir droit à indemnité.</p>
+<h4>Contenu éditorial</h4><p>Les articles sont rédigés à partir des communiqués de presse des constructeurs et de sources officielles. Ils ont une valeur d'information et ne constituent jamais un conseil d'achat ni un avis professionnel.</p>
+<h4>Liens affiliés</h4><p>Certains articles contiennent des liens affiliés. Un achat effectué via ces liens peut donner lieu à une commission pour le site, sans surcoût pour le lecteur. Les articles concernés le signalent explicitement.</p>
+<h4>Propriété intellectuelle</h4><p>Toute reproduction, totale ou partielle, du site sans autorisation écrite est interdite. Les marques et logos cités appartiennent à leurs propriétaires respectifs.</p>
+<h4>Évolution</h4><p>Ces conditions peuvent être modifiées à tout moment. La version en ligne est celle qui fait foi.</p>
+<h4>Droit applicable</h4><p>Les présentes conditions sont soumises au droit français.</p>`;
+
+  const conf = L ? `<h2>Privacy policy</h2>
+<h4>Principle</h4><p>TechnWatt asks for no account and no sign-up. No personal data is collected to read the site.</p>
+<h4>Audience measurement</h4><p>The site uses Google Analytics to count visits and see which pages are read. Measurement only starts once you have accepted it in the consent banner; until then no analytics cookie is placed.</p>
+<h4>Advertising</h4><p>The site may display ads served by Google AdSense. Google and its partners may use cookies to show ads suited to your interests, again only after you have given consent. You can change your mind at any time through the <a href="#" class="tw-consent">cookie settings</a> link in the footer.</p>
+<h4>Contact form</h4><p>Messages sent through the contact form are processed by Netlify Forms and forwarded to the publisher's mailbox. The name, email address and message are used solely to reply, and are kept for a maximum of twelve months.</p>
+<h4>Your rights</h4><p>You may ask to access, correct or erase data about you, or object to its use, through the <a href="#contact">contact form</a>. You may also lodge a complaint with the CNIL, the French data protection authority.</p>
+<h4>Hosting</h4><p>The site is hosted by Netlify, Inc., in the United States. Netlify keeps technical connection logs for its own security needs.</p>` : `<h2>Politique de confidentialité</h2>
+<h4>Principe</h4><p>TechnWatt ne demande ni compte ni inscription. Aucune donnée personnelle n'est collectée pour lire le site.</p>
+<h4>Mesure d'audience</h4><p>Le site utilise Google Analytics pour compter les visites et savoir quelles pages sont lues. La mesure ne démarre qu'après votre accord dans le bandeau de consentement : tant que vous n'avez pas accepté, aucun cookie de mesure n'est déposé.</p>
+<h4>Publicité</h4><p>Le site peut afficher des publicités fournies par Google AdSense. Google et ses partenaires peuvent utiliser des cookies pour proposer des annonces adaptées à vos centres d'intérêt, là encore uniquement après votre consentement. Vous pouvez changer d'avis à tout moment via le lien <a href="#" class="tw-consent">Gérer les cookies</a> en bas de page.</p>
+<h4>Formulaire de contact</h4><p>Les messages envoyés via le formulaire de contact sont traités par Netlify Forms et transmis à la boîte de l'éditeur. Le nom, l'adresse e-mail et le message servent uniquement à vous répondre et sont conservés douze mois au maximum.</p>
+<h4>Vos droits</h4><p>Vous pouvez demander l'accès, la rectification ou l'effacement des données vous concernant, ou vous opposer à leur utilisation, via le <a href="#contact">formulaire de contact</a>. Vous pouvez également introduire une réclamation auprès de la CNIL.</p>
+<h4>Hébergement</h4><p>Le site est hébergé par Netlify, Inc., aux États-Unis. Netlify conserve des journaux techniques de connexion pour ses propres besoins de sécurité.</p>`;
+
+  const contact = L ? `<h2>Contact</h2>
+<p>A question, a correction, a press release to pass on? Write to us here, we answer every message.</p>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="tw-form">
+<input type="hidden" name="form-name" value="contact"/>
+<p class="hp"><label>Leave this field empty <input name="bot-field"/></label></p>
+<label>Your name<input type="text" name="nom" required=""/></label>
+<label>Your email<input type="email" name="email" required=""/></label>
+<label>Subject<input type="text" name="sujet"/></label>
+<label>Your message<textarea name="message" rows="6" required=""></textarea></label>
+<button type="submit" class="cta">Send</button>
+</form>` : `<h2>Nous écrire</h2>
+<p>Une question, une correction à signaler, un communiqué à nous transmettre ? Écrivez-nous ici, nous répondons à tous les messages.</p>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="tw-form">
+<input type="hidden" name="form-name" value="contact"/>
+<p class="hp"><label>Ne remplissez pas ce champ <input name="bot-field"/></label></p>
+<label>Votre nom<input type="text" name="nom" required=""/></label>
+<label>Votre e-mail<input type="email" name="email" required=""/></label>
+<label>Sujet<input type="text" name="sujet"/></label>
+<label>Votre message<textarea name="message" rows="6" required=""></textarea></label>
+<button type="submit" class="cta">Envoyer</button>
+</form>`;
+
+  return view('mentions', mentions) + view('cgu', cgu) + view('confidentialite', conf) + view('contact', contact);
 }
 
 const TXT = {
@@ -293,7 +379,10 @@ function headTags(lang, o) {
 <meta property="og:url" content="${alt(lang)}"/>
 <meta property="og:image" content="${esc(img)}"/>
 ${o.date ? `<meta property="article:published_time" content="${esc(o.date)}"/>\n` : ''}<meta name="twitter:card" content="summary_large_image"/>
-<link rel="apple-touch-icon" href="/img/logo-512.png"/>
+<link rel="icon" href="/favicon.ico" sizes="32x32"/>
+<link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32"/>
+<link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png"/>
 <script type="application/ld+json">${ld}</script>
 ${ADS ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(ADS)}" crossorigin="anonymous"></script><script>window.TW_ADS=1</script>` : ''}
 ${GA ? `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','${esc(GA)}');window.TW_GA='${esc(GA)}';</script><script async src="https://www.googletagmanager.com/gtag/js?id=${esc(GA)}"></script>` : ''}`;
@@ -344,6 +433,9 @@ function build() {
   const sm = urls.map((u) => ['fr', 'en'].map((l) => `<url><loc>${urlOf(l, u.slug)}</loc>${u.date ? `<lastmod>${u.date}</lastmod>` : ''}<xhtml:link rel="alternate" hreflang="fr" href="${urlOf('fr', u.slug)}"/><xhtml:link rel="alternate" hreflang="en" href="${urlOf('en', u.slug)}"/></url>`).join('\n')).join('\n');
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sm}\n</urlset>\n`);
   if (ADS) fs.writeFileSync(path.join(OUT, 'ads.txt'), `google.com, ${ADS.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
+  for (const file of ['favicon.ico', 'robots.txt', '_headers', '_redirects']) {
+    if (fs.existsSync(path.join(ROOT, file))) fs.copyFileSync(path.join(ROOT, file), path.join(OUT, file));
+  }
   for (const dir of ['img', 'admin']) {
     if (fs.existsSync(path.join(ROOT, dir))) fs.cpSync(path.join(ROOT, dir), path.join(OUT, dir), { recursive: true });
   }
