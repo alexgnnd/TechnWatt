@@ -1,15 +1,27 @@
 ---
-titre: 'Apple Watch Series 12: new sensors to look after your health'
+titre: "Apple Watch Series 12: new sensors to look after your health"
+rubrique: tech-objets
+date: 2026-11-16
 categorie: Smartwatch
-chapo: 'A new sensor system, the S11 chip, faster charging and the return of ceramic: Apple''s watch increasingly sees itself as a health coach.'
+image: /img/aw12-capteur.jpg
+credit: Apple
+picto: null
+chapo: "A new sensor system, the S11 chip, faster charging and the return of
+  ceramic: Apple's watch increasingly sees itself as a health coach."
 plus: Finer health tracking, better endurance, lightning-fast charging.
 moins: Still iPhone-only, the listening feature will spark debate.
 reperes:
-- 42 or 46 mm
-- 24 h
-- From €449
-une_titre: 'Apple Watch Series 12: your coach gets a promotion'
-une_texte: 'Daily readiness score, overnight vitals, swimming: what really changes on your wrist.'
+  - 42 or 46 mm
+  - 24 h
+  - From €449
+lien_abord: null
+une: true
+une_ordre: 6
+une_titre: "Apple Watch Series 12: your coach gets a promotion"
+une_texte: "Daily readiness score, overnight vitals, swimming: what really
+  changes on your wrist."
+une_image: img/aw12-natation.jpg
+brouillon: null
 ---
 Unveiled in September and available since 18 September 2026, the Apple Watch Series 12 keeps its starting price of €449. It focuses on a new sensor system on the back, the S11 chip and watchOS 27, which requires an iPhone running iOS 27.
 

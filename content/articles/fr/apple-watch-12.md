@@ -1,34 +1,37 @@
 ---
-titre: 'Apple Watch Series 12 : de nouveaux capteurs pour veiller sur votre santé'
+titre: "Apple Watch Series 12 : de nouveaux capteurs pour veiller sur votre santé"
 rubrique: tech-objets
-date: '2026-11-16'
+date: 2026-11-16
 categorie: Montre connectée
-image: img/aw12-titane.jpg
+image: /img/aw12-capteur.jpg
 credit: Apple
-chapo: 'Nouveau système de capteurs, puce S11, recharge plus rapide et retour de la céramique : la montre d''Apple se prend de plus en plus pour un coach santé.'
+chapo: "Nouveau système de capteurs, puce S11, recharge plus rapide et retour de
+  la céramique : la montre d'Apple se prend de plus en plus pour un coach
+  santé."
 plus: Un suivi santé plus fin, une meilleure endurance, une recharge éclair.
 moins: Toujours réservée aux utilisateurs d'iPhone, la fonction d'écoute fera débat.
 reperes:
-- 42 ou 46 mm
-- 24 h
-- Dès 449 €
+  - 42 ou 46 mm
+  - 24 h
+  - Dès 449 €
 galerie:
-- img/aw12-bronze.jpg
-- img/aw12-blanc.jpg
-- img/aw12-nuit.jpg
-- img/aw12-jour.jpg
-- img/aw12-forme.jpg
-- img/aw12-pas.jpg
-- img/aw12-natation.jpg
+  - img/aw12-bronze.jpg
+  - img/aw12-blanc.jpg
+  - img/aw12-nuit.jpg
+  - img/aw12-jour.jpg
+  - img/aw12-forme.jpg
+  - img/aw12-pas.jpg
+  - img/aw12-natation.jpg
 une: true
 une_ordre: 6
-une_titre: 'Apple Watch Series 12 : votre coach a pris du galon'
-une_texte: 'Indice de forme du jour, constantes de la nuit, natation : ce qui change vraiment au poignet.'
+une_titre: "Apple Watch Series 12 : votre coach a pris du galon"
+une_texte: "Indice de forme du jour, constantes de la nuit, natation : ce qui
+  change vraiment au poignet."
 une_image: img/aw12-natation.jpg
 ---
 Présentée en septembre et disponible depuis le 18 septembre 2026, l'Apple Watch Series 12 garde son prix de départ de 449 €. Elle mise sur un nouveau système de capteurs au dos, la puce S11 et watchOS 27, qui nécessite un iPhone sous iOS 27.
 
-![](img/aw12-capteur.jpg)
+![](/img/aw12-pas.jpg)
 
 ## Des capteurs repensés
 
@@ -52,9 +55,9 @@ La puce S11 accompagne 64 Go de stockage et apporte les fonctions Apple Intellig
 
 La Series 12 existe en 42 et 46 mm, en aluminium, en titane et, grand retour, en céramique.
 
-- **Aluminium :** dès 449 € (42 mm GPS)
-- **Titane :** dès 799 €
-- **Céramique :** dès 1 049 €
+* **Aluminium :** dès 449 € (42 mm GPS)
+* **Titane :** dès 799 €
+* **Céramique :** dès 1 049 €
 
 Il faut compter 120 € de plus pour la version GPS + Cellular. Pour les sportifs de l'extrême, l'Apple Watch Ultra 4 démarre à 899 € et tient jusqu'à 50 heures.
 
