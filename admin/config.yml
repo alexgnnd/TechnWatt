@@ -15,17 +15,11 @@ logo_url: /img/logo-admin.svg
 media_folder: img
 public_folder: /img
 
-i18n:
-  structure: multiple_folders
-  locales: [fr, en]
-  default_locale: fr
-
 collections:
   - name: articles
     label: Articles
     label_singular: article
     folder: content/articles
-    i18n: true
     create: true
     slug: "{{slug}}"
     summary: "{{titre}} · {{rubrique}} · {{date}}"
@@ -39,10 +33,9 @@ collections:
       - { label: "À la une", field: une, pattern: true }
       - { label: "Brouillons", field: brouillon, pattern: true }
     fields:
-      - { label: Titre, name: titre, widget: string, i18n: true, required: false, hint: "Obligatoire en français. En anglais, laissez vide pour garder la version française." }
+      - { label: Titre, name: titre, widget: string, required: false, hint: "Titre de l'article" }
       - label: Rubrique
         name: rubrique
-        i18n: duplicate
         widget: select
         options:
           - { label: "Watt · Actualités", value: watt-actualites }
@@ -50,56 +43,53 @@ collections:
           - { label: "Tech · Smartphones", value: tech-smartphones }
           - { label: "Tech · Objets connectés", value: tech-objets }
           - { label: "Tech · Vidéoprojecteurs", value: tech-videoprojecteurs }
-      - { label: "Date de publication", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, hint: "Les articles les plus récents s'affichent en premier.", i18n: duplicate }
-      - { label: "Catégorie (ou marque pour À bord)", name: categorie, widget: string, required: false, hint: "Ex. : Nouveau modèle, Smartphone, Renault…", i18n: true }
-      - { label: "Infos sous le titre (À bord)", name: infos, widget: string, required: false, hint: "Ex. : Citadine · Made in Slovénie", i18n: true }
-      - { label: "Photo principale", name: image, widget: image, required: false, i18n: duplicate }
-      - { label: "Crédit photo", name: credit, widget: string, required: false, hint: "Ex. : Renault (le © est ajouté automatiquement)", i18n: duplicate }
-      - { label: "Picto (si pas de photo)", name: picto, widget: select, required: false, i18n: duplicate, options: [{ label: "Montre", value: montre }, { label: "Vidéoprojecteur", value: videoprojecteur }, { label: "Smartphone", value: smartphone }, { label: "Smartphone-clé", value: cle }, { label: "Borne de recharge", value: borne }, { label: "Carte", value: carte }], hint: "Affiché à la place de la photo tant qu'il n'y en a pas." }
-      - { label: "Chapô (introduction)", name: chapo, widget: text, required: false, i18n: true }
-      - { label: "Texte de l'article", name: body, widget: markdown, buttons: [bold, italic, link, heading-two, bulleted-list], editor_components: [image], hint: "Utilisez « Titre 2 » pour les intertitres. Insérez les photos à l'endroit voulu.", i18n: true }
-      - { label: "Les plus", name: plus, widget: text, required: false, i18n: true }
-      - { label: "Les moins", name: moins, widget: text, required: false, i18n: true }
-      - { label: "Repères (petites étiquettes)", name: reperes, widget: list, required: false, hint: "Ex. : 24 995 €, 450 km, Made in Espagne", i18n: true }
-      - { label: "Renvoi vers une fiche À bord", name: lien_abord, widget: relation, collection: articles, search_fields: [titre], value_field: "{{slug}}", display_fields: [titre], required: false, filters: [{ field: rubrique, values: [watt-a-bord] }], i18n: duplicate }
-      - { label: "Galerie « Plus de photos »", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image }, i18n: false }
+      - { label: "Date de publication", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, hint: "Les articles les plus récents s'affichent en premier." }
+      - { label: "Catégorie (ou marque pour À bord)", name: categorie, widget: string, required: false, hint: "Ex. : Nouveau modèle, Smartphone, Renault…" }
+      - { label: "Infos sous le titre (À bord)", name: infos, widget: string, required: false, hint: "Ex. : Citadine · Made in Slovénie" }
+      - { label: "Photo principale", name: image, widget: image, required: false }
+      - { label: "Crédit photo", name: credit, widget: string, required: false, hint: "Ex. : Renault (le © est ajouté automatiquement)" }
+      - { label: "Picto (si pas de photo)", name: picto, widget: select, required: false, options: [{ label: "Montre", value: montre }, { label: "Vidéoprojecteur", value: videoprojecteur }, { label: "Smartphone", value: smartphone }, { label: "Smartphone-clé", value: cle }, { label: "Borne de recharge", value: borne }, { label: "Carte", value: carte }], hint: "Affiché à la place de la photo tant qu'il n'y en a pas." }
+      - { label: "Chapô (introduction)", name: chapo, widget: text, required: false }
+      - { label: "Texte de l'article", name: body, widget: markdown, buttons: [bold, italic, link, heading-two, bulleted-list], editor_components: [image], hint: "Utilisez « Titre 2 » pour les intertitres. Insérez les photos à l'endroit voulu." }
+      - { label: "Les plus", name: plus, widget: text, required: false }
+      - { label: "Les moins", name: moins, widget: text, required: false }
+      - { label: "Repères (petites étiquettes)", name: reperes, widget: list, required: false, hint: "Ex. : 24 995 €, 450 km, Made in Espagne" }
+      - { label: "Renvoi vers une fiche À bord", name: lien_abord, widget: relation, collection: articles, search_fields: [titre], value_field: "{{slug}}", display_fields: [titre], required: false, filters: [{ field: rubrique, values: [watt-a-bord] }] }
+      - { label: "Galerie « Plus de photos »", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image } }
       - label: "Encadré de chiffres (fiches À bord)"
         name: chiffres
-        i18n: true
         widget: list
         required: false
         summary: "{{fields.label}} : {{fields.valeur}}"
         fields:
           - { label: Libellé, name: label, widget: string }
           - { label: Valeur, name: valeur, widget: string }
-      - { label: "Titre de l'encadré", name: encadre_titre, widget: string, required: false, default: "Les chiffres", i18n: true }
-      - { label: "Prix (encadré)", name: prix, widget: string, required: false, i18n: true }
-      - { label: "Précision sous le prix", name: prix_note, widget: string, required: false, i18n: true }
-      - { label: "Note en bas de l'encadré", name: encadre_note, widget: string, required: false, i18n: true }
-      - { label: "Mettre à la une (carrousel)", name: une, widget: boolean, required: false, default: false, i18n: duplicate }
-      - { label: "Position dans le carrousel", name: une_ordre, widget: number, required: false, value_type: int, min: 1, i18n: duplicate }
-      - { label: "Titre dans le carrousel", name: une_titre, widget: string, required: false, i18n: true }
-      - { label: "Texte dans le carrousel", name: une_texte, widget: text, required: false, i18n: true }
-      - { label: "Photo du carrousel (paysage, sans fond blanc)", name: une_image, widget: image, required: false, i18n: duplicate }
-      - { label: "Brouillon (ne pas publier)", name: brouillon, widget: boolean, required: false, default: false, i18n: duplicate }
+      - { label: "Titre de l'encadré", name: encadre_titre, widget: string, required: false, default: "Les chiffres" }
+      - { label: "Prix (encadré)", name: prix, widget: string, required: false }
+      - { label: "Précision sous le prix", name: prix_note, widget: string, required: false }
+      - { label: "Note en bas de l'encadré", name: encadre_note, widget: string, required: false }
+      - { label: "Mettre à la une (carrousel)", name: une, widget: boolean, required: false, default: false }
+      - { label: "Position dans le carrousel", name: une_ordre, widget: number, required: false, value_type: int, min: 1 }
+      - { label: "Titre dans le carrousel", name: une_titre, widget: string, required: false }
+      - { label: "Texte dans le carrousel", name: une_texte, widget: text, required: false }
+      - { label: "Photo du carrousel (paysage, sans fond blanc)", name: une_image, widget: image, required: false }
+      - { label: "Brouillon (ne pas publier)", name: brouillon, widget: boolean, required: false, default: false }
 
   - name: comparatifs
     label: Comparatifs
     label_singular: comparatif
     folder: content/comparatifs
-    i18n: true
     create: true
     slug: "{{slug}}"
     summary: "{{titre}} · {{date}}"
     fields:
-      - { label: Titre, name: titre, widget: string, i18n: true, required: false, hint: "Obligatoire en français. En anglais, laissez vide pour garder la version française." }
-      - { label: "Date de publication", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, i18n: duplicate }
-      - { label: "Introduction", name: chapo, widget: text, required: false, i18n: true }
-      - { label: "Note (méthode, précisions)", name: note, widget: text, required: false, i18n: true }
-      - { label: "Noms des colonnes du tableau (un par modèle, dans l'ordre)", name: colonnes, widget: list, required: false, i18n: false }
+      - { label: Titre, name: titre, widget: string, required: false, hint: "Titre de l'article" }
+      - { label: "Date de publication", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Introduction", name: chapo, widget: text, required: false }
+      - { label: "Note (méthode, précisions)", name: note, widget: text, required: false }
+      - { label: "Noms des colonnes du tableau (un par modèle, dans l'ordre)", name: colonnes, widget: list, required: false }
       - label: "Tableau"
         name: tableau
-        i18n: true
         widget: list
         required: false
         summary: "{{fields.critere}}"
@@ -114,7 +104,6 @@ collections:
               - { label: "Meilleur de la ligne", name: meilleur, widget: boolean, required: false, default: false }
       - label: "Modèles (dans l'ordre du classement)"
         name: modeles
-        i18n: true
         widget: list
         summary: "{{fields.nom}}"
         fields:
@@ -127,10 +116,9 @@ collections:
           - { label: "Les moins", name: moins, widget: text, required: false }
           - { label: "Prix de départ", name: prix, widget: string, required: false }
           - { label: "Photos supplémentaires", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image } }
-      - { label: "Titre de l'encadré conseils", name: conseils_titre, widget: string, required: false, default: "Laquelle pour vous ?", i18n: true }
+      - { label: "Titre de l'encadré conseils", name: conseils_titre, widget: string, required: false, default: "Laquelle pour vous ?" }
       - label: Conseils
         name: conseils
-        i18n: true
         widget: list
         required: false
         summary: "{{fields.profil}}"
