@@ -20,6 +20,7 @@ let L = T.fr;
 const CFG = fs.existsSync(path.join(ROOT, 'content', 'reglages.yml')) ? (matter('---\n' + fs.readFileSync(path.join(ROOT, 'content', 'reglages.yml'), 'utf8') + '\n---\n').data || {}) : {};
 const SITE = String(process.env.TW_SITE || CFG.site_url || process.env.URL || 'https://technwatt.com').replace(/\/+$/, '');
 const ADS = String(CFG.adsense_client || '').trim();
+const GA = String(CFG.ga_id || '').trim();
 let BASE = '/', LANG = 'fr';
 const pic = (a) => a.image || (a.picto ? `img/pictos/${a.picto}.jpg` : '');
 function ad(slot, extra = '') {
@@ -294,7 +295,8 @@ function headTags(lang, o) {
 ${o.date ? `<meta property="article:published_time" content="${esc(o.date)}"/>\n` : ''}<meta name="twitter:card" content="summary_large_image"/>
 <link rel="apple-touch-icon" href="/img/logo-512.png"/>
 <script type="application/ld+json">${ld}</script>
-${ADS ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(ADS)}" crossorigin="anonymous"></script><script>window.TW_ADS=1</script>` : ''}`;
+${ADS ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(ADS)}" crossorigin="anonymous"></script><script>window.TW_ADS=1</script>` : ''}
+${GA ? `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});gtag('js',new Date());gtag('config','${esc(GA)}');window.TW_GA='${esc(GA)}';</script><script async src="https://www.googletagmanager.com/gtag/js?id=${esc(GA)}"></script>` : ''}`;
 }
 
 const PUB = { '@type': 'Organization', name: 'TechnWatt', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/img/logo-512.png' } };
@@ -345,6 +347,6 @@ function build() {
   for (const dir of ['img', 'admin']) {
     if (fs.existsSync(path.join(ROOT, dir))) fs.cpSync(path.join(ROOT, dir), path.join(OUT, dir), { recursive: true });
   }
-  console.log(`TechnWatt : ${out.fr.arts.length} articles, ${out.fr.cmps.length} comparatif(s), ${urls.length * 2} pages, pub ${ADS ? 'active' : 'en attente'}.`);
+  console.log(`TechnWatt : ${out.fr.arts.length} articles, ${out.fr.cmps.length} comparatif(s), ${urls.length * 2} pages, pub ${ADS ? 'active' : 'en attente'}, GA ${GA ? 'actif' : 'en attente'}.`);
 }
 build();
