@@ -138,6 +138,39 @@ collections:
           - { label: Profil, name: profil, widget: string }
           - { label: Conseil, name: conseil, widget: string }
 
+  - name: guide
+    label: "Le guide de la voiture électrique"
+    files:
+      - name: guide
+        label: "Contenu du guide"
+        file: content/guide.yml
+        fields:
+          - label: "Sections"
+            name: sections
+            widget: list
+            summary: "{{fields.titre}}"
+            fields:
+              - { label: "Identifiant (ne pas modifier)", name: id, widget: string }
+              - { label: "Étiquette", name: tag, widget: string }
+              - { label: "Titre", name: titre, widget: string }
+              - { label: "Chapô", name: chapo, widget: text, required: false }
+              - { label: "Photo", name: image, widget: image, required: false }
+              - { label: "Crédit photo", name: credit, widget: string, required: false }
+          - label: "Idées reçues"
+            name: idees
+            widget: list
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Idée reçue", name: question, widget: string }
+              - { label: "Réponse", name: reponse, widget: text }
+          - label: "Glossaire"
+            name: glossaire
+            widget: list
+            summary: "{{fields.terme}}"
+            fields:
+              - { label: "Terme", name: terme, widget: string }
+              - { label: "Définition", name: definition, widget: text }
+
   - name: reglages
     label: Réglages
     files:
