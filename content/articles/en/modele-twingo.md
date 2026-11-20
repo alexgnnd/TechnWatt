@@ -34,7 +34,7 @@ prix_note: starting price, before incentives
 une: true
 une_ordre: 4
 une_titre: "Twingo E-Tech: the little car that slashes prices"
-une_texte: Under €20,000, 263 km of range and a sliding rear bench.
+une_texte: Under €20,000, 263 km of range and two sliding rear seats.
 une_image: img/twingo-route-avant.jpg
 brouillon: null
 ---
@@ -63,7 +63,7 @@ Hard plastics almost everywhere, as is often the case at this price, but the atm
 
 ## Seating and boot
 
-It is only 3.79 m long but genuinely versatile: the rear bench slides and frees up to 16 cm of knee room in its rearmost position. Slid forward, it takes the boot to 360 litres. Four average-sized adults can travel without complaint on a short trip.
+It is only 3.79 m long but genuinely versatile: the two rear seats slide independently over 17 cm and free up knee room in their rearmost position. Slid forward, they take the boot to 360 litres. Four average-sized adults can travel without complaint on a short trip.
 
 ## Charging
 
