@@ -233,7 +233,7 @@ function buildLang(lang) {
   const slides = une.map((a, i) => {
     const R = RUBS[a.rubrique] || {};
     const img = a.une_image || a.image;
-    return `<article aria-label="${i + 1} sur ${une.length}" aria-roledescription="diapositive" class="slide">
+    return `<article aria-label="${i + 1} sur ${une.length}" aria-roledescription="diapositive" class="slide ${R.cls || 'c-auto'}">
 <figure class="photo has-img"><img alt="${esc(a.titre)}" src="${esc(rel(img))}" style="object-position:50% 60%"/>${a.credit ? `<figcaption>© ${esc(a.credit)}</figcaption>` : ''}</figure>
 <div class="slide-txt"><span class="slide-cat">${esc((R.univers || '') + ' · ' + (R.label || ''))}</span><h2>${esc(a.une_titre || a.titre)}</h2><p>${esc(a.une_texte || a.chapo || '')}</p><a class="cta" href="${BASE}${esc(a.slug)}">${L.read}</a></div>
 </article>`;
