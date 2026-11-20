@@ -38,9 +38,9 @@ encadre_titre: Les chiffres
 prix: 19 490 €
 prix_note: prix de départ, avant aides
 une: true
-une_ordre: 1
+une_ordre: 2
 une_titre: "Twingo E-Tech : la petite qui casse les prix"
-une_texte: Moins de 20 000 €, 263 km d'autonomie et une banquette arrière coulissante.
+une_texte: Moins de 20 000 €, 263 km d'autonomie et deux sièges arrière coulissants.
 une_image: img/twingo-route-avant.jpg
 ---
 
@@ -78,7 +78,7 @@ Plastiques durs un peu partout, comme souvent à ce prix, mais l'ambiance est sa
 
 ## Places à bord et coffre
 
-Elle ne mesure que 3,79 m mais offre une vraie modularité : la banquette arrière coulisse et libère jusqu'à 16 cm d'espace aux genoux en position reculée. Avancée, elle porte le coffre à 360 litres. Quatre adultes de gabarit moyen y voyagent sans se plaindre sur un trajet court.
+Elle ne mesure que 3,79 m mais offre une vraie modularité : les deux sièges arrière coulissent indépendamment sur 17 cm et libèrent de la place aux genoux en position reculée. Avancés, ils portent le coffre à 360 litres. Quatre adultes de gabarit moyen y voyagent sans se plaindre sur un trajet court.
 
 ![](img/twingo-coffre.jpg)
 
