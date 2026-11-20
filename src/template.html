@@ -93,7 +93,8 @@ section{padding:88px 0}
 .slide.active .slide-txt>*:nth-child(3){animation-delay:.16s}
 .slide.active .slide-txt>*:nth-child(4){animation-delay:.24s}
 @keyframes rise{from{opacity:.25;transform:translateY(18px)}to{opacity:1;transform:none}}
-.car-btn{position:absolute;bottom:44px;z-index:2;width:42px;height:42px;border-radius:999px;border:0;background:rgba(255,255,255,.9);color:var(--ink);font-size:1.5rem;line-height:1;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s,background .2s}
+.car-btn{position:absolute;bottom:44px;z-index:2;display:flex;align-items:center;justify-content:center;padding:0;width:42px;height:42px;border-radius:999px;border:0;background:rgba(255,255,255,.9);color:var(--ink);font-size:1.5rem;line-height:1;font-family:system-ui,sans-serif;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s,background .2s}
+.car-btn>span{display:block;line-height:1}
 .car-btn:hover{transform:scale(1.08);background:#fff}
 .car-btn.prev{right:96px}.car-btn.next{right:44px}
 .car-dots{display:flex;justify-content:center;gap:8px;margin-top:18px}
@@ -661,8 +662,8 @@ a.aff{font-weight:600}
 <div class="car-track" id="carTrack">
 <!--SLIDES-->
 </div>
-<button aria-label="Diapositive précédente" class="car-btn prev" id="carPrev" type="button">‹</button>
-<button aria-label="Diapositive suivante" class="car-btn next" id="carNext" type="button">›</button>
+<button aria-label="Diapositive précédente" class="car-btn prev" id="carPrev" type="button"><span>‹</span></button>
+<button aria-label="Diapositive suivante" class="car-btn next" id="carNext" type="button"><span>›</span></button>
 </div>
 <div aria-label="Choisir une diapositive" class="car-dots" id="carDots" role="group"></div>
 </div>
