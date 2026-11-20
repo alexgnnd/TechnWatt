@@ -4,8 +4,8 @@ brouillon: true
 rubrique: watt-actualites
 date: '2026-11-20'
 categorie: Technologie
-picto: borne
-credit: BMW
+image: img/bmw-i3-recharge.jpg
+credit: BMW Group
 chapo: 'Trois modèles de plus rejoignent l''offre de recharge bidirectionnelle de BMW et E.ON. Le principe : votre batterie rend service au réseau, et le réseau vous rémunère.'
 reperes:
 - Jusqu'à 720 € par an
