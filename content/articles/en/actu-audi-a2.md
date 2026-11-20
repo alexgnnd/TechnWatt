@@ -35,12 +35,10 @@ On a 400 V architecture, fast charging reaches up to 183 kW depending on the ver
 
 ## Prices in France
 
-- **170 hp, 52 kWh:** €38,600
-- **190 hp, 61 kWh:** €42,900
-- **231 hp, 84 kWh:** €46,900
-- **326 hp, 84 kWh:** €52,000
-
-The 646 km are therefore not available on the entry-level model: you need the 231 hp version.
+* **170 hp, 52 kWh:** €38,600
+* **190 hp, 61 kWh:** €42,900
+* **231 hp, 84 kWh:** €46,900
+* **326 hp, 84 kWh:** €52,000
 
 ## On board: a large display and magnetic mounts
 
@@ -52,4 +50,4 @@ Developed in Germany, the A2 e-tron is built at Audi's historic Ingolstadt plant
 
 ## Our verdict
 
-Audi delivers a coherent compact, more expensive than its Volkswagen ID.3 Neo cousin but better presented and even more efficient. The starting price is attractive, but the version with 646 km already costs over €46,000. See you in spring to check whether the efficiency promise holds up on the road.
+Audi delivers a coherent compact, more expensive than its Volkswagen ID.3 Neo cousin but better presented and even more efficient. The starting price is attractive, but the version with 646 km already costs over €46,000.
