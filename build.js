@@ -367,9 +367,6 @@ function headTags(lang, o) {
   return `<title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}"/>
 <link rel="canonical" href="${alt(lang)}"/>
-<link rel="alternate" hreflang="fr" href="${alt('fr')}"/>
-<link rel="alternate" hreflang="en" href="${alt('en')}"/>
-<link rel="alternate" hreflang="x-default" href="${alt('fr')}"/>
 <meta name="robots" content="index,follow,max-image-preview:large"/>
 <meta property="og:site_name" content="TechnWatt"/>
 <meta property="og:locale" content="${TXT[lang].loc}"/>
@@ -404,13 +401,13 @@ function articleLd(lang, a, url, img) {
 }
 
 function build() {
-  const out = { fr: buildLang('fr'), en: buildLang('en') };
+  const out = { fr: buildLang('fr') };
   fs.rmSync(OUT, { recursive: true, force: true });
-  fs.mkdirSync(path.join(OUT, 'en'), { recursive: true });
+  fs.mkdirSync(OUT, { recursive: true });
   const urls = [];
-  for (const lang of ['fr', 'en']) {
+  for (const lang of ['fr']) {
     const b = out[lang], X = TXT[lang];
-    const dir = lang === 'en' ? path.join(OUT, 'en') : OUT;
+    const dir = OUT;
     const home = { slug: '', title: X.home, desc: X.desc, ld: { '@context': 'https://schema.org', '@type': 'WebSite', name: 'TechnWatt', url: urlOf(lang, ''), inLanguage: lang, publisher: PUB } };
     fs.writeFileSync(path.join(dir, 'index.html'), finalize(b.page, lang, home));
     if (lang === 'fr') urls.push({ slug: '', date: (b.arts[0] || {}).date });
@@ -428,10 +425,10 @@ function build() {
     }
   }
   // Ancienne adresse de la version anglaise
-  fs.writeFileSync(path.join(OUT, '_redirects'), '/en.html /en/ 301\n/index.html / 301\n');
+  fs.writeFileSync(path.join(OUT, '_redirects'), '/en.html / 301\n/en/* /:splat 301\n/index.html / 301\n');
   fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\n\nSitemap: ${SITE}/sitemap.xml\n`);
-  const sm = urls.map((u) => ['fr', 'en'].map((l) => `<url><loc>${urlOf(l, u.slug)}</loc>${u.date ? `<lastmod>${u.date}</lastmod>` : ''}<xhtml:link rel="alternate" hreflang="fr" href="${urlOf('fr', u.slug)}"/><xhtml:link rel="alternate" hreflang="en" href="${urlOf('en', u.slug)}"/></url>`).join('\n')).join('\n');
-  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sm}\n</urlset>\n`);
+  const sm = urls.map((u) => `<url><loc>${urlOf('fr', u.slug)}</loc>${u.date ? `<lastmod>${u.date}</lastmod>` : ''}</url>`).join('\n');
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sm}\n</urlset>\n`);
   if (ADS) fs.writeFileSync(path.join(OUT, 'ads.txt'), `google.com, ${ADS.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
   for (const file of ['favicon.ico', 'robots.txt', '_headers', '_redirects']) {
     if (fs.existsSync(path.join(ROOT, file))) fs.copyFileSync(path.join(ROOT, file), path.join(OUT, file));
@@ -439,6 +436,6 @@ function build() {
   for (const dir of ['img', 'admin']) {
     if (fs.existsSync(path.join(ROOT, dir))) fs.cpSync(path.join(ROOT, dir), path.join(OUT, dir), { recursive: true });
   }
-  console.log(`TechnWatt : ${out.fr.arts.length} articles, ${out.fr.cmps.length} comparatif(s), ${urls.length * 2} pages, pub ${ADS ? 'active' : 'en attente'}, GA ${GA ? 'actif' : 'en attente'}.`);
+  console.log(`TechnWatt : ${out.fr.arts.length} articles, ${out.fr.cmps.length} comparatif(s), ${urls.length} pages, pub ${ADS ? 'active' : 'en attente'}, GA ${GA ? 'actif' : 'en attente'}.`);
 }
 build();
