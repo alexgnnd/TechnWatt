@@ -44,12 +44,10 @@ Sur une architecture 400 V, la recharge rapide grimpe jusqu'à 183 kW selon la v
 
 ## Les prix en France
 
-- **170 ch, 52 kWh :** 38 600 €
-- **190 ch, 61 kWh :** 42 900 €
-- **231 ch, 84 kWh :** 46 900 €
-- **326 ch, 84 kWh :** 52 000 €
-
-Les 646 km ne sont donc pas accessibles en entrée de gamme : il faut viser la version 231 ch.
+* **170 ch, 52 kWh :** 38 600 €
+* **190 ch, 61 kWh :** 42 900 €
+* **231 ch, 84 kWh :** 46 900 €
+* **326 ch, 84 kWh :** 52 000 €
 
 ![](img/a2-places-arriere.jpg)
 
@@ -65,4 +63,4 @@ Développée en Allemagne, l'A2 e-tron est assemblée dans l'usine historique d'
 
 ## Notre avis
 
-Audi signe une compacte cohérente, plus chère que sa cousine Volkswagen ID.3 Neo mais mieux présentée et encore plus sobre. Le prix d'appel attire, mais la version qui offre les 646 km dépasse déjà 46 000 €. Rendez-vous au printemps pour vérifier si la promesse d'efficience tient sur la route.
+Audi signe une compacte cohérente, plus chère que sa cousine Volkswagen ID.3 Neo mais mieux présentée et encore plus sobre. Le prix d'appel attire, mais la version qui offre les 646 km dépasse les 46 000 €.
