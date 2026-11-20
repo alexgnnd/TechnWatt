@@ -234,7 +234,7 @@ function buildLang(lang) {
   page = page.replace('<!--SLIDES-->', slides);
 
   // Derniers articles
-  const latest = arts.slice(0, 6).map((a) => {
+  const latest = arts.slice(0, 9).map((a) => {
     const R = RUBS[a.rubrique] || {};
     const meta = (a.reperes || []).slice(0, 2).join(' · ') || (a.prix ? a.prix : '');
     const img = pic(a) ? `<figure aria-hidden="true" class="photo mini-ph has-img"><img alt="" loading="lazy" src="${esc(rel(pic(a)))}"/></figure>` : '<figure aria-hidden="true" class="photo mini-ph"><span></span></figure>';
