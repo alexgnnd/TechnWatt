@@ -47,7 +47,7 @@ p{margin:0;max-width:65ch}
 /* En-tête */
 header.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.78);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08);transition:background .3s}
 header.top.scrolled{background:rgba(255,255,255,.92)}
-.top .wrap{display:flex;align-items:center;gap:28px;height:66px}
+.top .wrap{display:flex;align-items:center;gap:28px;min-height:66px;padding-top:12px;padding-bottom:12px}
 .logo{display:flex;align-items:center;flex:none}
 .logo-svg{height:34px;width:auto;display:block}
 nav.menu{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;justify-content:flex-end}
@@ -467,7 +467,7 @@ footer a{color:#424245}
 }
 
 @media (max-width:640px){
-  .top .wrap{flex-wrap:wrap;height:auto;row-gap:0;column-gap:10px;padding-top:10px}
+  .top .wrap{flex-wrap:wrap;min-height:0;row-gap:0;column-gap:10px;padding-top:12px;padding-bottom:12px}
   .logo{flex:1;height:46px}
   nav.menu{order:3;flex:0 0 100%;justify-content:flex-start;margin:0 0 6px -10px;padding:0}
   nav.menu a{padding:7px 10px;font-size:.92rem}
@@ -647,7 +647,7 @@ a.aff{font-weight:600}
 <a data-nav="accueil" href="#accueil">À la une</a>
 <a data-nav="tech" href="#tech">Tech</a>
 <a data-nav="watt" href="#watt">Watt</a>
-<a data-nav="guide" href="#guide">Le guide de la voiture électrique</a>
+<a data-nav="guide" href="#guide">Le guide de l'électrique</a>
 </nav>
 <button aria-label="Rechercher sur le site" class="search-btn" id="searchBtn" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4.2-4.2"></path></svg><span>Rechercher</span></button><a class="ig-top" href="https://www.instagram.com/technwatt/" target="_blank" rel="noopener" aria-label="TechnWatt sur Instagram" title="Suivez TechnWatt sur Instagram"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg></a><a class="lang-sw" href="en.html" hreflang="en" lang="en" title="English version">EN</a>
 </div>
@@ -733,7 +733,7 @@ a.aff{font-weight:600}
 <section class="alt guide-top">
 <div class="wrap">
 <div class="sec-head">
-<span class="tag">Le guide de la voiture électrique</span>
+<span class="tag">Le guide de l'électrique</span>
 
 
 </div>
