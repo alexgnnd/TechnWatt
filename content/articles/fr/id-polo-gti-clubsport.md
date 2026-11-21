@@ -1,23 +1,20 @@
 ---
-titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !"
+titre: 'ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !'
 rubrique: watt-actualites
-date: 2026-11-20
+date: '2026-11-20'
 categorie: Concept
 image: img/clubsport-avant.jpg
 credit: Volkswagen
-chapo: "Volkswagen dévoile l'ID. Polo GTI Clubsport Concept : deux places, un
-  arceau, des Recaro à harnais et plus la moindre distraction à bord. La GTI de
-  piste entre dans l'ère électrique."
-reperes:
-  - 367 ch
-  - 0 à 100 en 4,7 s
-  - Deux places seulement
+chapo: 'Volkswagen dévoile l''ID. Polo GTI Clubsport Concept : deux places, un arceau, des Recaro à harnais et plus la moindre distraction à bord. La GTI de piste entre dans l''ère électrique.'
 une: true
 une_ordre: 1
-une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !"
-une_texte: 367 ch sur les roues avant, des Recaro à harnais et plus
-  d'infodivertissement à bord.
+une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !"
+une_texte: 367 ch sur les roues avant, des Recaro à harnais et plus d'infodivertissement à bord.
 une_image: img/clubsport-avant.jpg
+reperes:
+- 367 ch
+- 0 à 100 en 4,7 s
+- Deux places seulement
 ---
 Il y a des concepts qui annoncent un modèle, et d'autres qui affirment une intention. Celui-ci est du second type. Pour les 50 ans de la GTI, Volkswagen a présenté le 20 novembre l'**ID. Polo GTI Clubsport Concept**, une étude de piste entièrement électrique dérivée de l'ID. Polo GTI de série. Et le cahier des charges est limpide : tout ce qui ne sert pas à aller vite a été retiré.
 
@@ -53,6 +50,6 @@ Exit les quatre portes du modèle de série : le concept est un **deux-portes**.
 
 Première apparition publique au **Salon de l'automobile d'Essen**, du 27 novembre au 6 décembre 2026.
 
-## Notre avis
+## Mon avis
 
 Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible : en enlevant plutôt qu'en ajoutant. Pas d'infodivertissement, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?
