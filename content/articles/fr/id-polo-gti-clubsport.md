@@ -1,15 +1,15 @@
 ---
-titre: 'ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 écran !'
+titre: 'ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 banquette !'
 rubrique: watt-actualites
 date: '2026-11-20'
 categorie: Concept
 image: img/clubsport-avant.jpg
 credit: Volkswagen
-chapo: 'Volkswagen dévoile l''ID. Polo GTI Clubsport Concept : deux places, un arceau, des Recaro à harnais et pas le moindre écran. La GTI de piste entre dans l''ère électrique.'
+chapo: 'Volkswagen dévoile l''ID. Polo GTI Clubsport Concept : deux places, un arceau, des Recaro à harnais et plus la moindre distraction à bord. La GTI de piste entre dans l''ère électrique.'
 une: true
 une_ordre: 1
-une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 écran !"
-une_texte: 367 ch sur les roues avant, des Recaro à harnais et pas le moindre écran.
+une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 banquette !"
+une_texte: 367 ch sur les roues avant, des Recaro à harnais et plus d'infodivertissement à bord.
 une_image: img/clubsport-avant.jpg
 reperes:
 - 367 ch
@@ -36,7 +36,7 @@ Le châssis adaptatif **DCC** a été recalibré pour la piste, et le système d
 
 ## Le régime sec
 
-C'est à l'intérieur que le parti pris frappe le plus. **Il n'y a pas de système d'infodivertissement.** Pas d'écran central, rien : Volkswagen a tout concentré sur l'ergonomie et la conduite.
+C'est à l'intérieur que le parti pris frappe le plus. **Le système d'infodivertissement a été supprimé.** L'écran central disparaît, et seule l'architecture générale du poste de conduite de série est conservée : Volkswagen a tout concentré sur l'ergonomie et la conduite.
 
 Deux places, et deux seulement : des baquets **Recaro** avec harnais rouges à cinq points. La banquette arrière et le coffre ont disparu, remplacés par un **arceau peint en Rouge Tornado** juste derrière les sièges. Planche de bord et garnitures sont habillées de microfibre ArtVelours sombre à surpiqûres rouges : réalisées en partie par les apprentis de Volkswagen, détail qui en dit long sur l'esprit maison.
 
@@ -52,4 +52,4 @@ Première apparition publique au **Salon de l'automobile d'Essen**, du 27 novemb
 
 ## Notre avis
 
-Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible : en enlevant plutôt qu'en ajoutant. Pas d'écran, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?
+Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible : en enlevant plutôt qu'en ajoutant. Pas d'infodivertissement, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?
