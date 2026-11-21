@@ -40,7 +40,3 @@ Ces montants intègrent des remises valables jusqu'au 30 novembre 2026, à véri
 ## Ce que ça change dans la gamme
 
 Fiat tient désormais deux arguments au lieu d'un. Jusqu'ici, la Grande Panda se vendait sur son prix et sur son dessin, avec l'autonomie comme réserve. Avec 400 km, elle entre dans la catégorie des voitures qu'on peut acheter en voiture unique du foyer, sans deuxième véhicule thermique en embuscade.
-
-## Mon avis
-
-C'est la mise à jour que j'attendais, et elle arrive au bon endroit : sur la batterie, pas sur la planche de bord. Les 100 kW en charge rapide resteront un frein pour les gros rouleurs, et il faudra regarder de près ce que deviennent les prix une fois les remises terminées. Mais à ce tarif, avec 400 km annoncés, la Grande Panda devient très difficile à écarter d'une liste de citadines électriques.

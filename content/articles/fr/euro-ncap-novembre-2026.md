@@ -48,7 +48,3 @@ Les Lepas L6 et L8 PHEV signent d'ailleurs le meilleur score de la série en Pos
 La Nissan Leaf ferme la marche, dernière dans les quatre catégories. Deux absences pèsent lourd : pas de radars d'angle avant de série, ce qui pénalise la détection du trafic transversal, et pas d'airbag central de série.
 
 Pour une voiture dont c'est la troisième génération et qui a longtemps servi de porte-drapeau à l'électrique accessible, le résultat interroge.
-
-## Mon avis
-
-Deux enseignements. Le premier : la protection en cas de choc n'est plus le sujet, neuf modèles sur dix franchissent la barre sans difficulté. Le second est plus intéressant : ce qui sépare désormais les voitures, c'est l'équipement de série en aides à la conduite et en détection. Une option non cochée coûte aujourd'hui plus de points qu'une structure moins rigide.

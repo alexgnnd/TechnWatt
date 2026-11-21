@@ -46,10 +46,6 @@ De série, la Twingo se recharge en courant alternatif à 6,6 kW, soit environ 4
 
 ## Deux finitions : Evolution et Techno
 
-La finition Evolution couvre l'essentiel : freinage automatique d'urgence, banquette coulissante, climatisation et câble de recharge mode 3. La finition Techno ajoute le système OpenR Link avec Google intégré sur un écran de 10,1 pouces, l'avatar Reno, la climatisation automatique, la carte mains libres, le régulateur adaptatif Stop & Go, la caméra de recul, la conduite One Pedal et un système audio Arkamys à six haut-parleurs. Selon la version, la Twingo embarque jusqu'à 24 aides à la conduite, désactivables d'un geste grâce au bouton My Safety Switch.
+La finition Evolution couvre l'essentiel : freinage automatique d'urgence, sièges arrière coulissants, climatisation et câble de recharge mode 3. La finition Techno ajoute le système OpenR Link avec Google intégré sur un écran de 10,1 pouces, l'avatar Reno, la climatisation automatique, la carte mains libres, le régulateur adaptatif Stop & Go, la caméra de recul, la conduite One Pedal et un système audio Arkamys à six haut-parleurs. Selon la version, la Twingo embarque jusqu'à 24 aides à la conduite, désactivables d'un geste grâce au bouton My Safety Switch.
 
 ![](img/twingo-places-arriere.jpg)
-
-## Mon avis
-
-Prix serré, gabarit malin, équipements dignes d'une catégorie supérieure : la Twingo E-Tech electric coche beaucoup de cases pour un usage urbain. Le vrai point de vigilance reste le pack Advanced Charge : sans lui, impossible de s'arrêter sur une borne rapide. Pour ceux qui sortent régulièrement de la ville, il est indispensable.

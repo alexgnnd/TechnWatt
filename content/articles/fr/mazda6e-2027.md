@@ -37,7 +37,3 @@ Côté aides à la conduite, le Smart Cruise Assist fonctionne désormais jusqu'
 - **Homura Plus :** 45 900 €
 
 La finition Homura Plus est la nouveauté de ce millésime, positionnée au même tarif que la Takumi Plus avec une orientation plus sportive dans la présentation.
-
-## Mon avis
-
-Mazda a fait le plus utile : clarifier la gamme et corriger la recharge. Une seule batterie, une seule puissance, 200 kW en DC, c'est une offre qu'on peut expliquer en deux phrases, ce qui n'était pas le cas l'an dernier. Reste à vérifier sur route ce que donne la consommation mixte annoncée, car c'est elle, et non les 703 km urbains, qui décidera si la 6e tient vraiment la distance sur un long trajet.

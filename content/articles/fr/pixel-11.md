@@ -51,7 +51,3 @@ Le modèle de base reçoit un écran OLED Actua de 6,3 pouces, de 60 à 120 Hz, 
 Le Pixel 11 existe en Givre, Pistache, Fuchsia et Obsidienne.
 
 ![](img/pixel11-hibiscus.jpg)
-
-## Mon avis
-
-Google peaufine une formule déjà solide : plus de stockage, une puce plus efficace et sept ans de mises à jour. Mais la hausse des prix est sensible, et une partie des fonctions Gemini se fait attendre chez nous.

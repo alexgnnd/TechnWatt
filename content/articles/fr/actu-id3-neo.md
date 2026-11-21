@@ -60,7 +60,3 @@ De série, l'ID.3 Neo reçoit le Lane Assist, le Front Assist et une fonction de
 ## Trend, Life et Style
 
 La finition Trend est réservée à la batterie de 50 kWh. Les finitions Life et Style donnent accès aux trois batteries. Le coffre reste dans la moyenne, avec 385 litres.
-
-## Mon avis
-
-C'est enfin l'ID.3 que j'attendais : mieux finie, plus pratique au quotidien et très endurante en grosse batterie. Le choix de la batterie compte : les versions LFP suffisent pour un usage mixte, mais la 79 kWh, plus rapide à la borne, reste la meilleure option pour les longs trajets.

@@ -49,7 +49,3 @@ Exit les quatre portes du modèle de série : le concept est un **deux-portes**.
 ## Où le voir
 
 Première apparition publique au **Salon de l'automobile d'Essen**, du 27 novembre au 6 décembre 2026.
-
-## Mon avis
-
-Volkswagen avait un problème à régler : convaincre que les trois lettres GTI gardent un sens sans moteur thermique. Cette étude y répond de la manière la plus directe possible : en enlevant plutôt qu'en ajoutant. Pas d'infodivertissement, pas de banquette, pas de quatre roues motrices pour masquer la difficulté : une traction avant, un différentiel piloté, deux baquets et un arceau. C'est le vocabulaire des GTI historiques, appliqué à une mécanique qui n'a plus rien à voir. Reste la question que personne ne pose encore tout haut : combien de ces ingrédients survivront au passage en série ?

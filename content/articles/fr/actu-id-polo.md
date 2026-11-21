@@ -49,7 +49,3 @@ Même en entrée de gamme, l'ID. Polo reçoit le Side Assist et le Lane Assist a
 La gamme démarre avec la finition Trend, puis Life et Style. Cette dernière ajoute les projecteurs IQ.LIGHT LED Matrix, un bandeau lumineux à l'avant, des feux arrière 3D LED et le logo VW éclairé à l'avant comme à l'arrière. Pour les amateurs de sensations, l'ID. Polo GTI de 226 ch reprend les codes historiques : touches de rouge, sièges sport et châssis raffermi, cinquante ans après la première Golf GTI.
 
 ![](img/polo-phare.jpg)
-
-## Mon avis
-
-Prix d'appel compétitif, coffre généreux et vraie remise à niveau de l'ergonomie : l'ID. Polo a de solides arguments face à la Renault 5. Le choix de la batterie sera déterminant. La LFP de 37 kWh conviendra à un usage surtout urbain, tandis que la 52 kWh s'impose pour ceux qui prennent régulièrement l'autoroute.

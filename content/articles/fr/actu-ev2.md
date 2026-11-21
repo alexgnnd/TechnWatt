@@ -44,7 +44,3 @@ L'EV2 sait alimenter un appareil électrique grâce à la fonction V2L, jusqu'à
 En France, la gamme commence à 26 670 € pour l'EV2 Light 42,2 kWh. Suivent l'Air (28 820 €) et l'Earth (31 320 €) avec la même batterie. En 61 kWh, l'Air démarre à 33 320 €, l'Earth à 35 320 € et la GT-Line, la plus sportive d'allure, à 37 320 €. Selon la version, l'EV2 propose un toit panoramique, un chargeur à induction et Apple CarPlay.
 
 ![](img/ev2-coffre.jpg)
-
-## Mon avis
-
-Gabarit urbain, technologies de grand modèle et vraie polyvalence : l'EV2 coche beaucoup de cases. Attention toutefois à la petite batterie si vous roulez souvent sur autoroute : à 130 km/h, même la version 61 kWh parcourt environ 160 km entre 20 et 80 % de charge.

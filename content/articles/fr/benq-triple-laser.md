@@ -29,7 +29,3 @@ Le W4200 remplace les W4100i et W5800. Pensé pour les puristes, il se passe de 
 ## Disponibilité
 
 Les dates varient selon les annonces : le TK715i est attendu entre la fin 2026 et le début de l'année 2027. Le prix français du W4200 n'est pas encore communiqué.
-
-## Mon avis
-
-En passant au triple laser, BenQ comble son retard sur XGIMI et Hisense. Le TK715i vise un public large avec Google TV et une faible latence, tandis que le W4200 s'adresse aux cinéphiles qui veulent une image calibrée.

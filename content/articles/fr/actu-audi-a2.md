@@ -62,7 +62,3 @@ Une dalle incurvée réunit le combiné d'instrumentation et l'écran central, o
 ## Made in Ingolstadt
 
 Développée en Allemagne, l'A2 e-tron est assemblée dans l'usine historique d'Audi à Ingolstadt. Les commandes sont ouvertes depuis le 10 septembre et les premières voitures arrivent chez les concessionnaires en décembre 2026.
-
-## Mon avis
-
-Audi signe une compacte cohérente, plus chère que sa cousine Volkswagen ID.3 Neo mais mieux présentée et encore plus sobre. Le prix d'appel attire, mais la version qui offre les 646 km dépasse déjà 46 000 €. Rendez-vous au printemps pour vérifier si la promesse d'efficience tient sur la route.

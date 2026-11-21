@@ -59,7 +59,3 @@ La Series 12 existe en 42 et 46 mm, en aluminium, en titane et, grand retour, en
 Il faut compter 120 € de plus pour la version GPS + Cellular. Pour les sportifs de l'extrême, l'Apple Watch Ultra 4 démarre à 899 € et tient jusqu'à 50 heures.
 
 ![](img/aw12-blanc.jpg)
-
-## Mon avis
-
-Pas de révolution de design, mais une montre plus endurante à l'effort, plus rapide à recharger et plus complète sur la santé. Le prix d'entrée ne bouge pas, ce qui en fait une évolution logique pour les propriétaires de modèles anciens.
