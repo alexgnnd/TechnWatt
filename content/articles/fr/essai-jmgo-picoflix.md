@@ -8,6 +8,8 @@ credit: JMGO
 picto: videoprojecteur
 chapo: "Image juste, son surprenant, batterie sérieuse, installation en dix
   secondes. Le « presque » tient en un mot : ventilateur."
+une: true
+une_ordre: 3
 ---
 Un vidéoprojecteur portable, c'est toujours le même marché : on troque de la lumière contre de la liberté. Le JMGO PicoFlix pousse le curseur un peu plus loin que les autres grâce à deux arguments, une vraie batterie et un pied rotatif. Acheté et utilisé pendant plusieurs soirées, voici ce qu'il vaut.
 
