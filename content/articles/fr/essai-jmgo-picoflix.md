@@ -1,14 +1,13 @@
 ---
-titre: 'JMGO PicoFlix : le vidéoprojecteur portable qui fait presque tout bien'
-picto: videoprojecteur
+titre: "JMGO PicoFlix : le vidéoprojecteur portable qui fait presque tout bien"
 rubrique: tech-videoprojecteurs
-date: '2026-11-22'
+date: 2026-11-22
 categorie: Essai · Vidéoprojecteur
 image: img/picoflix-avant.jpg
 credit: JMGO
-chapo: >-
-  Image juste, son surprenant, batterie sérieuse, installation en dix secondes.
-  Le « presque » tient en un mot : ventilateur.
+picto: videoprojecteur
+chapo: "Image juste, son surprenant, batterie sérieuse, installation en dix
+  secondes. Le « presque » tient en un mot : ventilateur."
 ---
 Un vidéoprojecteur portable, c'est toujours le même marché : on troque de la lumière contre de la liberté. Le JMGO PicoFlix pousse le curseur un peu plus loin que les autres grâce à deux arguments, une vraie batterie et un pied rotatif. Acheté et utilisé pendant plusieurs soirées, voici ce qu'il vaut.
 
@@ -34,7 +33,7 @@ Le son est confié à deux haut-parleurs de 10 W, et l'appareil se recharge en U
 
 ![](img/picoflix-connectique.jpg)
 
-![](img/picoflix-table.jpg)
+![]()
 
 ## L'autonomie, le vrai argument
 
@@ -54,7 +53,7 @@ Trois réserves, en revanche. La netteté faiblit sur les extrémités de l'imag
 
 Il mérite son propre paragraphe. Le ventilateur continue de souffler quand l'appareil est en veille. Dans un salon, on l'oublie. Dans une chambre, c'est rédhibitoire : il faut le débrancher pour la nuit. Sur un produit pensé pour se poser n'importe où, y compris au pied d'un lit, c'est le genre de détail qui aurait dû être réglé.
 
-![](img/picoflix-ventilateur.jpg)
+![](/img/picoflix-table.jpg)
 
 ## Le verdict
 
@@ -66,20 +65,20 @@ Lancé à 599 €, le PicoFlix se trouve désormais sous les 300 €, soit une d
 
 ## Fiche technique
 
-| | |
-|---|---|
-| Définition | 1 920 x 1 080 (Full HD) |
-| Technologie | DLP, source LED |
-| Luminosité | 450 lumens ANSI |
-| Taille d'image | 40 à 180 pouces |
-| Rapport de projection | 1,2:1 |
-| Durée de vie de la source | 25 000 heures |
-| Automatismes | mise au point et trapèze en temps réel, alignement d'écran, protection oculaire |
-| Système | Google TV, Netflix natif |
-| Audio | 2 haut-parleurs de 10 W |
-| Autonomie | jusqu'à 4,5 heures |
-| Recharge | USB-C 65 W |
-| Prix | moins de 300 € (599 € au lancement) |
+|                           |                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------- |
+| Définition                | 1 920 x 1 080 (Full HD)                                                         |
+| Technologie               | DLP, source LED                                                                 |
+| Luminosité                | 450 lumens ANSI                                                                 |
+| Taille d'image            | 40 à 180 pouces                                                                 |
+| Rapport de projection     | 1,2:1                                                                           |
+| Durée de vie de la source | 25 000 heures                                                                   |
+| Automatismes              | mise au point et trapèze en temps réel, alignement d'écran, protection oculaire |
+| Système                   | Google TV, Netflix natif                                                        |
+| Audio                     | 2 haut-parleurs de 10 W                                                         |
+| Autonomie                 | jusqu'à 4,5 heures                                                              |
+| Recharge                  | USB-C 65 W                                                                      |
+| Prix                      | moins de 300 € (599 € au lancement)                                             |
 
 **Les plus :** nacelle rotative pratique, son étonnant pour la taille, colorimétrie juste en mode cinéma, vraiment transportable.
 
