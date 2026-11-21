@@ -23,7 +23,7 @@ galerie:
   - img/aw12-pas.jpg
   - img/aw12-natation.jpg
 une: true
-une_ordre: 3
+une_ordre: 5
 une_titre: "Apple Watch Series 12 : votre coach a pris du galon"
 une_texte: "Indice de forme du jour, constantes de la nuit, natation : ce qui
   change vraiment au poignet."
