@@ -1,14 +1,13 @@
 ---
-titre: 'GTA VI : des électriques partout à Vice City, et des bornes de recharge'
+titre: "GTA VI : il y a des bornes de recharge à Vice City !"
 rubrique: watt-actualites
 date: 2026-11-21
 categorie: Jeu vidéo · L'événement
 image: img/gta-supercar.jpg
 credit: Rockstar Games
-chapo: >-
-  Le jeu est sorti jeudi, et la réponse est tombée avec lui : il y a bien des
-  voitures électriques dans le trafic de Vice City, et même tout un réseau de
-  bornes de recharge.
+chapo: "Le jeu est sorti jeudi, et la réponse est tombée avec lui : il y a bien
+  des voitures électriques dans le trafic de Vice City, et même tout un réseau
+  de bornes de recharge."
 plus: Un amour évident pour l'automobile, une circulation incroyablement variée,
   une carte immense.
 moins: Pas de vraies marques, un téléchargement monstre, pas de version PC pour
@@ -32,8 +31,9 @@ encadre_titre: En bref
 encadre_note: Comme toute la série, un jeu destiné aux adultes.
 une: true
 une_ordre: 3
-une_titre: 'GTA VI : des électriques partout à Vice City, et des bornes de recharge'
-une_texte: 'Le jeu est sorti. Plus de 300 véhicules, des électriques dans le trafic et un réseau de recharge parodique.'
+une_titre: "GTA VI : il y a des bornes de recharge à Vice City !"
+une_texte: Le jeu est sorti. Plus de 300 véhicules, des électriques dans le
+  trafic et un réseau de recharge parodique.
 ---
 On a cru qu'il n'arriverait jamais. Annoncé pour 2025, repoussé au 26 mai 2026 puis au 19 novembre, le sixième épisode de Grand Theft Auto est sorti jeudi 19 novembre sur PlayStation 5 et Xbox Series X|S. Aucune date n'est encore fixée pour la version PC. Conseil d'ami : faites de la place sur votre console, le jeu réclame plus de 200 Go.
 
@@ -69,7 +69,7 @@ Le jeu sort en édition Standard et en édition Ultimate. Cette dernière ajoute
 
 ## Et la voiture électrique, alors ?
 
-C'était ma grande question avant la sortie, et la réponse est oui. L'électrique n'est plus un clin d'œil glissé dans un coin de la carte, elle fait partie du trafic ordinaire de Vice City. On croise une copie de Tesla Model S, baptisée Coil Raiden, et une copie de Porsche Taycan.
+C'était la grande question avant la sortie, et la réponse est oui. L'électrique n'est plus un clin d'œil glissé dans un coin de la carte, elle fait partie du trafic ordinaire de Vice City. On croise une copie de Tesla Model S, baptisée Coil Raiden, et une copie de Porsche Taycan.
 
 Mieux : Rockstar a intégré un vrai système d'énergie. Les thermiques font le plein en station-service, les électriques ont leur propre niveau de charge et doivent passer par une borne. Le réseau public s'appelle ReVolt America, parodie à peine déguisée d'Electrify America, et un immense hub de recharge a été installé près de la centrale électrique. Détail savoureux pour qui roule à l'électron : on tombe sur des places de recharge squattées par des thermiques, ce que les conducteurs appellent se faire « ICEr ».
 
