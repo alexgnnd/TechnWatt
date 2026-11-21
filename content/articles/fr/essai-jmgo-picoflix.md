@@ -61,7 +61,7 @@ Malgré ces défauts, il reste l'un des meilleurs de sa catégorie. La nacelle, 
 
 ## Combien ça coûte
 
-Lancé à 599 €, le PicoFlix se trouve désormais sous les 300 €, soit une division par deux en un peu plus d'un an. À ce tarif, il affronte les portables d'entrée de gamme tout en gardant ce qu'ils n'ont pas : la batterie, la nacelle et Google TV sous licence. C'est ce qui fait pencher la balance malgré le ventilateur.
+Lancé à 599 €, le PicoFlix se trouve désormais sous les 300 €, soit une division par deux en un peu plus d'un an. À ce tarif, il affronte les portables d'entrée de gamme tout en ayant ce qu'ils n'ont pas : la batterie, la nacelle et Google TV sous licence. C'est ce qui fait pencher la balance malgré le ventilateur.
 
 ## Fiche technique
 
