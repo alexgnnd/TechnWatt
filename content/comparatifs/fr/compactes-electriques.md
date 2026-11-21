@@ -16,7 +16,7 @@ tableau:
     meilleur: false
   - v: 34 990 €
     meilleur: false
-  - v: 37 500 €
+  - v: 37 900 €
     meilleur: false
   - v: 27 490 €*
     meilleur: true
@@ -132,7 +132,7 @@ modeles:
   texte: 'Restylée cet été, la Mégane passe à une batterie LFP de 67 kWh qui franchit les 500 km, recharge à 165 kW et baisse son prix de 2 000 €. Elle garde son grand atout : un système multimédia avec Google intégré, parmi les plus agréables du marché. Courte (4,20 m) mais logeable, avec un coffre de 440 litres, elle sait aussi rendre son énergie à un appareil ou au réseau.'
   plus: Google intégré, recharge 165 kW, prix en baisse, coffre de 440 L.
   moins: Une seule batterie, places arrière un peu justes en hauteur.
-  prix: 37 500 €
+  prix: 37 900 €
   galerie:
   - img/megane-planche.jpg
   - img/megane-sieges.jpg
