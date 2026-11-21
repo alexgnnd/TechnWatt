@@ -38,13 +38,21 @@ Le châssis adaptatif **DCC** a été recalibré pour la piste, et le système d
 
 C'est à l'intérieur que le parti pris frappe le plus. **Le système d'infodivertissement a été supprimé.** Volkswagen a conservé l'architecture générale du poste de conduite de série et tout concentré sur l'ergonomie et la conduite.
 
+![](img/clubsport-planche.jpg)
+
 Deux places, et deux seulement : des baquets **Recaro** avec harnais rouges à cinq points. La banquette arrière et le coffre ont disparu, remplacés par un **arceau peint en Rouge Tornado** juste derrière les sièges. Planche de bord et garnitures sont habillées de microfibre ArtVelours sombre à surpiqûres rouges : réalisées en partie par les apprentis de Volkswagen, détail qui en dit long sur l'esprit maison.
+
+![](img/clubsport-interieur.jpg)
 
 ![](img/clubsport-arriere.jpg)
 
 ## La silhouette suit
 
 Exit les quatre portes du modèle de série : le concept est un **deux-portes**. Les ailes sont élargies de 50 mm de chaque côté, le splitter avant est de facture motorsport, la poupe s'élargit, un diffuseur apparaît, et un **aileron en fibre de carbone** dépasse au-dessus du pavillon.
+
+![](img/clubsport-piste-arriere.jpg)
+
+![](img/clubsport-piste-haut.jpg)
 
 ## Où le voir
 
