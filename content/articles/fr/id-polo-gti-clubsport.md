@@ -12,6 +12,8 @@ reperes:
   - 367 ch
   - 0 à 100 en 4,7 s
   - Deux places seulement
+galerie:
+  - /img/clubsport-avant.jpg
 une: true
 une_ordre: 1
 une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !"
@@ -55,7 +57,7 @@ Exit les quatre portes du modèle de série : le concept est un **deux-portes**.
 
 ![](img/clubsport-piste-arriere.jpg)
 
-![](/img/clubsport-avant.jpg)
+![]()
 
 ## Où le voir
 
