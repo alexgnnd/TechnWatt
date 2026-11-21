@@ -12,7 +12,7 @@ moins: Les meilleures aides sont en option, la pompe à chaleur aussi.
 encadre_titre: Les chiffres
 chiffres:
 - label: 0 à 100 km/h
-  valeur: 7,1 à 9,5 s
+  valeur: 7,4 à 10,6 s
 - label: Conso. homologuée
   valeur: 13,3 à 13,8 kWh
 - label: À 120 km/h
@@ -36,7 +36,7 @@ Le message est limpide : 24 995 € en finition Trend, au centime près le tarif
 
 ## Au volant
 
-Première ID. à traction avant, l'ID. Polo se veut rassurante. La version de 211 ch abat le 0 à 100 km/h en 7,1 secondes, un chrono de petite sportive, et la vitesse est limitée à 160 km/h. Les versions d'entrée, de 116 à 135 ch, demandent 9,5 secondes ou un peu plus, largement assez au quotidien. On attend un toucher de route plus posé que la moyenne des citadines, avec un empattement long qui stabilise l'ensemble.
+Première ID. à traction avant, l'ID. Polo se veut rassurante. La version de 211 ch abat le 0 à 100 km/h en 7,4 secondes, un chrono de petite sportive, et la vitesse est limitée à 160 km/h. Les versions d'entrée, de 116 à 135 ch, demandent 9,5 secondes ou un peu plus, largement assez au quotidien. On attend un toucher de route plus posé que la moyenne des citadines, avec un empattement long qui stabilise l'ensemble.
 
 ![](img/polo-route-face.jpg)
 

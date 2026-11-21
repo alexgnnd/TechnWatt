@@ -10,7 +10,7 @@ chapo: "Nouveau nom, nouveau moteur APP350 et enfin de vrais boutons : l'ID.3
   d'autonomie."
 reperes:
   - Dès 34 990 €
-  - Jusqu'à 630 km
+  - Jusqu'à 629 km
   - Vrais boutons
 galerie:
   - img/id3-sieges.jpg
@@ -21,7 +21,7 @@ galerie:
   - img/id3-batiment.jpg
   - img/id3-route.jpg
 ---
-Rebaptisée ID.3 Neo, la compacte électrique de Volkswagen passe sur la plateforme MEB+ et corrige la plupart des défauts qu'on lui reprochait depuis son lancement. Nouveau moteur, nouvelles batteries, intérieur revu : la plus grande version frôle désormais les 630 km d'autonomie. Prix d'appel en France : 34 990 €.
+Rebaptisée ID.3 Neo, la compacte électrique de Volkswagen passe sur la plateforme MEB+ et corrige la plupart des défauts qu'on lui reprochait depuis son lancement. Nouveau moteur, nouvelles batteries, intérieur revu : la plus grande version atteint désormais 629 km d'autonomie. Prix d'appel en France : 34 990 €.
 
 ![](img/id3-trois-quarts-arriere.jpg)
 

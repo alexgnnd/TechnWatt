@@ -6,11 +6,11 @@ categorie: Nouveau modèle
 image: img/polo-route-avant.jpg
 credit: Volkswagen
 chapo: La citadine la plus connue de Volkswagen passe à l'électrique sur la
-  nouvelle plateforme MEB+. Deux batteries, jusqu'à 454 km d'autonomie, un prix
+  nouvelle plateforme MEB+. Deux batteries, jusqu'à 453 km d'autonomie, un prix
   d'appel à 24 995 € et, pour les nostalgiques, une ID. Polo GTI de 226 ch.
 reperes:
   - Dès 24 995 €
-  - Jusqu’à 454 km
+  - Jusqu’à 453 km
   - Coffre 441 L
   - GTI 226 ch
 lien_abord: modele-id-polo
@@ -26,7 +26,7 @@ Avec 4,05 m de long, 1,82 m de large et 2,60 m d'empattement, l'ID. Polo est pre
 
 ## Deux batteries, deux philosophies
 
-Les versions de 85 kW (116 ch) et 99 kW (135 ch) reçoivent une batterie LFP (lithium-fer-phosphate) de 37 kWh nets. Moins chère et réputée durable, elle offre jusqu'à environ 329 km d'autonomie WLTP et accepte jusqu'à 90 kW en recharge rapide. Les versions de 155 kW (211 ch) et la GTI de 166 kW (226 ch) passent à une batterie NMC (nickel-manganèse-cobalt) de 52 kWh, plus dense en énergie. Elle porte l'autonomie à 454 km et se recharge jusqu'à 105 kW en courant continu.
+Les versions de 85 kW (116 ch) et 99 kW (135 ch) reçoivent une batterie LFP (lithium-fer-phosphate) de 37 kWh nets. Moins chère et réputée durable, elle offre jusqu'à environ 329 km d'autonomie WLTP et accepte jusqu'à 90 kW en recharge rapide. Les versions de 155 kW (211 ch) et la GTI de 166 kW (226 ch) passent à une batterie NMC (nickel-manganèse-cobalt) de 52 kWh, plus dense en énergie. Elle porte l'autonomie à 453 km et se recharge jusqu'à 105 kW en courant continu.
 
 Dans les deux cas, le passage de 10 à 80 % prend environ 23 à 24 minutes sur une borne rapide. En courant alternatif, toutes les versions acceptent 11 kW. Les cellules sont fournies par PowerCo, la filiale batteries du groupe Volkswagen.
 

@@ -20,7 +20,7 @@ L'iX3 ne reprend presque rien de l'ancien modèle. Il inaugure l'architecture 80
 
 ## L'iX3 50 xDrive en chiffres
 
-La version de lancement, l'iX3 50 xDrive, associe deux moteurs pour 345 kW (469 ch) et 645 Nm. Elle passe de 0 à 100 km/h en 4,9 secondes et atteint 210 km/h. Sa batterie offre 108,7 kWh utiles, pour une autonomie de 679 à 805 km WLTP selon l'équipement. La consommation homologuée va de 15,1 à 17,9 kWh/100 km.
+La version de lancement, l'iX3 50 xDrive, associe deux moteurs pour 345 kW (469 ch) et 645 Nm. Elle passe de 0 à 100 km/h en 4,9 secondes et atteint 210 km/h. Sa batterie offre 108,7 kWh utiles, pour une autonomie de 786 à 805 km WLTP selon l'équipement. La consommation homologuée va de 15,1 à 17,9 kWh/100 km.
 
 ![](img/ix3-planche.jpg)
 

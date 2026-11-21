@@ -8,7 +8,7 @@ credit: Renault
 chapo: Pour sa mise à jour, la Megane E-Tech adopte une batterie LFP de 67 kWh,
   dépasse les 500 km d'autonomie, recharge plus vite… et baisse son prix.
 reperes:
-  - Dès 37 500 €
+  - Dès 37 900 €
   - 501 km WLTP
   - Recharge 165 kW
 galerie:
@@ -43,7 +43,7 @@ La Megane conserve son moteur de 160 kW (220 ch) et 300 Nm. La face avant est re
 
 ## Deux finitions : Techno et Esprit Alpine
 
-Renault simplifie la gamme. La finition Techno démarre à 37 500 €, soit 2 000 € de moins qu'avant. Elle garde le système OpenR Link avec Google intégré, la pompe à chaleur et la conduite One Pedal. L'Esprit Alpine, à 40 500 € (1 000 € de moins), ajoute des jantes de 20 pouces, des sièges avant électriques et chauffants, un système audio Harman Kardon et une caméra à 360°. Ses sièges reçoivent de nouveaux revêtements.
+Renault simplifie la gamme. La finition Techno démarre à 37 900 €. Elle avait été lancée à 37 500 €, soit 2 000 € de moins que la version précédente, avant une hausse de 400 € appliquée en novembre. Elle garde le système OpenR Link avec Google intégré, la pompe à chaleur et la conduite One Pedal. L'Esprit Alpine, à 40 500 € (1 000 € de moins), ajoute des jantes de 20 pouces, des sièges avant électriques et chauffants, un système audio Harman Kardon et une caméra à 360°. Ses sièges reçoivent de nouveaux revêtements.
 
 ![](img/megane-sieges.jpg)
 
