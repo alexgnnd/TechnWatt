@@ -1,34 +1,38 @@
 ---
 titre: "BMW iX3 à bord : Panoramic iDrive, 400 kW et une vraie autonomie d'autoroute"
 rubrique: watt-a-bord
-date: '2026-11-14'
+date: 2026-11-14
 categorie: BMW
 infos: SUV premium · Neue Klasse
 image: img/ix3-avant.jpg
 credit: BMW Group
-chapo: '800 km d''autonomie, une pause café pour refaire le plein et un cerveau électronique entièrement nouveau : avec l''iX3, BMW ouvre une nouvelle ère.'
-plus: Autonomie et recharge au sommet, affichage au pare-brise, conduite assistée très avancée.
-moins: Plus de 70 000 €, bornes ultra-rapides rares, assistant vocal pas encore en France.
-encadre_titre: Les chiffres
+chapo: "800 km d'autonomie, une pause café pour refaire le plein et un cerveau
+  électronique entièrement nouveau : avec l'iX3, BMW ouvre une nouvelle ère."
+plus: Autonomie et recharge au sommet, affichage au pare-brise, conduite
+  assistée très avancée.
+moins: Plus de 70 000 €, bornes ultra-rapides rares, assistant vocal pas encore
+  en France.
 chiffres:
-- label: 0 à 100 km/h
-  valeur: 4,9 s
-- label: Conso. homologuée
-  valeur: 15,1 à 17,9 kWh
-- label: Sur autoroute
-  valeur: ≈ 22 à 23 kWh
-- label: Empattement
-  valeur: 2,90 m
-- label: Longueur
-  valeur: 4,78 m
-- label: Coffre
-  valeur: 520 L + 58 L
+  - label: 0 à 100 km/h
+    valeur: 4,9 s
+  - label: Conso. homologuée
+    valeur: 15,1 à 17,9 kWh
+  - label: Sur autoroute
+    valeur: ≈ 22 à 23 kWh
+  - label: Empattement
+    valeur: 2,90 m
+  - label: Longueur
+    valeur: 4,78 m
+  - label: Coffre
+    valeur: 520 L + 58 L
+encadre_titre: Les chiffres
 prix: 71 950 €
 prix_note: prix de départ, version 50 xDrive
-une: true
+une: false
 une_ordre: 4
-une_titre: 'BMW iX3 : 800 km et dix minutes à la borne'
-une_texte: Le premier modèle de la Neue Klasse promet 805 km d'autonomie et une recharge à 400 kW.
+une_titre: "BMW iX3 : 800 km et dix minutes à la borne"
+une_texte: Le premier modèle de la Neue Klasse promet 805 km d'autonomie et une
+  recharge à 400 kW.
 une_image: img/ix3-avant.jpg
 ---
 
