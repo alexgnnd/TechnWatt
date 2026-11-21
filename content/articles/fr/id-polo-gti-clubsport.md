@@ -36,7 +36,7 @@ Le châssis adaptatif **DCC** a été recalibré pour la piste, et le système d
 
 ## Le régime sec
 
-C'est à l'intérieur que le parti pris frappe le plus. **Le système d'infodivertissement a été supprimé.** L'écran central disparaît, et seule l'architecture générale du poste de conduite de série est conservée : Volkswagen a tout concentré sur l'ergonomie et la conduite.
+C'est à l'intérieur que le parti pris frappe le plus. **Le système d'infodivertissement a été supprimé.** Volkswagen a conservé l'architecture générale du poste de conduite de série et tout concentré sur l'ergonomie et la conduite.
 
 Deux places, et deux seulement : des baquets **Recaro** avec harnais rouges à cinq points. La banquette arrière et le coffre ont disparu, remplacés par un **arceau peint en Rouge Tornado** juste derrière les sièges. Planche de bord et garnitures sont habillées de microfibre ArtVelours sombre à surpiqûres rouges : réalisées en partie par les apprentis de Volkswagen, détail qui en dit long sur l'esprit maison.
 
