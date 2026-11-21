@@ -14,7 +14,7 @@ reperes:
   - Deux places seulement
 une: true
 une_ordre: 1
-une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 banquette !"
+une_titre: "ID. Polo GTI Clubsport : 2 baquets, 1 arceau, 0 compromis !"
 une_texte: 367 ch sur les roues avant, des Recaro à harnais et plus
   d'infodivertissement à bord.
 une_image: img/clubsport-avant.jpg
