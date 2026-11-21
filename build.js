@@ -353,7 +353,7 @@ function legalView(lang) {
   const apropos = `<h2>À propos</h2>
 <p>TechnWatt parle de tech et de voiture électrique, en toute simplicité.</p>
 <h4>Qui écrit</h4><p>Moi, Alex, et personne d'autre. J'écris parce que ces sujets me passionnent et que j'ai envie de les partager.</p>
-<h4>Et l'intelligence artificielle ?</h4><p>Autant le dire franchement : je me fais aider par Claude, l'IA d'Anthropic. Je lui dis quoi écrire, elle reformule et met en page. Le sujet, les informations et la validation finale viennent de moi : un article ne part jamais en ligne sans que je l'aie lu en entier.</p>
+<h4>Et l'intelligence artificielle ?</h4><p>Autant le dire franchement : je me fais aider par Claude, l'IA d'Anthropic. Je lui dis quoi écrire, elle reformule et met en page. Le sujet, les informations et la validation finale viennent de moi : un article ne part jamais en ligne sans avoir été relu et corrigé.</p>
 <h4>Je me trompe parfois</h4><p>Ça arrive, et je préfère le corriger vite. Si vous voyez une erreur, écrivez-moi par le <a href="#contact">formulaire de contact</a> : je vérifie et je rectifie.</p>`;
 
   return view('apropos', apropos) + view('mentions', mentions) + view('cgu', cgu) + view('confidentialite', conf) + view('contact', contact);
