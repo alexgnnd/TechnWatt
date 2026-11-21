@@ -38,6 +38,6 @@ Le pilotage est automatique : le système décide seul des moments de charge et 
 
 L'offre est **allemande**. Elle ne concerne pas encore la France, et la raison est moins technique que réglementaire : la réinjection vers le réseau public suppose un cadre tarifaire et un contrat adaptés, que les fournisseurs français commencent seulement à proposer.
 
-## Notre avis
+## Mon avis
 
-C'est l'une des rares annonces de recharge qui change vraiment l'équation économique d'une voiture branchée. Jusqu'ici, une batterie coûtait cher et ne rapportait rien entre deux trajets. Là, elle devient un actif qui travaille pendant qu'on dort. La condition reste l'équipement : la wallbox bidirectionnelle et le contrat spécifique représentent un investissement qu'il faut amortir. Mais à 720 euros par an, le calcul se fait vite : et c'est exactement le genre d'offre qu'on aimerait voir traverser le Rhin.
+C'est l'une des rares annonces de recharge qui change vraiment l'équation économique d'une voiture branchée. Jusqu'ici, une batterie coûtait cher et ne rapportait rien entre deux trajets. Là, elle devient un actif qui travaille pendant qu'on dort. La condition reste l'équipement : la wallbox bidirectionnelle et le contrat spécifique représentent un investissement qu'il faut amortir. Mais à 720 euros par an, le calcul se fait vite : et c'est exactement le genre d'offre que j'aimerais voir traverser le Rhin.

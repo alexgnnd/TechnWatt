@@ -51,6 +51,6 @@ Renault simplifie la gamme. La finition Techno démarre à 37 500 €, soit 2 00
 
 L'habitabilité ne change pas. Le coffre annonce 440 litres, auxquels s'ajoutent 22 litres sous le plancher.
 
-## Notre avis
+## Mon avis
 
 Plus d'autonomie, une recharge plus rapide et un prix en baisse : la Megane corrige ses défauts sans perdre son excellent système OpenR Link. Le gain d'autonomie reste toutefois modeste au regard des 7 kWh supplémentaires, et il lui manque une version à grosse batterie pour rivaliser avec les 600 km de certaines concurrentes.

@@ -35,6 +35,6 @@ Le périmètre munichois doit s'étendre par étapes, et pour les premiers parti
 
 Mais l'Europe n'a plus seulement des projets de conduite autonome. Elle a des voitures autonomes qui transportent des passagers, dans une grande ville, avec une autorisation nationale.
 
-## Notre avis
+## Mon avis
 
 Le contraste avec les États-Unis est instructif. Là-bas, Tesla vend un véhicule sans volant à des particuliers et leur impose un abonnement pour qu'il roule. Ici, on avance par permis d'essai, opérateur à bord et trajets gratuits. C'est plus lent, c'est plus encadré, et c'est probablement ce qui permettra à ces services d'être acceptés quand ils deviendront payants. Le vrai signal à surveiller n'est pas l'extension de la zone à Munich, mais la date à laquelle un pilote équivalent sera autorisé en France.

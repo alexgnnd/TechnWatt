@@ -50,6 +50,6 @@ La finition Evolution couvre l'essentiel : freinage automatique d'urgence, banqu
 
 ![](img/twingo-places-arriere.jpg)
 
-## Notre avis
+## Mon avis
 
 Prix serré, gabarit malin, équipements dignes d'une catégorie supérieure : la Twingo E-Tech electric coche beaucoup de cases pour un usage urbain. Le vrai point de vigilance reste le pack Advanced Charge : sans lui, impossible de s'arrêter sur une borne rapide. Pour ceux qui sortent régulièrement de la ville, il est indispensable.

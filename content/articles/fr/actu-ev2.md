@@ -45,6 +45,6 @@ En France, la gamme commence à 26 670 € pour l'EV2 Light 42,2 kWh. Suivent l'
 
 ![](img/ev2-coffre.jpg)
 
-## Notre avis
+## Mon avis
 
 Gabarit urbain, technologies de grand modèle et vraie polyvalence : l'EV2 coche beaucoup de cases. Attention toutefois à la petite batterie si vous roulez souvent sur autoroute : à 130 km/h, même la version 61 kWh parcourt environ 160 km entre 20 et 80 % de charge.

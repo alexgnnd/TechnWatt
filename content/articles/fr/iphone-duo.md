@@ -53,6 +53,6 @@ Chaque moitié du téléphone cache sa propre batterie. Apple annonce jusqu'à 2
 
 L'iPhone Duo démarre à 2 339 € en France avec 256 Go de stockage, et grimpe jusqu'à 2 To. Apple propose aussi deux accessoires dédiés : la coque iPhone Duo Case et le Duo Folio avec béquille.
 
-## Notre avis
+## Mon avis
 
 Apple arrive tard sur le pliable, mais avec un appareil très abouti : finesse record, puce de pointe et logiciel adapté. Le prix reste toutefois réservé à une minorité, et l'absence de Face ID comme de téléobjectif rappelle qu'on paie d'abord le format.

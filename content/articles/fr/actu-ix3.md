@@ -42,6 +42,6 @@ Avec 4,78 m de long et 2,90 m d'empattement, l'iX3 offre un coffre de 520 litres
 
 L'iX3 est assemblé dans la nouvelle usine BMW de Debrecen, en Hongrie, la première conçue entièrement pour la Neue Klasse et alimentée à 100 % en électricité renouvelable. D'autres versions doivent compléter la gamme, dont une M60 xDrive plus sportive.
 
-## Notre avis
+## Mon avis
 
 Autonomie record, recharge ultra-rapide et interface inédite : l'iX3 place la barre très haut pour les SUV électriques premium. Reste un prix d'entrée élevé, en attendant des versions plus accessibles.

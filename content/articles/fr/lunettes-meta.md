@@ -33,6 +33,6 @@ Toutes les fonctions présentées aux États-Unis ne sont pas encore activées e
 
 Meta et EssilorLuxottica déclinent désormais les lunettes connectées en plusieurs familles. Les Ray-Ban Meta de troisième génération gardent la caméra, les micros et les haut-parleurs, sans écran, pour 449 €. Les Ray-Ban Audio, à 349 €, se contentent du son. Pour le sport, les Oakley Meta Vanguard sont proposées à 549 €.
 
-## Notre avis
+## Mon avis
 
 Les Meta Ray-Ban Display sont les premières lunettes à écran vraiment grand public, et le Neural Band est bluffant sur le papier. Reste un prix élevé et des fonctions encore limitées chez nous : à essayer avant d'acheter.

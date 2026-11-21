@@ -24,6 +24,6 @@ Le Danemark suit la même trajectoire : plus de huit voitures neuves sur dix y s
 
 Il n'y a pas de recette miracle. La Norvège a misé très tôt sur des avantages fiscaux massifs pour les voitures électriques, une lourde taxation des thermiques et un réseau de recharge construit avant même l'arrivée en masse des voitures. Résultat : l'électrique y représente déjà près d'un tiers du parc automobile, contre une petite fraction chez nous.
 
-## Notre avis
+## Mon avis
 
 La France rattrape son retard à grande vitesse, portée par des modèles abordables fabriqués en Europe. Mais l'exemple norvégien rappelle que les ventes ne suffisent pas : il faut du temps pour renouveler tout un parc, et un réseau de recharge qui suit le rythme.

@@ -39,6 +39,6 @@ Pour les utilisateurs de smartphones Android qui veulent une montre complète sa
 
 Le modèle de 41 mm prend 20 € par rapport à la Pixel Watch 4, tandis que le 45 mm garde le même prix. Une édition spéciale Steph Curry, avec un bracelet dessiné avec le joueur de NBA, complète la gamme.
 
-## Notre avis
+## Mon avis
 
 La Pixel Watch 5 est une évolution plus qu'une révolution : même design, autonomie quasi identique, mais un écran plus lumineux. Elle reste l'une des meilleures montres pour les utilisateurs d'Android.

@@ -35,6 +35,6 @@ Le plus puissant peut s'utiliser sans plonger la pièce dans le noir complet.
 
 Les Horizon 30 Pro et Max sont annoncés pour le 1er novembre 2026, l'Ultra Max pour le 11 novembre. Des prix de précommande ont été proposés au lancement.
 
-## Notre avis
+## Mon avis
 
 Avec la 4K à 120 Hz et une latence très faible, XGIMI rend le vidéoprojecteur enfin crédible pour le jeu sur console. Le Horizon 30 Pro offre le meilleur équilibre, tandis que l'Ultra Max vise les grandes pièces lumineuses.

@@ -11,7 +11,7 @@ reperes:
 - Aucune marque citée
 - Valable chaque année
 ---
-La plupart des guides d'achat commencent par une liste de modèles. C'est l'erreur : la bonne voiture dépend de votre usage, pas du classement du moment. Voici la méthode que nous appliquons, dans l'ordre. À la fin, il ne reste généralement que deux ou trois modèles à comparer.
+La plupart des guides d'achat commencent par une liste de modèles. C'est l'erreur : la bonne voiture dépend de votre usage, pas du classement du moment. Voici la méthode que j'applique, dans l'ordre. À la fin, il ne reste généralement que deux ou trois modèles à comparer.
 
 ## 1. Où allez-vous recharger ?
 

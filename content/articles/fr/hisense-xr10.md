@@ -30,6 +30,6 @@ Le XR10 gère le Dolby Vision, le HDR10+, le HDR10 et le HLG, et il est certifi�
 
 Hisense a développé le système audio 2.1 avec le Français Devialet, et l'a accordé avec l'aide de l'Opéra de Paris. Il gère le Dolby Digital et le DTS:X. L'interface est assurée par le système VIDAA de Hisense.
 
-## Notre avis
+## Mon avis
 
 Image immense, très lumineuse et riche en couleurs : le XR10 coche toutes les cases du home-cinéma. Mais à ce prix, il faut aussi la pièce, le mur et l'écran qui vont avec.

@@ -31,6 +31,6 @@ Autre donnée du baromètre, qui dit beaucoup du mouvement de fond : la part du 
 
 Ce recul ne profite pas qu'à l'électrique : l'essence et l'hybride récupèrent l'essentiel. Mais il montre une chose : le parc bouge, et il bouge vite.
 
-## Notre avis
+## Mon avis
 
 Le débat public oppose volontiers des convaincus à des réfractaires. Les chiffres racontent plutôt une population pragmatique, qui a intégré l'électrique comme une option sérieuse et qui attend des conditions, pas des arguments. Le frein cité en premier, le temps de recharge, est d'ailleurs le plus facile à lever : il se règle avec des bornes plus puissantes et mieux réparties, pas avec des campagnes de communication.

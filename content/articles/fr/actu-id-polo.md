@@ -50,6 +50,6 @@ La gamme démarre avec la finition Trend, puis Life et Style. Cette dernière aj
 
 ![](img/polo-phare.jpg)
 
-## Notre avis
+## Mon avis
 
 Prix d'appel compétitif, coffre généreux et vraie remise à niveau de l'ergonomie : l'ID. Polo a de solides arguments face à la Renault 5. Le choix de la batterie sera déterminant. La LFP de 37 kWh conviendra à un usage surtout urbain, tandis que la 52 kWh s'impose pour ceux qui prennent régulièrement l'autoroute.

@@ -39,6 +39,6 @@ Le L03 mesure 4,70 m de long, dans le format d'un SUV coupé familial. Le coffre
 
 L'écart de 3 000 € entre Standard Range et Long Range achète 75 km d'autonomie supplémentaires et une batterie plus grosse. C'est, de loin, le meilleur rapport de la grille.
 
-## Notre avis
+## Mon avis
 
 XPeng signe ici l'une des offres les plus cohérentes du moment sous 40 000 €, une propulsion, une vraie autonomie et une recharge rapide qui tient la route. Le coffre reste le point faible, et il faudra juger la valeur de revente d'une marque encore jeune en Europe. Mais sur la fiche technique, à ce prix, le L03 Long Range met beaucoup de monde en difficulté.

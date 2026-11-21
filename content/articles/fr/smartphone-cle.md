@@ -36,6 +36,6 @@ BMW propose sa Digital Key Plus sur iPhone et sur Android. Volvo l'a étendue en
 
 L'application du constructeur complète souvent la clé : depuis la cuisine, on lance le préchauffage pendant que la voiture est encore branchée, pour partir avec un habitacle tiède sans entamer l'autonomie. Le soir, on programme la recharge pour profiter des heures creuses.
 
-## Notre avis
+## Mon avis
 
 La clé numérique est l'une de ces innovations discrètes qui changent vraiment le quotidien. Avant d'acheter, vérifiez simplement que votre téléphone et la version de la voiture sont compatibles.

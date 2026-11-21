@@ -18,7 +18,7 @@ Euro NCAP a publié le 18 novembre les résultats de dix véhicules évalués se
 
 C'est le Škoda Peaq qui le détient. Avec **94 % en Crash Protection**, il signe le meilleur score jamais enregistré par un véhicule testé sous les protocoles 2026. Il y ajoute 92 % en Post Crash Safety, 78 % en Crash Avoidance et 65 % en Safe Driving.
 
-Ce dernier chiffre mérite qu'on s'y arrête, et Euro NCAP ne s'en prive pas.
+Ce dernier chiffre mérite que je m'y arrête, et Euro NCAP ne s'en prive pas.
 
 ## La protection ne fait pas tout
 
@@ -49,6 +49,6 @@ La Nissan Leaf ferme la marche, dernière dans les quatre catégories. Deux abse
 
 Pour une voiture dont c'est la troisième génération et qui a longtemps servi de porte-drapeau à l'électrique accessible, le résultat interroge.
 
-## Notre avis
+## Mon avis
 
 Deux enseignements. Le premier : la protection en cas de choc n'est plus le sujet, neuf modèles sur dix franchissent la barre sans difficulté. Le second est plus intéressant : ce qui sépare désormais les voitures, c'est l'équipement de série en aides à la conduite et en détection. Une option non cochée coûte aujourd'hui plus de points qu'une structure moins rigide.

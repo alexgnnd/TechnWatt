@@ -11,7 +11,7 @@ reperes:
 - 7,4 kW suffisent
 - Installateur IRVE obligatoire
 ---
-Recharger chez soi est le scénario qui rend l'électrique économique. Encore faut-il que l'installation se passe bien. Dans les devis que nous voyons circuler, l'écart entre deux maisons voisines peut aller du simple au triple : et presque jamais à cause de la borne elle-même.
+Recharger chez soi est le scénario qui rend l'électrique économique. Encore faut-il que l'installation se passe bien. Dans les devis que je vois circuler, l'écart entre deux maisons voisines peut aller du simple au triple : et presque jamais à cause de la borne elle-même.
 
 ## Quelle puissance choisir ?
 

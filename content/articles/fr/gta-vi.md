@@ -50,7 +50,7 @@ L'histoire se déroule en Leonida, un État imaginaire qui ressemble à s'y mép
 
 ## Le plus grand parking du jeu vidéo
 
-Dans GTA, la vraie star, c'est souvent la voiture. Les fans ont déjà compté plus de 200 modèles différents en décortiquant les bandes-annonces image par image. Fidèle à sa tradition, Rockstar n'utilise aucune vraie marque. Chaque auto mélange plusieurs modèles existants : assez proche pour qu'on reconnaisse une sportive allemande ou une berline de luxe, assez différente pour ne fâcher aucun constructeur. Certains noms reviennent, comme la Grotti Cheetah Classic, aperçue en blanc dans la bande-annonce.
+Dans GTA, la vraie star, c'est souvent la voiture. Les fans ont déjà compté plus de 200 modèles différents en décortiquant les bandes-annonces image par image. Fidèle à sa tradition, Rockstar n'utilise aucune vraie marque. Chaque auto mélange plusieurs modèles existants : assez proche pour qu'je reconnaisse une sportive allemande ou une berline de luxe, assez différente pour ne fâcher aucun constructeur. Certains noms reviennent, comme la Grotti Cheetah Classic, aperçue en blanc dans la bande-annonce.
 
 ![](img/gta-pickup.jpg)
 
@@ -68,4 +68,4 @@ Le jeu sort en édition Standard et en édition Ultimate. Cette dernière ajoute
 
 ## Et la voiture électrique, alors ?
 
-C'est la question qui nous démange. Le précédent épisode glissait déjà quelques sportives électriques silencieuses, clin d'œil appuyé à une célèbre marque californienne. Pour Vice City, mystère : les bandes-annonces font surtout rugir des V8. Les bornes de recharge auront-elles droit de cité en Leonida ? Réponse ce jeudi.
+C'est la question qui me démange. Le précédent épisode glissait déjà quelques sportives électriques silencieuses, clin d'œil appuyé à une célèbre marque californienne. Pour Vice City, mystère : les bandes-annonces font surtout rugir des V8. Les bornes de recharge auront-elles droit de cité en Leonida ? Réponse ce jeudi.
