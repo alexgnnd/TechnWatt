@@ -21,6 +21,8 @@
   --bleu:#0058b8;
   --vert-clair:#30d158;
   --bleu-clair:#5ab0ff;
+  --jaune:#f2b705;
+  --gris-pastille:#e6e6ec;
   --accent:var(--vert);
   --accent-bright:var(--vert-clair);
   --accent-soft:#e6f6ec;
@@ -60,8 +62,9 @@ nav.menu a{color:var(--ink);opacity:.78;font-size:.82rem;padding:6px 11px;border
 nav.menu a:hover{opacity:1;text-decoration:none;background:var(--bg2)}
 nav.menu a.on{opacity:1;color:#fff;font-weight:600;background:var(--vert)}
 nav.menu a.on:hover{background:var(--vert)}
-nav.menu a[data-nav="tech"].on{background:var(--bleu)}
-nav.menu a[data-nav="tech"].on:hover{background:var(--bleu)}
+nav.menu a[data-nav="tech"].on,nav.menu a[data-nav="tech"].on:hover{background:var(--bleu)}
+nav.menu a[data-nav="guide"].on,nav.menu a[data-nav="guide"].on:hover{background:var(--jaune);color:#fff}
+nav.menu a[data-nav="accueil"].on,nav.menu a[data-nav="accueil"].on:hover{background:var(--gris-pastille);color:var(--ink)}
 
 /* Vues */
 .view[hidden]{display:none}
@@ -388,8 +391,8 @@ details p{padding:0 0 18px 30px;color:var(--muted)}
 
 /* Navigation Watt / Tech, sous-rubriques, recherche */
 nav.menu a{font-size:1rem;padding:8px 15px}
-.search-btn{display:flex;align-items:center;gap:6px;border:0;background:var(--bg2);color:var(--ink);border-radius:999px;padding:9px 16px;font:500 .92rem var(--body);cursor:pointer;transition:background .2s}
-.search-btn:hover{background:#e8e8ed}
+.search-btn{display:flex;align-items:center;gap:6px;border:0;background:var(--gris-pastille);color:var(--ink);border-radius:999px;padding:9px 16px;font:500 .92rem var(--body);cursor:pointer;transition:background .2s}
+.search-btn:hover{background:#dcdce4}
 .search-btn svg,.search-field svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
 .subnav{position:sticky;top:66px;z-index:15;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid rgba(0,0,0,.08)}
 .subnav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:9px;padding-bottom:9px}
@@ -1052,7 +1055,9 @@ a.aff{font-weight:600}
     let target=document.getElementById(h), view=target?target.closest('.view'):null;
     if(!view){ view=views[0]; target=null; }
     views.forEach(v=>v.hidden=(v!==view));
-    navLinks.forEach(a=>a.classList.toggle('on',a.dataset.nav===view.dataset.view));
+    const rubId=target?(target.closest('.rub')||{}).id:'';
+    const navKey=(rubId&&navLinks.some(a=>a.dataset.nav===rubId))?rubId:view.dataset.view;
+    navLinks.forEach(a=>a.classList.toggle('on',a.dataset.nav===navKey));
     const rubs=[...view.querySelectorAll(':scope > .rub')];
     let rub=target?target.closest('.rub'):null;
     if(!rub && rubs.length) rub=rubs[0];
