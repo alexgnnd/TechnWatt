@@ -142,6 +142,14 @@ function headLine(a) {
   return a.categorie ? `<span class="cat">${esc(a.categorie)}</span>` : '';
 }
 
+const AMZ_TAG = 'technwatt-21';
+function amazon(a) {
+  const asin = (a.asin || '').trim();
+  const url = asin ? `https://www.amazon.fr/dp/${encodeURIComponent(asin)}?tag=${AMZ_TAG}` : (a.lien_amazon || '').trim();
+  if (!url) return '';
+  return `<div class="affil"><a class="affil-btn" href="${esc(url)}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><p class="affil-note">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. Ce lien ne change rien au prix payé et n'influence pas le contenu de l'article.</p></div>`;
+}
+
 function renderArticle(a, all) {
   const R = RUBS[a.rubrique] || RUBS['watt-actualites'];
   const inner = `${headLine(a)}
@@ -151,6 +159,7 @@ ${bodyHtml(a.body, a.credit)}
 ${gallery(a.galerie, a.credit, a.titre)}
 ${verdict(a)}
 ${keys(a.reperes)}
+${amazon(a)}
 ${ad(CFG.pub_article)}
 ${toAbord(a, all)}`;
   if (a.chiffres && a.chiffres.length) {
