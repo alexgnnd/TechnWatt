@@ -251,8 +251,8 @@ function buildLang(lang) {
   page = page.replace('<section class="home-block" id="derniers">', ad(CFG.pub_accueil, 'wrap') + '\n<section class="home-block" id="derniers">');
   page = page.replace('<div class="view" data-view="identite"', legalView(lang) + '\n<div class="view" data-view="identite"');
   const fl = lang === 'en'
-    ? '<a href="#mentions">Legal notice</a><a href="#cgu">Terms of use</a><a href="#confidentialite">Privacy</a><a href="#contact">Contact</a>'
-    : '<a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Nous écrire</a>';
+    ? '<a href="#apropos">About</a><a href="#mentions">Legal notice</a><a href="#cgu">Terms of use</a><a href="#confidentialite">Privacy</a><a href="#contact">Contact</a>'
+    : '<a href="#apropos">À propos</a><a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Nous écrire</a>';
   page = page.replace('<a href="#watt">Watt</a><a class="ig"', `<a href="#watt">Watt</a>${fl}<a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a><a class="ig"`);
 
   return { page, arts, cmps, une };
@@ -349,7 +349,14 @@ function legalView(lang) {
 <button type="submit" class="cta">Envoyer</button>
 </form>`;
 
-  return view('mentions', mentions) + view('cgu', cgu) + view('confidentialite', conf) + view('contact', contact);
+
+  const apropos = `<h2>À propos</h2>
+<p>TechnWatt parle de voiture électrique et de nouvelles technologies, simplement.</p>
+<h4>Qui écrit</h4><p>Moi, Alex, et personne d'autre. Pas de rédaction, pas de patron. J'écris parce que ces sujets me passionnent et que j'ai envie de les partager.</p>
+<h4>Et l'intelligence artificielle ?</h4><p>Autant le dire franchement : je me fais aider par Claude, l'IA d'Anthropic. Je lui dis quoi écrire, elle reformule et met en page. Le sujet, les informations et la validation finale viennent de moi : un article ne part jamais en ligne sans que je l'aie lu en entier.</p>
+<h4>Je me trompe parfois</h4><p>Ça arrive, et je préfère le corriger vite. Si vous voyez une erreur, écrivez-moi par le <a href="#contact">formulaire de contact</a> : je vérifie et je rectifie.</p>`;
+
+  return view('apropos', apropos) + view('mentions', mentions) + view('cgu', cgu) + view('confidentialite', conf) + view('contact', contact);
 }
 
 const TXT = {
