@@ -1,13 +1,14 @@
 ---
 titre: "GTA VI : le rêve de tout passionné d'auto !"
 rubrique: watt-actualites
-date: 2026-11-17
+date: 2026-11-21
 categorie: Jeu vidéo · L'événement
 image: img/gta-supercar.jpg
 credit: Rockstar Games
-chapo: Ce jeudi, des millions de joueurs prennent le volant au même moment. Avec
-  plus de 200 véhicules repérés à Vice City, les passionnés d'auto ont autant de
-  raisons de trépigner que les gamers.
+chapo: >-
+  Le jeu est sorti jeudi, et la réponse est tombée avec lui : il y a bien des
+  voitures électriques à Vice City, et même des bornes de recharge. Voici ce que
+  j'ai trouvé après le lancement.
 plus: Un amour évident pour l'automobile, une circulation incroyablement variée,
   une carte immense.
 moins: Pas de vraies marques, un téléchargement monstre, pas de version PC pour
@@ -25,16 +26,16 @@ chiffres:
     valeur: plus de 200 Go
   - label: Terrain de jeu
     valeur: Leonida, Vice City
-  - label: Véhicules repérés
-    valeur: 200 et plus
+  - label: Véhicules recensés
+    valeur: 317
 encadre_titre: En bref
 encadre_note: Comme toute la série, un jeu destiné aux adultes.
 une: true
 une_ordre: 3
-une_titre: 'GTA VI : 200 véhicules à Vice City, et pas une borne de recharge'
-une_texte: 'Le jeu est sorti. Plus de 200 véhicules repérés, et une question qui reste en suspens.'
+une_titre: 'GTA VI : des électriques partout à Vice City, et des bornes de recharge'
+une_texte: 'Le jeu est sorti. Plus de 300 véhicules, des électriques dans le trafic et un réseau de recharge parodique.'
 ---
-On a cru qu'il n'arriverait jamais. Annoncé pour 2025, repoussé au 26 mai 2026 puis au 19 novembre, le sixième épisode de Grand Theft Auto débarque enfin ce jeudi sur PlayStation 5 et Xbox Series X|S. Aucune date n'est encore fixée pour la version PC. Conseil d'ami : faites de la place sur votre console, le jeu réclame plus de 200 Go.
+On a cru qu'il n'arriverait jamais. Annoncé pour 2025, repoussé au 26 mai 2026 puis au 19 novembre, le sixième épisode de Grand Theft Auto est sorti jeudi 19 novembre sur PlayStation 5 et Xbox Series X|S. Aucune date n'est encore fixée pour la version PC. Conseil d'ami : faites de la place sur votre console, le jeu réclame plus de 200 Go.
 
 ## Lucia et Jason, un duo inédit
 
@@ -50,7 +51,7 @@ L'histoire se déroule en Leonida, un État imaginaire qui ressemble à s'y mép
 
 ## Le plus grand parking du jeu vidéo
 
-Dans GTA, la vraie star, c'est souvent la voiture. Les fans ont déjà compté plus de 200 modèles différents en décortiquant les bandes-annonces image par image. Fidèle à sa tradition, Rockstar n'utilise aucune vraie marque. Chaque auto mélange plusieurs modèles existants : assez proche pour qu'je reconnaisse une sportive allemande ou une berline de luxe, assez différente pour ne fâcher aucun constructeur. Certains noms reviennent, comme la Grotti Cheetah Classic, aperçue en blanc dans la bande-annonce.
+Dans GTA, la vraie star, c'est souvent la voiture. La communauté en a recensé 317 depuis la sortie, catégorie par catégorie. Fidèle à sa tradition, Rockstar n'utilise aucune vraie marque. Chaque auto mélange plusieurs modèles existants : assez proche pour que je reconnaisse une sportive allemande ou une berline de luxe, assez différente pour ne fâcher aucun constructeur. Certains noms reviennent, comme la Grotti Cheetah Classic, aperçue en blanc dans la bande-annonce.
 
 ![](img/gta-pickup.jpg)
 
@@ -68,4 +69,8 @@ Le jeu sort en édition Standard et en édition Ultimate. Cette dernière ajoute
 
 ## Et la voiture électrique, alors ?
 
-C'est la question qui me démange. Le précédent épisode glissait déjà quelques sportives électriques silencieuses, clin d'œil appuyé à une célèbre marque californienne. Pour Vice City, mystère : les bandes-annonces font surtout rugir des V8. Les bornes de recharge auront-elles droit de cité en Leonida ? Réponse ce jeudi.
+C'était ma grande question avant la sortie, et la réponse est oui. L'électrique n'est plus un clin d'œil glissé dans un coin de la carte, elle fait partie du trafic ordinaire de Vice City. On croise une copie de Tesla Model S, baptisée Coil Raiden, et une copie de Porsche Taycan.
+
+Mieux : Rockstar a intégré un vrai système d'énergie. Les thermiques font le plein en station-service, les électriques ont leur propre niveau de charge et doivent passer par une borne. Le réseau public s'appelle ReVolt America, parodie à peine déguisée d'Electrify America, et un immense hub de recharge a été installé près de la centrale électrique. Détail savoureux pour qui roule à l'électron : on tombe sur des places de recharge squattées par des thermiques, ce que les conducteurs appellent se faire « ICEr ».
+
+Le réalisme s'arrête tout de même à la porte du jeu. Un journaliste a roulé 20 minutes et 23 secondes avant de vider complètement sa batterie, et dix secondes suffisent à la remplir. Si seulement.
