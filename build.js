@@ -148,9 +148,8 @@ function amazon(a) {
   const url = asin ? `https://www.amazon.fr/dp/${encodeURIComponent(asin)}?tag=${AMZ_TAG}` : (a.lien_amazon || '').trim();
   if (!url) return '';
   const h = esc(url);
-  return `<div class="affil" id="affil"><a class="affil-btn" href="${h}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><span class="affil-note">Lien affilié</span></div>
-<a class="affil-float" id="affil-float" href="${h}" rel="sponsored nofollow noopener" target="_blank" hidden><span class="affil-float-txt">Voir sur Amazon</span><span class="affil-float-note">Lien affilié</span></a>
-<script>(function(){var f=document.getElementById('affil-float'),b=document.getElementById('affil');if(!f||!b)return;var seen=false;new IntersectionObserver(function(e){seen=e[0].isIntersecting;upd();},{rootMargin:'0px 0px -10% 0px'}).observe(b);function upd(){var y=window.scrollY||0;f.hidden=seen||y<500;}window.addEventListener('scroll',upd,{passive:true});upd();})();</script>`;
+  return `<div class="affil" data-affil><a class="affil-btn" href="${h}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><p class="affil-note">En tant que Partenaire Amazon, TechnWatt r\u00e9alise un b\u00e9n\u00e9fice sur les achats remplissant les conditions requises.</p></div>
+<a class="affil-float" data-affil-float href="${h}" rel="sponsored nofollow noopener" target="_blank" hidden><span class="affil-float-txt">Voir sur Amazon</span><span class="affil-float-note">Lien affili\u00e9</span></a>`;
 }
 
 function renderArticle(a, all) {
