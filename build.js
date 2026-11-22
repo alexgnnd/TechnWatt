@@ -426,23 +426,41 @@ function build() {
     const dir = OUT;
     const home = { slug: '', title: X.home, desc: X.desc, ld: { '@context': 'https://schema.org', '@type': 'WebSite', name: 'TechnWatt', url: urlOf(lang, ''), inLanguage: lang, publisher: PUB } };
     fs.writeFileSync(path.join(dir, 'index.html'), finalize(b.page, lang, home));
-    if (lang === 'fr') urls.push({ slug: '', date: (b.arts[0] || {}).date });
+    if (lang === 'fr') urls.push({ slug: '', date: (b.arts[0] || {}).date, titre: 'TechnWatt, accueil' });
     for (const a of b.arts) {
       const img = pic(a);
       const o = { slug: a.slug, title: `${a.titre} | TechnWatt`, ogTitle: a.titre, desc: clip(a.chapo || a.titre), image: img, date: a.date, ld: articleLd(lang, a, urlOf(lang, a.slug), img) };
       fs.writeFileSync(path.join(dir, a.slug + '.html'), finalize(b.page, lang, o));
-      if (lang === 'fr') urls.push({ slug: a.slug, date: a.date });
+      if (lang === 'fr') urls.push({ slug: a.slug, date: a.date, titre: a.titre });
     }
     for (const c of b.cmps) {
       const img = ((c.modeles || [])[0] || {}).image;
       const o = { slug: c.slug, title: `${c.titre} | TechnWatt`, ogTitle: c.titre, desc: clip(c.chapo || c.titre), image: img, date: c.date, ld: articleLd(lang, c, urlOf(lang, c.slug), img) };
       fs.writeFileSync(path.join(dir, c.slug + '.html'), finalize(b.page, lang, o));
-      if (lang === 'fr') urls.push({ slug: c.slug, date: c.date });
+      if (lang === 'fr') urls.push({ slug: c.slug, date: c.date, titre: c.titre });
     }
   }
   // Ancienne adresse de la version anglaise
   fs.writeFileSync(path.join(OUT, '_redirects'), '/en.html / 301\n/en/* /:splat 301\n/index.html / 301\n');
-  fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\n\nSitemap: ${SITE}/sitemap.xml\n`);
+  const ia = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-User', 'anthropic-ai', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Applebot-Extended', 'Bingbot', 'CCBot', 'meta-externalagent'].map((b) => `User-agent: ${b}\nAllow: /\n`).join('\n');
+  fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /admin/\n\n${ia}\nSitemap: ${SITE}/sitemap.xml\n`);
+  // llms.txt : resume du site pour les IA
+  const llmsList = urls.slice(0, 40).map((u) => `- [${u.titre || u.slug}](${urlOf('fr', u.slug)})`).join('\n');
+  fs.writeFileSync(path.join(OUT, 'llms.txt'), `# TechnWatt
+
+> Site éditorial français indépendant sur la voiture électrique et les nouvelles technologies. Auteur unique : Alex. Chaque chiffre est vérifié auprès des communiqués constructeurs et de la presse spécialisée avant publication.
+
+## Rubriques
+- Watt : actualité de la voiture électrique, essais à bord, nouveautés, prix et autonomies
+- Tech : smartphones, objets connectés, vidéoprojecteurs
+- Le guide de l'électrique : batterie, recharge, aides à l'achat, idées reçues, glossaire
+
+## Pages
+${llmsList}
+
+## Contact
+${SITE}/#contact
+`);
   const sm = urls.map((u) => `<url><loc>${urlOf('fr', u.slug)}</loc>${u.date ? `<lastmod>${u.date}</lastmod>` : ''}</url>`).join('\n');
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sm}\n</urlset>\n`);
   if (ADS) fs.writeFileSync(path.join(OUT, 'ads.txt'), `google.com, ${ADS.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
