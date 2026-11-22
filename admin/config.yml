@@ -54,6 +54,14 @@ collections:
       - { label: "Les plus", name: plus, widget: text, required: false }
       - { label: "Les moins", name: moins, widget: text, required: false }
       - { label: "Repères (petites étiquettes)", name: reperes, widget: list, required: false, hint: "Ex. : 24 995 €, 450 km, Made in Espagne" }
+      - label: "Sources"
+        name: sources
+        widget: list
+        required: false
+        hint: "Affichées discrètement en fin d'article."
+        fields:
+          - { label: "Nom", name: nom, widget: string }
+          - { label: "Lien", name: url, widget: string, required: false }
       - { label: "ASIN Amazon (affiliation)", name: asin, widget: string, required: false, hint: "Code à 10 caractères du produit sur Amazon, visible dans son URL. Laisser vide pour ne pas afficher de lien." }
       - { label: "Renvoi vers une fiche À bord", name: lien_abord, widget: relation, collection: articles, search_fields: [titre], value_field: "{{slug}}", display_fields: [titre], required: false, filters: [{ field: rubrique, values: [watt-a-bord] }] }
       - { label: "Galerie « Plus de photos »", name: galerie, widget: list, required: false, field: { label: Photo, name: photo, widget: image } }
