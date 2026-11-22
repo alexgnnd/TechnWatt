@@ -265,7 +265,7 @@ function buildLang(lang) {
   page = page.replace('<div class="view" data-view="identite"', legalView(lang) + '\n<div class="view" data-view="identite"');
   const fl = lang === 'en'
     ? '<a href="#apropos">About</a><a href="#mentions">Legal notice</a><a href="#cgu">Terms of use</a><a href="#confidentialite">Privacy</a><a href="#contact">Contact</a>'
-    : '<a href="#apropos">À propos</a><a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Nous écrire</a>';
+    : '<a href="#apropos">À propos</a><a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Contact</a>';
   page = page.replace('<nav class="foot-nav"><a class="ig"', `<nav class="foot-nav">${fl}<a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a><a class="ig"`);
 
   return { page, arts, cmps, une };
