@@ -147,7 +147,10 @@ function amazon(a) {
   const asin = (a.asin || '').trim();
   const url = asin ? `https://www.amazon.fr/dp/${encodeURIComponent(asin)}?tag=${AMZ_TAG}` : (a.lien_amazon || '').trim();
   if (!url) return '';
-  return `<div class="affil"><a class="affil-btn" href="${esc(url)}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><p class="affil-note">En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. Ce lien ne change rien au prix payé et n'influence pas le contenu de l'article.</p></div>`;
+  const h = esc(url);
+  return `<div class="affil" id="affil"><a class="affil-btn" href="${h}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><span class="affil-note">Lien affilié</span></div>
+<a class="affil-float" id="affil-float" href="${h}" rel="sponsored nofollow noopener" target="_blank" hidden><span class="affil-float-txt">Voir sur Amazon</span><span class="affil-float-note">Lien affilié</span></a>
+<script>(function(){var f=document.getElementById('affil-float'),b=document.getElementById('affil');if(!f||!b)return;var seen=false;new IntersectionObserver(function(e){seen=e[0].isIntersecting;upd();},{rootMargin:'0px 0px -10% 0px'}).observe(b);function upd(){var y=window.scrollY||0;f.hidden=seen||y<500;}window.addEventListener('scroll',upd,{passive:true});upd();})();</script>`;
 }
 
 function renderArticle(a, all) {
