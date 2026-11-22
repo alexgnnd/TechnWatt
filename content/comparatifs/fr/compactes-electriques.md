@@ -1,12 +1,12 @@
 ---
-titre: "Mégane, ID.3, EV3, A2, MG4 : quelle compacte électrique choisir ?"
+titre: "Megane, ID.3, EV3, A2, MG4 : quelle compacte électrique choisir ?"
 date: '2026-11-15'
 chapo: 'Autour de 4,20 à 4,30 m, c''est la taille idéale pour une voiture unique : assez compacte pour la ville, assez grande pour partir en vacances. Cinq modèles sortent du lot cette fin d''année. Voici comment ils se départagent.'
 note: 'Classement établi à partir des données officielles des constructeurs (prix, autonomie, recharge, volumes). *MG4 : prix après remise permanente de 6 000 € du constructeur.'
 colonnes:
 - Kia EV3
 - VW ID.3 Neo
-- Renault Mégane
+- Renault Megane
 - MG4
 - Audi A2
 tableau:
@@ -125,11 +125,11 @@ modeles:
   - img/id3-sieges.jpg
   - img/id3-profil.jpg
   - img/id3-arriere.jpg
-- nom: Renault Mégane E-Tech
+- nom: Renault Megane E-Tech
   etiquette: Le meilleur multimédia
   image: img/megane-route-avant.jpg
   credit: Renault
-  texte: 'Restylée cet été, la Mégane passe à une batterie LFP de 67 kWh qui franchit les 500 km, recharge à 165 kW et baisse son prix de 2 000 €. Elle garde son grand atout : un système multimédia avec Google intégré, parmi les plus agréables du marché. Courte (4,20 m) mais logeable, avec un coffre de 440 litres, elle sait aussi rendre son énergie à un appareil ou au réseau.'
+  texte: 'Restylée cet été, la Megane passe à une batterie LFP de 67 kWh qui franchit les 500 km, recharge à 165 kW et baisse son prix de 2 000 €. Elle garde son grand atout : un système multimédia avec Google intégré, parmi les plus agréables du marché. Courte (4,20 m) mais logeable, avec un coffre de 440 litres, elle sait aussi rendre son énergie à un appareil ou au réseau.'
   plus: Google intégré, recharge 165 kW, prix en baisse, coffre de 440 L.
   moins: Une seule batterie, places arrière un peu justes en hauteur.
   prix: 37 900 €
@@ -176,5 +176,5 @@ conseils:
 - profil: Famille
   conseil: 'Kia EV3 : le plus grand coffre et l''autonomie la plus large.'
 - profil: Fan de techno
-  conseil: 'Mégane E-Tech : Google intégré et recharge bidirectionnelle.'
+  conseil: 'Megane E-Tech : Google intégré et recharge bidirectionnelle.'
 ---
