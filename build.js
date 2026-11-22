@@ -148,8 +148,10 @@ function amazon(a) {
   const url = asin ? `https://www.amazon.fr/dp/${encodeURIComponent(asin)}?tag=${AMZ_TAG}` : (a.lien_amazon || '').trim();
   if (!url) return '';
   const h = esc(url);
-  return `<div class="affil" data-affil><a class="affil-btn" href="${h}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><p class="affil-note">En tant que Partenaire Amazon, TechnWatt r\u00e9alise un b\u00e9n\u00e9fice sur les achats remplissant les conditions requises.</p></div>
-<a class="affil-float" data-affil-float href="${h}" rel="sponsored nofollow noopener" target="_blank" hidden><span class="affil-float-txt">Voir sur Amazon</span><span class="affil-float-note">Lien affili\u00e9</span></a>`;
+  const R = RUBS[a.rubrique] || {};
+  const w = R.univers === 'Watt' ? ' affil-watt' : '';
+  return `<div class="affil" data-affil><a class="affil-btn${w}" href="${h}" rel="sponsored nofollow noopener" target="_blank">Voir ce produit sur Amazon</a><p class="affil-note">En tant que Partenaire Amazon, TechnWatt r\u00e9alise un b\u00e9n\u00e9fice sur les achats remplissant les conditions requises.</p></div>
+<a class="affil-float${w}" data-affil-float href="${h}" rel="sponsored nofollow noopener" target="_blank" hidden><span class="affil-float-txt">Voir sur Amazon</span><span class="affil-float-note">Lien affili\u00e9</span></a>`;
 }
 
 function renderArticle(a, all) {
