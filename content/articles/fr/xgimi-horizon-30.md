@@ -5,6 +5,7 @@ rubrique: tech-videoprojecteurs
 date: '2026-11-09'
 categorie: Vidéoprojecteur
 credit: XGIMI
+asin: B0HJGC6KRD
 chapo: 'Triple laser RVB, 4K à 120 Hz et jusqu''à 6 000 lumens : la nouvelle gamme Horizon 30 de XGIMI vise autant les cinéphiles que les joueurs.'
 plus: Image fluide pour jouer, lumineuse, installation en deux minutes.
 moins: Il faut une console récente pour en profiter, des tarifs qui piquent.

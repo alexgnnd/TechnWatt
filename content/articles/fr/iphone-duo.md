@@ -5,6 +5,7 @@ date: 2026-11-15
 categorie: Smartphone
 image: img/iphone-duo-couleurs.jpg
 credit: Apple
+asin: B0HJBMWXJQ
 chapo: Des années que les fans l'attendaient. Le premier iPhone pliable, qui
   s'ouvre comme un carnet, est arrivé en boutique le 23 octobre. Puce A20 Pro,
   Touch ID, deux écrans… et un prix de 2 339 €.

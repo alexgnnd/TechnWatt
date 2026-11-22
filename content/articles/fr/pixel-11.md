@@ -5,6 +5,7 @@ date: '2026-11-12'
 categorie: Smartphone
 image: img/pixel11-couleurs.jpg
 credit: Google
+asin: B0H62LV77B
 chapo: 'Quatre modèles, la nouvelle puce Tensor G6 et beaucoup d''intelligence artificielle : la cuvée 2026 de Google mise tout sur la photo et Gemini.'
 plus: Photo de nuit très prometteuse, stockage généreux, traduction instantanée.
 moins: Des prix en hausse, les meilleures fonctions réservées aux Pro.

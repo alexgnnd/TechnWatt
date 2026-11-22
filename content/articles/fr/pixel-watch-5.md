@@ -5,6 +5,7 @@ rubrique: tech-objets
 date: '2026-11-10'
 categorie: Montre connectée
 credit: Google
+asin: B0H62QD6KF
 chapo: Vous avez un téléphone Android et vous lorgnez sur l'Apple Watch ? Voici l'alternative de Google, pensée pour le sport, le sommeil et la santé.
 plus: Le choix de la taille, un look rond plus classique, un prix contenu.
 moins: Ne fonctionne pas avec un iPhone, peu de vraies nouveautés.
