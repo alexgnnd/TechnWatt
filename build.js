@@ -143,6 +143,17 @@ function headLine(a) {
 }
 
 const AMZ_TAG = 'technwatt-21';
+function sources(a) {
+  const list = Array.isArray(a.sources) ? a.sources.filter((x) => x && (x.nom || x.url)) : [];
+  if (!list.length) return '';
+  const items = list.map((x) => {
+    const nom = esc((x.nom || x.url || '').trim());
+    const url = (x.url || '').trim();
+    return url ? `<a href="${esc(url)}" rel="nofollow noopener" target="_blank">${nom}</a>` : nom;
+  }).join(' \u00b7 ');
+  return `<p class="srcs"><span>Sources</span> ${items}</p>`;
+}
+
 function amazon(a) {
   const asin = (a.asin || '').trim();
   const url = asin ? `https://www.amazon.fr/dp/${encodeURIComponent(asin)}?tag=${AMZ_TAG}` : (a.lien_amazon || '').trim();
@@ -163,6 +174,7 @@ ${bodyHtml(a.body, a.credit)}
 ${gallery(a.galerie, a.credit, a.titre)}
 ${verdict(a)}
 ${keys(a.reperes)}
+${sources(a)}
 ${amazon(a)}
 ${ad(CFG.pub_article)}
 ${toAbord(a, all)}`;
@@ -264,8 +276,8 @@ function buildLang(lang) {
   page = page.replace('<section class="home-block" id="derniers">', ad(CFG.pub_accueil, 'wrap') + '\n<section class="home-block" id="derniers">');
   page = page.replace('<div class="view" data-view="identite"', legalView(lang) + '\n<div class="view" data-view="identite"');
   const fl = lang === 'en'
-    ? '<a href="#apropos">About</a><a href="#mentions">Legal notice</a><a href="#cgu">Terms of use</a><a href="#confidentialite">Privacy</a><a href="#contact">Contact</a>'
-    : '<a href="#apropos">À propos</a><a href="#mentions">Mentions légales</a><a href="#cgu">CGU</a><a href="#confidentialite">Confidentialité</a><a href="#contact">Contact</a>';
+    ? '<a href="/#apropos">About</a><a href="/#mentions">Legal notice</a><a href="/#cgu">Terms of use</a><a href="/#confidentialite">Privacy</a><a href="/#contact">Contact</a>'
+    : '<a href="/#apropos">À propos</a><a href="/#mentions">Mentions légales</a><a href="/#cgu">CGU</a><a href="/#confidentialite">Confidentialité</a><a href="/#contact">Contact</a>';
   page = page.replace('<nav class="foot-nav"><a class="ig"', `<nav class="foot-nav">${fl}<a href="#" class="tw-consent" hidden>${lang === 'en' ? 'Cookie settings' : 'Gérer les cookies'}</a><a class="ig"`);
 
   return { page, arts, cmps, une };
@@ -350,8 +362,8 @@ function legalView(lang) {
 <label>Subject<input type="text" name="sujet"/></label>
 <label>Your message<textarea name="message" rows="6" required=""></textarea></label>
 <button type="submit" class="cta">Send</button>
-</form>` : `<h2>Nous écrire</h2>
-<p>Une question, une correction à signaler, un communiqué à nous transmettre ? Écrivez-nous ici, nous répondons à tous les messages.</p>
+</form>` : `<h2>Contact</h2>
+<p>Une question, une correction à signaler, un communiqué à me transmettre ? Écrivez-moi ici : je lis tout et je réponds à tous les messages !</p>
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="tw-form">
 <input type="hidden" name="form-name" value="contact"/>
 <p class="hp"><label>Ne remplissez pas ce champ <input name="bot-field"/></label></p>
