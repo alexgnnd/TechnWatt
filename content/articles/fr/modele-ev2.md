@@ -1,12 +1,12 @@
 ---
-titre: "Kia EV2 à bord : un petit SUV qui joue dans la cour des grands"
+titre: "À bord du Kia EV2 : un petit SUV qui joue dans la cour des grands"
 rubrique: watt-a-bord
 date: '2026-11-12'
 categorie: Kia
 infos: Petit SUV · Made in Slovaquie
 image: img/ev2-avant.jpg
 credit: Kia
-chapo: Plus petit SUV électrique de Kia, l'EV2 est fabriqué en Europe, ce qui change tout pour le portefeuille. Et il embarque la technologie des modèles plus chers.
+chapo: Plus petit SUV électrique de Kia, l'EV2 est fabriqué en Europe, ce qui change tout pour le portefeuille. Et il embarque la technologie des modèles plus chers !
 plus: Des aides de grande voiture, une clé dans le téléphone, des mises à jour gratuites, une belle autonomie.
 moins: Coffre juste en cinq places, meilleur système réservé aux finitions hautes.
 encadre_titre: Les chiffres
@@ -27,6 +27,9 @@ prix: 26 670 €
 prix_note: prix de départ, avant aides
 galerie:
 - img/ev2-arriere.jpg
+sources:
+  - { nom: "Kia Press", url: "https://press.kia.com/eu" }
+  - { nom: "Bevolt", url: "https://www.bevolt.com/" }
 ---
 
 Assemblé à Žilina, en Slovaquie, sur la plateforme E-GMP de Kia, l'EV2 démarre à 26 670 € en finition Light. Il reprend une bonne partie de la technologie des modèles plus chers de la marque, dans un gabarit de 4,06 m taillé pour la ville.

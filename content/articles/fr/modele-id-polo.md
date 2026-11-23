@@ -1,12 +1,12 @@
 ---
-titre: "ID. Polo à bord : petite dehors, grande dedans"
+titre: "À bord de l'ID. Polo : petite dehors, grande dedans"
 rubrique: watt-a-bord
 date: '2026-11-16'
 categorie: Volkswagen
 infos: Citadine · Made in Espagne
 image: img/polo-phare.jpg
 credit: Volkswagen
-chapo: Le nom le plus connu de Volkswagen après la Golf passe à l'électrique. Et vient chatouiller la Renault 5, prix compris, avec un vrai bagage technologique.
+chapo: Le nom le plus connu de Volkswagen après la Golf passe à l'électrique. Et vient chatouiller la Renault 5, prix compris, avec un vrai bagage technologique !
 plus: Le retour des boutons, un grand écran, des aides de grande routière, un coffre de familiale.
 moins: Les meilleures aides sont en option, la pompe à chaleur aussi.
 encadre_titre: Les chiffres
@@ -30,6 +30,9 @@ galerie:
 - img/polo-feux.jpg
 - img/polo-route-arriere.jpg
 - img/polo-file.jpg
+sources:
+  - { nom: "Volkswagen France", url: "https://media.volkswagen.fr" }
+  - { nom: "Bevolt", url: "https://www.bevolt.com/" }
 ---
 
 Le message est limpide : 24 995 € en finition Trend, au centime près le tarif de la Renault 5. Volkswagen ne voulait pas laisser les petites électriques abordables aux Françaises. Pour l'occasion, la marque inaugure la plateforme MEB+, conçue pour les petits modèles à traction avant.
