@@ -1,15 +1,16 @@
 ---
-titre: 'BMW iX3 Neue Klasse : 805 km d''autonomie, la nouvelle référence est née'
+titre: "BMW iX3 2026 : 805 km d'autonomie, la nouvelle référence est née"
 rubrique: watt-actualites
-date: '2026-11-11'
+date: 2026-11-11
 categorie: Nouveau modèle
 image: img/ix3-avant.jpg
 credit: BMW Group
-chapo: Premier modèle de la Neue Klasse, le BMW iX3 annonce jusqu'à 805 km d'autonomie et une recharge à 400 kW. Avec lui, BMW ouvre une nouvelle ère.
+chapo: Premier modèle de la Neue Klasse, le BMW iX3 annonce jusqu'à 805 km
+  d'autonomie et une recharge à 400 kW. Avec lui, BMW ouvre une nouvelle ère.
 reperes:
-- Dès 71 950 €
-- 805 km WLTP
-- Recharge 400 kW
+  - Dès 71 950 €
+  - 805 km WLTP
+  - Recharge 400 kW
 lien_abord: modele-ix3
 ---
 Le nouveau BMW iX3 est le premier modèle de série de la Neue Klasse, la plateforme qui va renouveler toute la gamme BMW. Au programme : la sixième génération de motorisation BMW eDrive, jusqu'à 805 km d'autonomie WLTP et une recharge qui grimpe à 400 kW. Prix d'entrée en France : 71 950 €.
